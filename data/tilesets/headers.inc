@@ -830,3 +830,263 @@ gTileset_UnionRoom::
 	.4byte gMetatiles_UnionRoom
 	.4byte gMetatileAttributes_UnionRoom
 	.4byte NULL @ animation callback
+
+	.align 2
+gTileset_4G_Tileset_exterior::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_exterior
+	.4byte gTilesetPalettes_4G_Tileset_exterior
+	.4byte gMetatiles_4G_Tileset_exterior
+	.4byte gMetatileAttributes_4G_Tileset_exterior
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_outdoor_town::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_outdoor_town
+	.4byte gTilesetPalettes_4G_Tileset_outdoor_town
+	.4byte gMetatiles_4G_Tileset_outdoor_town
+	.4byte gMetatileAttributes_4G_Tileset_outdoor_town
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_outdoor_town2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_outdoor_town2
+	.4byte gTilesetPalettes_4G_Tileset_outdoor_town2
+	.4byte gMetatiles_4G_Tileset_outdoor_town2
+	.4byte gMetatileAttributes_4G_Tileset_outdoor_town2
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_outdoor_city::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_outdoor_city
+	.4byte gTilesetPalettes_4G_Tileset_outdoor_city
+	.4byte gMetatiles_4G_Tileset_outdoor_city
+	.4byte gMetatileAttributes_4G_Tileset_outdoor_city
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_outdoor_forest_house::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_outdoor_forest_house
+	.4byte gTilesetPalettes_4G_Tileset_outdoor_forest_house
+	.4byte gMetatiles_4G_Tileset_outdoor_forest_house
+	.4byte gMetatileAttributes_4G_Tileset_outdoor_forest_house
+	.4byte NULL
+
+
+	.align 2
+gTileset_4G_Tileset_Burned_Tower::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_Burned_Tower
+	.4byte gTilesetPalettes_4G_Tileset_Burned_Tower
+	.4byte gMetatiles_4G_Tileset_Burned_Tower
+	.4byte gMetatileAttributes_4G_Tileset_Burned_Tower
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_indoor::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_indoor
+	.4byte gTilesetPalettes_4G_Tileset_indoor
+	.4byte gMetatiles_4G_Tileset_indoor
+	.4byte gMetatileAttributes_4G_Tileset_indoor
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_bedroom::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_bedroom
+	.4byte gTilesetPalettes_4G_Tileset_bedroom
+	.4byte gMetatiles_4G_Tileset_bedroom
+	.4byte gMetatileAttributes_4G_Tileset_bedroom
+	.4byte NULL
+
+
+	.align 2
+gTileset_4G_Tileset_lab::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_lab
+	.4byte gTilesetPalettes_4G_Tileset_lab
+	.4byte gMetatiles_4G_Tileset_lab
+	.4byte gMetatileAttributes_4G_Tileset_lab
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_pokecenter::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_pokecenter
+	.4byte gTilesetPalettes_4G_Tileset_pokecenter
+	.4byte gMetatiles_4G_Tileset_pokecenter
+	.4byte gMetatileAttributes_4G_Tileset_pokecenter
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_cave::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_cave
+	.4byte gTilesetPalettes_4G_Tileset_cave
+	.4byte gMetatiles_4G_Tileset_cave
+	.4byte gMetatileAttributes_4G_Tileset_cave
+	.4byte NULL
+
+
+	.align 2
+gTileset_4G_Tileset_mart::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_mart
+	.4byte gTilesetPalettes_4G_Tileset_mart
+	.4byte gMetatiles_4G_Tileset_mart
+	.4byte gMetatileAttributes_4G_Tileset_mart
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_indoor1::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_indoor1
+	.4byte gTilesetPalettes_4G_Tileset_indoor1
+	.4byte gMetatiles_4G_Tileset_indoor1
+	.4byte gMetatileAttributes_4G_Tileset_indoor1
+	.4byte NULL
+
+
+	.align 2
+gTileset_4G_Tileset_flyarena::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_flyarena
+	.4byte gTilesetPalettes_4G_Tileset_flyarena
+	.4byte gMetatiles_4G_Tileset_flyarena
+	.4byte gMetatileAttributes_4G_Tileset_flyarena
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_woodtower::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_woodtower
+	.4byte gTilesetPalettes_4G_Tileset_woodtower
+	.4byte gMetatiles_4G_Tileset_woodtower
+	.4byte gMetatileAttributes_4G_Tileset_woodtower
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_underground::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_underground
+	.4byte gTilesetPalettes_4G_Tileset_underground
+	.4byte gMetatiles_4G_Tileset_underground
+	.4byte gMetatileAttributes_4G_Tileset_underground
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_indoor2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_indoor2
+	.4byte gTilesetPalettes_4G_Tileset_indoor2
+	.4byte gMetatiles_4G_Tileset_indoor2
+	.4byte gMetatileAttributes_4G_Tileset_indoor2
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_indoor3::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_indoor3
+	.4byte gTilesetPalettes_4G_Tileset_indoor3
+	.4byte gMetatiles_4G_Tileset_indoor3
+	.4byte gMetatileAttributes_4G_Tileset_indoor3
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_ruins::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_ruins
+	.4byte gTilesetPalettes_4G_Tileset_ruins
+	.4byte gMetatiles_4G_Tileset_ruins
+	.4byte gMetatileAttributes_4G_Tileset_ruins
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_park::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_park
+	.4byte gTilesetPalettes_4G_Tileset_park
+	.4byte gMetatiles_4G_Tileset_park
+	.4byte gMetatileAttributes_4G_Tileset_park
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_dojo::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_dojo
+	.4byte gTilesetPalettes_4G_Tileset_dojo
+	.4byte gMetatiles_4G_Tileset_dojo
+	.4byte gMetatileAttributes_4G_Tileset_dojo
+	.4byte NULL
+
+
+
+
+	.align 2
+gTileset_4G_Tileset_flower_bike_store::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_flower_bike_store
+	.4byte gTilesetPalettes_4G_Tileset_flower_bike_store
+	.4byte gMetatiles_4G_Tileset_flower_bike_store
+	.4byte gMetatileAttributes_4G_Tileset_flower_bike_store
+	.4byte NULL
+
+	.align 2
+gTileset_4G_Tileset_subsoil::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_4G_Tileset_subsoil
+	.4byte gTilesetPalettes_4G_Tileset_subsoil
+	.4byte gMetatiles_4G_Tileset_subsoil
+	.4byte gMetatileAttributes_4G_Tileset_subsoil
+	.4byte NULL
