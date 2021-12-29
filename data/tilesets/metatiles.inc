@@ -557,3 +557,171 @@ gMetatiles_UnionRoom::
 	.align 1
 gMetatileAttributes_UnionRoom::
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_4G_Tileset_exterior::
+	.incbin "data/tilesets/primary/4G_Tileset_exterior/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_exterior::
+	.incbin "data/tilesets/primary/4G_Tileset_exterior/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_outdoor_town::
+	.incbin "data/tilesets/secondary/4G_Tileset_outdoor_town/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_outdoor_town::
+	.incbin "data/tilesets/secondary/4G_Tileset_outdoor_town/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_outdoor_town2::
+	.incbin "data/tilesets/secondary/4G_Tileset_outdoor_town2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_outdoor_town2::
+	.incbin "data/tilesets/secondary/4G_Tileset_outdoor_town2/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_outdoor_city::
+	.incbin "data/tilesets/secondary/4G_Tileset_outdoor_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_outdoor_city::
+	.incbin "data/tilesets/secondary/4G_Tileset_outdoor_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_outdoor_forest_house::
+	.incbin "data/tilesets/secondary/4G_Tileset_outdoor_forest_house/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_outdoor_forest_house::
+	.incbin "data/tilesets/secondary/4G_Tileset_outdoor_forest_house/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_4G_Tileset_Burned_Tower::
+	.incbin "data/tilesets/secondary/4G_Tileset_Burned_Tower/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_Burned_Tower::
+	.incbin "data/tilesets/secondary/4G_Tileset_Burned_Tower/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_indoor::
+	.incbin "data/tilesets/primary/4G_Tileset_indoor/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_indoor::
+	.incbin "data/tilesets/primary/4G_Tileset_indoor/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_bedroom::
+	.incbin "data/tilesets/secondary/4G_Tileset_bedroom/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_bedroom::
+	.incbin "data/tilesets/secondary/4G_Tileset_bedroom/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_4G_Tileset_lab::
+	.incbin "data/tilesets/secondary/4G_Tileset_lab/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_lab::
+	.incbin "data/tilesets/secondary/4G_Tileset_lab/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_pokecenter::
+	.incbin "data/tilesets/secondary/4G_Tileset_pokecenter/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_pokecenter::
+	.incbin "data/tilesets/secondary/4G_Tileset_pokecenter/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_cave::
+	.incbin "data/tilesets/secondary/4G_Tileset_cave/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_cave::
+	.incbin "data/tilesets/secondary/4G_Tileset_cave/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_4G_Tileset_mart::
+	.incbin "data/tilesets/secondary/4G_Tileset_mart/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_mart::
+	.incbin "data/tilesets/secondary/4G_Tileset_mart/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_indoor1::
+	.incbin "data/tilesets/secondary/4G_Tileset_indoor1/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_indoor1::
+	.incbin "data/tilesets/secondary/4G_Tileset_indoor1/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_4G_Tileset_flyarena::
+	.incbin "data/tilesets/secondary/4G_Tileset_flyarena/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_flyarena::
+	.incbin "data/tilesets/secondary/4G_Tileset_flyarena/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_woodtower::
+	.incbin "data/tilesets/secondary/4G_Tileset_woodtower/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_woodtower::
+	.incbin "data/tilesets/secondary/4G_Tileset_woodtower/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_underground::
+	.incbin "data/tilesets/secondary/4G_Tileset_underground/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_underground::
+	.incbin "data/tilesets/secondary/4G_Tileset_underground/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_indoor2::
+	.incbin "data/tilesets/secondary/4G_Tileset_indoor2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_indoor2::
+	.incbin "data/tilesets/secondary/4G_Tileset_indoor2/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_indoor3::
+	.incbin "data/tilesets/secondary/4G_Tileset_indoor3/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_indoor3::
+	.incbin "data/tilesets/secondary/4G_Tileset_indoor3/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_ruins::
+	.incbin "data/tilesets/secondary/4G_Tileset_ruins/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_ruins::
+	.incbin "data/tilesets/secondary/4G_Tileset_ruins/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_park::
+	.incbin "data/tilesets/secondary/4G_Tileset_park/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_park::
+	.incbin "data/tilesets/secondary/4G_Tileset_park/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_dojo::
+	.incbin "data/tilesets/secondary/4G_Tileset_dojo/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_dojo::
+	.incbin "data/tilesets/secondary/4G_Tileset_dojo/metatile_attributes.bin"
+
+
+	.align 1
+gMetatiles_4G_Tileset_flower_bike_store::
+	.incbin "data/tilesets/secondary/4G_Tileset_flower_bike_store/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_flower_bike_store::
+	.incbin "data/tilesets/secondary/4G_Tileset_flower_bike_store/metatile_attributes.bin"
+	.align 1
+gMetatiles_4G_Tileset_subsoil::
+	.incbin "data/tilesets/secondary/4G_Tileset_subsoil/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_4G_Tileset_subsoil::
+	.incbin "data/tilesets/secondary/4G_Tileset_subsoil/metatile_attributes.bin"
