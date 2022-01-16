@@ -1,4 +1,5 @@
 #include "easy_chat.h"
+#include "constants/easy_chat.h"
 
 #define DOUBLE_SPECIES_NAME EC_EMPTY_WORD, 2,
 
