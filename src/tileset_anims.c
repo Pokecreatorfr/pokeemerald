@@ -25,6 +25,7 @@ static void _InitPrimaryTilesetAnimation(void);
 static void _InitSecondaryTilesetAnimation(void);
 static void TilesetAnim_General(u16);
 static void TilesetAnim_Building(u16);
+static void TilesetAnim_4G_Tileset_exterior(u16);
 static void TilesetAnim_Rustboro(u16);
 static void TilesetAnim_Dewford(u16);
 static void TilesetAnim_Slateport(u16);
@@ -73,6 +74,27 @@ static void QueueAnimTiles_MauvilleGym_ElectricGates(u16);
 static void QueueAnimTiles_SootopolisGym_Waterfalls(u16);
 static void QueueAnimTiles_EliteFour_GroundLights(u16);
 static void QueueAnimTiles_EliteFour_WallLights(u16);
+static void QueueAnimTiles__4G_Tileset_flower_anim(u16);
+
+const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step0[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step0.4bpp" );
+const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step1[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step1.4bpp" );
+const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step2[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step2.4bpp" );
+const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step3[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step3.4bpp" );
+const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step4[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step4.4bpp" );
+const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step5[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step5.4bpp" );
+
+const u16 * const gTilesetAnims_4G_Tileset_flower_anim[] = {
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step0,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step1,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step2,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step3,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step4,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step5,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step4,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step3,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step2,
+    gTilesetAnims_4G_Tileset_exterior_flower_anim_step1
+};
 
 const u16 gTilesetAnims_General_Flower_Frame1[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/1.4bpp");
 const u16 gTilesetAnims_General_Flower_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/0.4bpp");
@@ -629,6 +651,13 @@ void InitTilesetAnim_Building(void)
     sPrimaryTilesetAnimCallback = TilesetAnim_Building;
 }
 
+void InitTilesetAnim_4G_Tileset_exterior(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_4G_Tileset_exterior;
+}
+
 static void TilesetAnim_General(u16 timer)
 {
     if (timer % 16 == 0)
@@ -647,6 +676,12 @@ static void TilesetAnim_Building(u16 timer)
 {
     if (timer % 8 == 0)
         QueueAnimTiles_Building_TVTurnedOn(timer / 8);
+}
+
+static void TilesetAnim_4G_Tileset_exterior(u16 timer)
+{
+    if (timer % 16 == 0)
+        QueueAnimTiles__4G_Tileset_flower_anim(timer / 16);
 }
 
 static void QueueAnimTiles_General_Flower(u16 timer)
@@ -671,6 +706,12 @@ static void QueueAnimTiles_General_Waterfall(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_General_Waterfall);
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Waterfall[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(496)), 6 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles__4G_Tileset_flower_anim(u16 timer)
+{
+    u16 i = timer % 9; 
+    AppendTilesetAnimToBuffer(gTilesetAnims_4G_Tileset_flower_anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(467)), 4 * TILE_SIZE_4BPP);
 }
 
 void InitTilesetAnim_Petalburg(void)
