@@ -840,7 +840,7 @@ gTileset_4G_Tileset_exterior::
 	.4byte gTilesetPalettes_4G_Tileset_exterior
 	.4byte gMetatiles_4G_Tileset_exterior
 	.4byte gMetatileAttributes_4G_Tileset_exterior
-	.4byte NULL
+	.4byte InitTilesetAnim_4G_Tileset_exterior
 
 	.align 2
 gTileset_4G_Tileset_outdoor_town::
@@ -1065,9 +1065,6 @@ gTileset_4G_Tileset_dojo::
 	.4byte gMetatiles_4G_Tileset_dojo
 	.4byte gMetatileAttributes_4G_Tileset_dojo
 	.4byte NULL
-
-
-
 
 	.align 2
 gTileset_4G_Tileset_flower_bike_store::
