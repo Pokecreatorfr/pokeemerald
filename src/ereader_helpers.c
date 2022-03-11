@@ -10,6 +10,7 @@
 #include "task.h"
 #include "util.h"
 #include "trainer_hill.h"
+#include "constants/easy_chat.h"
 #include "constants/trainers.h"
 #include "constants/moves.h"
 #include "constants/items.h"
