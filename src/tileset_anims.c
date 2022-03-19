@@ -25,7 +25,7 @@ static void _InitPrimaryTilesetAnimation(void);
 static void _InitSecondaryTilesetAnimation(void);
 static void TilesetAnim_General(u16);
 static void TilesetAnim_Building(u16);
-static void TilesetAnim_4G_Tileset_exterior(u16);
+static void TilesetAnim_4g_tileset_exterior(u16);
 static void TilesetAnim_Rustboro(u16);
 static void TilesetAnim_Dewford(u16);
 static void TilesetAnim_Slateport(u16);
@@ -74,47 +74,47 @@ static void QueueAnimTiles_MauvilleGym_ElectricGates(u16);
 static void QueueAnimTiles_SootopolisGym_Waterfalls(u16);
 static void QueueAnimTiles_EliteFour_GroundLights(u16);
 static void QueueAnimTiles_EliteFour_WallLights(u16);
-static void QueueAnimTiles__4G_Tileset_flower_anim(u16);
-static void QueueAnimTiles__4G_Tileset_Water_Anim(u16);
+static void QueueAnimTiles__4g_tileset_flower_anim(u16);
+static void QueueAnimTiles__4g_tileset_Water_Anim(u16);
 
-const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step0[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step0.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step1[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step1.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step2[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step2.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step3[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step3.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step4[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step4.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_flower_anim_step5[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/flowers/flower_anim_step5.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_flower_anim_step0[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/flowers/flower_anim_step0.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_flower_anim_step1[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/flowers/flower_anim_step1.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_flower_anim_step2[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/flowers/flower_anim_step2.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_flower_anim_step3[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/flowers/flower_anim_step3.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_flower_anim_step4[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/flowers/flower_anim_step4.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_flower_anim_step5[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/flowers/flower_anim_step5.4bpp" );
 
-const u16 * const gTilesetAnims_4G_Tileset_flower_anim[] = {
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step0,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step1,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step2,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step3,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step4,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step5,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step4,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step3,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step2,
-    gTilesetAnims_4G_Tileset_exterior_flower_anim_step1
+const u16 * const gTilesetAnims_4g_tileset_flower_anim[] = {
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step0,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step1,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step2,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step3,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step4,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step5,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step4,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step3,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step2,
+    gTilesetAnims_4g_tileset_exterior_flower_anim_step1
 };
 
-const u16 gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step0[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/water/Water_Anim_Step0.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step1[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/water/Water_Anim_Step1.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step2[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/water/Water_Anim_Step2.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step3[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/water/Water_Anim_Step3.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step4[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/water/Water_Anim_Step4.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step5[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/water/Water_Anim_Step5.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step6[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/water/Water_Anim_Step6.4bpp" );
-const u16 gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step7[] = INCBIN_U16( "data/tilesets/primary/4G_Tileset_exterior/anim/water/Water_Anim_Step7.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Water_Anim_Step0[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/water/Water_Anim_Step0.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Water_Anim_Step1[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/water/Water_Anim_Step1.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Water_Anim_Step2[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/water/Water_Anim_Step2.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Water_Anim_Step3[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/water/Water_Anim_Step3.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Water_Anim_Step4[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/water/Water_Anim_Step4.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Water_Anim_Step5[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/water/Water_Anim_Step5.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Water_Anim_Step6[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/water/Water_Anim_Step6.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Water_Anim_Step7[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/water/Water_Anim_Step7.4bpp" );
 
-const u16 * const gTilesetAnims_4G_Tileset_Water_Anim[] = {
-    gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step0,
-    gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step1,
-    gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step2,
-    gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step3,
-    gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step4,
-    gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step5,
-    gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step6,
-    gTilesetAnims_4G_Tileset_exterior_Water_Anim_Step7,
+const u16 * const gTilesetAnims_4g_tileset_Water_Anim[] = {
+    gTilesetAnims_4g_tileset_exterior_Water_Anim_Step0,
+    gTilesetAnims_4g_tileset_exterior_Water_Anim_Step1,
+    gTilesetAnims_4g_tileset_exterior_Water_Anim_Step2,
+    gTilesetAnims_4g_tileset_exterior_Water_Anim_Step3,
+    gTilesetAnims_4g_tileset_exterior_Water_Anim_Step4,
+    gTilesetAnims_4g_tileset_exterior_Water_Anim_Step5,
+    gTilesetAnims_4g_tileset_exterior_Water_Anim_Step6,
+    gTilesetAnims_4g_tileset_exterior_Water_Anim_Step7,
 };
 
 const u16 gTilesetAnims_General_Flower_Frame1[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/1.4bpp");
@@ -672,11 +672,11 @@ void InitTilesetAnim_Building(void)
     sPrimaryTilesetAnimCallback = TilesetAnim_Building;
 }
 
-void InitTilesetAnim_4G_Tileset_exterior(void)
+void InitTilesetAnim_4g_tileset_exterior(void)
 {
     sPrimaryTilesetAnimCounter = 0;
     sPrimaryTilesetAnimCounterMax = 256;
-    sPrimaryTilesetAnimCallback = TilesetAnim_4G_Tileset_exterior;
+    sPrimaryTilesetAnimCallback = TilesetAnim_4g_tileset_exterior;
 }
 
 static void TilesetAnim_General(u16 timer)
@@ -699,13 +699,13 @@ static void TilesetAnim_Building(u16 timer)
         QueueAnimTiles_Building_TVTurnedOn(timer / 8);
 }
 
-static void TilesetAnim_4G_Tileset_exterior(u16 timer)
+static void TilesetAnim_4g_tileset_exterior(u16 timer)
 {
     if (timer % 16 == 0)
-        QueueAnimTiles__4G_Tileset_flower_anim(timer / 16);
+        QueueAnimTiles__4g_tileset_flower_anim(timer / 16);
 
     if (timer % 4 == 0)
-        QueueAnimTiles__4G_Tileset_Water_Anim(timer / 16);
+        QueueAnimTiles__4g_tileset_Water_Anim(timer / 16);
 }
 
 
@@ -733,16 +733,16 @@ static void QueueAnimTiles_General_Waterfall(u16 timer)
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Waterfall[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(496)), 6 * TILE_SIZE_4BPP);
 }
 
-static void QueueAnimTiles__4G_Tileset_flower_anim(u16 timer)
+static void QueueAnimTiles__4g_tileset_flower_anim(u16 timer)
 {
-    u16 i = timer % ARRAY_COUNT(gTilesetAnims_4G_Tileset_flower_anim); 
-    AppendTilesetAnimToBuffer(gTilesetAnims_4G_Tileset_flower_anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(467)), 4 * TILE_SIZE_4BPP);
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_4g_tileset_flower_anim); 
+    AppendTilesetAnimToBuffer(gTilesetAnims_4g_tileset_flower_anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(467)), 4 * TILE_SIZE_4BPP);
 }
 
-static void QueueAnimTiles__4G_Tileset_Water_Anim(u16 timer)
+static void QueueAnimTiles__4g_tileset_Water_Anim(u16 timer)
 {
-    u16 i = timer % ARRAY_COUNT(gTilesetAnims_4G_Tileset_Water_Anim); 
-    AppendTilesetAnimToBuffer(gTilesetAnims_4G_Tileset_Water_Anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(436)), 4 * TILE_SIZE_4BPP);
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_4g_tileset_Water_Anim); 
+    AppendTilesetAnimToBuffer(gTilesetAnims_4g_tileset_Water_Anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(436)), 4 * TILE_SIZE_4BPP);
 }
 
 void InitTilesetAnim_Petalburg(void)
