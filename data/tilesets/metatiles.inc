@@ -596,11 +596,11 @@ gMetatileAttributes_4g_tileset_outdoor_forest_house::
 
 	.align 1
 gMetatiles_4g_tileset_Burned_Tower::
-	.incbin "data/tilesets/secondary/4g_tileset_Burned_Tower/metatiles.bin"
+	.incbin "data/tilesets/secondary/4g_tileset_burned_tower/metatiles.bin"
 
 	.align 1
 gMetatileAttributes_4g_tileset_Burned_Tower::
-	.incbin "data/tilesets/secondary/4g_tileset_Burned_Tower/metatile_attributes.bin"
+	.incbin "data/tilesets/secondary/4g_tileset_burned_tower/metatile_attributes.bin"
 	.align 1
 gMetatiles_4g_tileset_indoor::
 	.incbin "data/tilesets/primary/4g_tileset_indoor/metatiles.bin"
