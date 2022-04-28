@@ -211,10 +211,8 @@
 #define METATILE_General_CalmWater             0x170
 #define METATILE_General_CaveEntrance_Bottom   0x0A7
 #define METATILE_General_CaveEntrance_Top      0x09F
-#define METATILE_General_Door                  0x021
 #define METATILE_General_Door_Contest          0x1DB
 #define METATILE_General_Door_Gym              0x1CD
-#define METATILE_General_Door_PokeCenter       0x061
 #define METATILE_General_Door_PokeMart         0x041
 #define METATILE_General_Grass                 0x001
 #define METATILE_General_Grass_TreeLeft        0x1CE
@@ -247,6 +245,7 @@
 
 // g4g_tileset_exterior
 #define METATILE_4g_tileset_exterior_pokemart_door  0x021
+#define METATILE_4g_tileset_exterior_pokecenter_door 0x061
 
 // gTileset_GenericBuilding
 #define METATILE_GenericBuilding_TableEdge               0x2F1
