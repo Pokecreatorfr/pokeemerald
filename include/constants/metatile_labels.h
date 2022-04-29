@@ -1,6 +1,10 @@
 #ifndef GUARD_METATILE_LABELS_H
 #define GUARD_METATILE_LABELS_H
 
+// gTileset_4g
+#define METATILE_4g_tileset_exterior_pokecenter_door  0x061
+#define METATILE_4g_tileset_exterior_pokemart_door    0x021
+
 // gTileset_BattleArena
 #define METATILE_BattleArena_Door  0x21B
 
@@ -242,10 +246,6 @@
 #define METATILE_General_TallGrass_TreeUp      0x025
 #define METATILE_General_YellowCaveIndent      0x1A8
 #define METATILE_General_YellowCaveOpen        0x1A9
-
-// g4g_tileset_exterior
-#define METATILE_4g_tileset_exterior_pokemart_door  0x021
-#define METATILE_4g_tileset_exterior_pokecenter_door 0x061
 
 // gTileset_GenericBuilding
 #define METATILE_GenericBuilding_TableEdge               0x2F1
