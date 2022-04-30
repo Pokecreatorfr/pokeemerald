@@ -222,7 +222,7 @@ void DrawDoorMetatileAt(int x, int y, u16 *arr)
 
     if (offset >= 0)
     {
-        DrawMetatile(1, arr, offset);
+        DrawMetatile(3, arr, offset);
         sFieldCameraOffset.copyBGToVRAM = TRUE;
     }
 }
@@ -248,6 +248,14 @@ static void DrawMetatile(s32 metatileLayerType, u16 *metatiles, u16 offset)
 {
     switch (metatileLayerType)
     {
+    case 3:
+        gBGTilemapBuffers1[offset] = metatiles[0];
+        gBGTilemapBuffers1[offset + 1] = metatiles[1];
+        gBGTilemapBuffers1[offset + 0x20] = metatiles[2];
+        gBGTilemapBuffers1[offset + 0x21] = metatiles[3];
+
+
+        break;
     case 2: // LAYER_TYPE_
         // Draw metatile's bottom layer to the bottom background layer.
         gBGTilemapBuffers3[offset] = metatiles[0];
