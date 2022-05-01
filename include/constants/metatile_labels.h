@@ -4,6 +4,7 @@
 // gTileset_4g
 #define METATILE_4g_tileset_exterior_pokecenter_door  0x061
 #define METATILE_4g_tileset_exterior_pokemart_door    0x021
+#define METATILE_4g_tileset_exterior_gym_door       0x1DB
 
 // gTileset_BattleArena
 #define METATILE_BattleArena_Door  0x21B
@@ -215,7 +216,6 @@
 #define METATILE_General_CalmWater             0x170
 #define METATILE_General_CaveEntrance_Bottom   0x0A7
 #define METATILE_General_CaveEntrance_Top      0x09F
-#define METATILE_General_Door_Contest          0x1DB
 #define METATILE_General_Door_Gym              0x1CD
 #define METATILE_General_Door_PokeMart         0x041
 #define METATILE_General_Grass                 0x001
