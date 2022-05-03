@@ -2,9 +2,9 @@
 #define GUARD_METATILE_LABELS_H
 
 // gTileset_4g
+#define METATILE_4g_tileset_exterior_gym_door         0x1DB
 #define METATILE_4g_tileset_exterior_pokecenter_door  0x061
 #define METATILE_4g_tileset_exterior_pokemart_door    0x021
-#define METATILE_4g_tileset_exterior_gym_door       0x1DB
 
 // gTileset_BattleArena
 #define METATILE_BattleArena_Door  0x21B
