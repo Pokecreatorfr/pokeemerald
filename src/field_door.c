@@ -247,7 +247,6 @@ static const u8 sDoorAnimPalettes_4G_Gym[] = {1, 1, 1, 1, 1, 1, 1, 1};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
-    //{METATILE_General_Door,                                 DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_General, sDoorAnimPalettes_General},
     {METATILE_General_Door_Gym,                             DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_Gym, sDoorAnimPalettes_Gym},
     {METATILE_General_Door_PokeMart,                        DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_PokeMart, sDoorAnimPalettes_PokeMart},
     {METATILE_Petalburg_Door_Littleroot,                    DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Littleroot, sDoorAnimPalettes_Littleroot},
@@ -300,8 +299,8 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_BattleTent_Door,                              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleTentInterior, sDoorAnimPalettes_BattleTentInterior},
     {METATILE_TrainerHill_Door_Elevator_Lobby,              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillLobbyElevator, sDoorAnimPalettes_TrainerHillLobbyElevator},
     {METATILE_TrainerHill_Door_Elevator_Roof,               DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillRoofElevator, sDoorAnimPalettes_TrainerHillRoofElevator},
-    {METATILE_4g_tileset_exterior_pokemart_door,            DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_4G_PokeMart, sDoorAnimPalettes_4G_PokeMart},
-    {METATILE_4g_tileset_exterior_pokecenter_door,          DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_4G_PokeCenter, sDoorAnimPalettes_4G_PokeCenter},
+    {METATILE_4g_tileset_exterior_pokemart_door,            DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_PokeMart, sDoorAnimPalettes_4G_PokeMart},
+    {METATILE_4g_tileset_exterior_pokecenter_door,          DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_PokeCenter, sDoorAnimPalettes_4G_PokeCenter},
     {METATILE_4g_tileset_exterior_gym_door,                 DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_Gym, sDoorAnimPalettes_4G_Gym},
     {},
 };
