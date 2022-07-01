@@ -136,6 +136,9 @@ static const u8 sDoorAnimTiles_4G_PokeCenter[] = INCBIN_U8("graphics/door_anims/
 static const u16 sDoorNullPalette51[16] = {};
 static const u8 sDoorAnimTiles_4G_Gym[] = INCBIN_U8("graphics/door_anims/4G_gym_door.4bpp");
 static const u16 sDoorNullPalette52[16] = {};
+static const u8 sDoorAnimTiles_4G_wood_door[] = INCBIN_U8("graphics/door_anims/4G_wood_door.4bpp");
+static const u16 sDoorNullPalette53[16] = {};
+
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -244,6 +247,7 @@ static const u8 sDoorAnimPalettes_TrainerHillRoofElevator[] = {9, 9, 7, 7, 7, 7,
 static const u8 sDoorAnimPalettes_4G_PokeMart[] = {1, 1, 1, 1, 1, 1, 1, 1};
 static const u8 sDoorAnimPalettes_4G_PokeCenter[] = {1, 1, 1, 1, 1, 1, 1, 1};
 static const u8 sDoorAnimPalettes_4G_Gym[] = {1, 1, 1, 1, 1, 1, 1, 1};
+static const u8 sDoorAnimPalettes_4G_wood_door[] = {7, 7, 7, 7, 7, 7, 7, 7};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -300,6 +304,7 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_4g_tileset_exterior_pokemart_door,            DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_PokeMart, sDoorAnimPalettes_4G_PokeMart},
     {METATILE_4g_tileset_exterior_pokecenter_door,          DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_PokeCenter, sDoorAnimPalettes_4G_PokeCenter},
     {METATILE_4g_tileset_exterior_gym_door,                 DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_Gym, sDoorAnimPalettes_4G_Gym},
+    {METATILE_4g_tileset_exterior_wood_door,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_wood_door, sDoorAnimPalettes_4G_wood_door},
     {},
 };
 
