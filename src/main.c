@@ -1,4 +1,5 @@
 #include "global.h"
+#include "mgba_printf/mgba.h"
 #include "crt0.h"
 #include "malloc.h"
 #include "link.h"
@@ -88,6 +89,7 @@ void AgbMain()
 {
     // Modern compilers are liberal with the stack on entry to this function,
     // so RegisterRamReset may crash if it resets IWRAM.
+
 #if !MODERN
     RegisterRamReset(RESET_ALL);
 #endif //MODERN
@@ -108,6 +110,7 @@ void AgbMain()
 #endif
     ClearDma3Requests();
     ResetBgs();
+    MgbaOpen();
     SetDefaultFontsPointer();
     InitHeap(gHeap, HEAP_SIZE);
 
