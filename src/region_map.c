@@ -675,6 +675,18 @@ static u8 ProcessRegionMapInput_Full(void)
         sRegionMap->cursorDeltaX = +1;
         input = MAP_INPUT_MOVE_START;
     }
+    if (JOY_HELD(DPAD_RIGHT) && sRegionMap->cursorPosX >= MAPCURSOR_X_MAX && GetGpuReg(REG_OFFSET_BG2X_L) < 0xFF00)
+    {
+        input = MAP_INPUT_MOVE_START;
+        SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) + 0x0F00);
+        sRegionMap->playerIconSprite->x -= 16;
+    }
+        if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000)
+    {
+        input = MAP_INPUT_MOVE_START;
+        SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) - 0x0F00);
+        sRegionMap->playerIconSprite->x += 16;
+    }
     if (JOY_NEW(A_BUTTON))
     {
         input = MAP_INPUT_A_BUTTON;
