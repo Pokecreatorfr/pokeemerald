@@ -681,7 +681,6 @@ static u8 ProcessRegionMapInput_Full(void)
         input = MAP_INPUT_MOVE_START;
         SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) + 0x0800);
         sRegionMap->playerIconSprite->x -= 8;
-        MgbaPrintf(MGBA_LOG_INFO, "I am logging");
     }
         if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000)
     {
@@ -977,10 +976,11 @@ static u16 GetMapSecIdAt(u16 x, u16 y)
     {
         return MAPSEC_NONE;
     }
-    MgbaPrintf(MGBA_LOG_INFO, "%d", x);
+    MgbaPrintf(MGBA_LOG_INFO, "%d", x );
     y -= MAPCURSOR_Y_MIN;
-    x -= MAPCURSOR_X_MIN;
-    MgbaPrintf(MGBA_LOG_INFO, "%d", x);
+    x += (GetGpuReg(REG_OFFSET_BG2X_L)/0x0800) - MAPCURSOR_X_MIN;
+    MgbaPrintf(MGBA_LOG_INFO, "%d", x );
+    MgbaPrintf(MGBA_LOG_INFO, "%d", (GetGpuReg(REG_OFFSET_BG2X_L)/0x0800));
     return sRegionMap_MapSectionLayout[x + y * MAP_WIDTH];
 }
 
