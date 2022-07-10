@@ -977,8 +977,9 @@ static u16 GetMapSecIdAt(u16 x, u16 y)
     {
         return MAPSEC_NONE;
     }
+    MgbaPrintf(MGBA_LOG_INFO, "%d", x);
     y -= MAPCURSOR_Y_MIN;
-    x -= MAPCURSOR_X_MIN - (GetGpuReg(REG_OFFSET_BG2X_L)/0x800) ;
+    x -= MAPCURSOR_X_MIN;
     MgbaPrintf(MGBA_LOG_INFO, "%d", x);
     return sRegionMap_MapSectionLayout[x + y * MAP_WIDTH];
 }
