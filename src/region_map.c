@@ -659,6 +659,7 @@ u8 DoRegionMapInputCallback(void)
 static void Task_scroll_right(u8 taskId)
 {
     gTasks[taskId].tFrameCounter +=1;
+    MgbaPrintf(MGBA_LOG_INFO, "%d", gTasks[taskId].tFrameCounter);
 
     if (gTasks[taskId].tFrameCounter % 3 == 0 )
     {
@@ -1003,12 +1004,8 @@ static u16 GetMapSecIdAt(u16 x, u16 y)
     {
         return MAPSEC_NONE;
     }
-    MgbaPrintf(MGBA_LOG_INFO, "%d", x );
     y -= MAPCURSOR_Y_MIN;
     x += (GetGpuReg(REG_OFFSET_BG2X_L)/0x0800) - MAPCURSOR_X_MIN;
-    MgbaPrintf(MGBA_LOG_INFO, "%d", x );
-    MgbaPrintf(MGBA_LOG_INFO, "%d", (GetGpuReg(REG_OFFSET_BG2X_L)/0x0800));
-    MgbaPrintf(MGBA_LOG_INFO, "%d", MAPCURSOR_X_MAX);
     if (x <= 27)
     {
         return sRegionMap_MapSectionLayout[x + y * MAP_WIDTH];
