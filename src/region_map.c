@@ -660,7 +660,7 @@ static void Task_scroll_right(u8 taskId)
 {
     gTasks[taskId].tFrameCounter +=1;
     MgbaPrintf(MGBA_LOG_INFO, "%d", gTasks[taskId].tFrameCounter);
-
+    MgbaPrintf(MGBA_LOG_INFO, "%d", gTasks[taskId].tnumberOfPlays);
     if (gTasks[taskId].tFrameCounter % 3 == 0 )
     {
         gTasks[taskId].tnumberOfPlays += 1;
