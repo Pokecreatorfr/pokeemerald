@@ -128,6 +128,7 @@ static const u8 sRegionMapPlayerIcon_BrendanGfx[] = INCBIN_U8("graphics/pokenav/
 static const u16 sRegionMapPlayerIcon_MayPal[] = INCBIN_U16("graphics/pokenav/region_map/may_icon.gbapal");
 static const u8 sRegionMapPlayerIcon_MayGfx[] = INCBIN_U8("graphics/pokenav/region_map/may_icon.4bpp");
 static const u8 sRegionMap_MapSectionLayout[] = INCBIN_U8("graphics/pokenav/region_map_section_layout.bin");
+static const u8 sRegionMap_MapSectionLayoutpart2[] = INCBIN_U8("graphics/pokenav/region_map_section_layout_part2.bin");
 
 #include "data/region_map/region_map_entries.h"
 
@@ -976,9 +977,17 @@ static u16 GetMapSecIdAt(u16 x, u16 y)
         return MAPSEC_NONE;
     }
     y -= MAPCURSOR_Y_MIN;
-    x -= MAPCURSOR_X_MIN - (GetGpuReg(REG_OFFSET_BG2X_L)/0x800) ;
-    return sRegionMap_MapSectionLayout[x + y * MAP_WIDTH];
+    x += (GetGpuReg(REG_OFFSET_BG2X_L)/0x800) - MAPCURSOR_X_MIN ;
+    if (x <= 27)
+    {
+        return sRegionMap_MapSectionLayout[x + y * MAP_WIDTH];
+    }
+    else
+    {
+        return sRegionMap_MapSectionLayoutpart2[(x - 27) + y * MAP_WIDTH];
+    }
 }
+
 
 static void InitMapBasedOnPlayerLocation(void)
 {
