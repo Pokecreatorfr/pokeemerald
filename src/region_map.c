@@ -28,6 +28,8 @@
 #include "constants/rgb.h"
 #include "constants/weather.h"
 #include "mgba_printf/mgba.h"
+#include "task.h"
+
 
 /*
  *  This file handles region maps generally, and the map used when selecting a fly destination.
@@ -115,6 +117,7 @@ static void SpriteCB_FlyDestIcon(struct Sprite *sprite);
 static void CB_FadeInFlyMap(void);
 static void CB_HandleFlyMapInput(void);
 static void CB_ExitFlyMap(void);
+static void Task_scroll_right(u8 taskId);
 
 // NOTE: Some of the below graphics are not in graphics/pokenav/region_map
 //       because porymap expects them to be in their current location.
@@ -650,9 +653,30 @@ u8 DoRegionMapInputCallback(void)
     return sRegionMap->inputCallback();
 }
 
+#define tFrameCounter   data[0]
+#define tnumberOfPlays   data[1]
+
+static void Task_scroll_right(u8 taskId)
+{
+    gTasks[taskId].tFrameCounter +=1;
+
+    if (gTasks[taskId].tFrameCounter % 3 == 0 )
+    {
+        gTasks[taskId].tnumberOfPlays += 1;
+        SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) + 0x0100);
+        sRegionMap->playerIconSprite->x -= 1;
+    }
+    if (gTasks[taskId].tnumberOfPlays == 8)
+    {
+        DestroyTask(taskId);
+
+    }
+}
+
 static u8 ProcessRegionMapInput_Full(void)
 {
     u8 input;
+    u8 taskId;
 
     input = MAP_INPUT_NONE;
     sRegionMap->cursorDeltaX = 0;
@@ -679,9 +703,11 @@ static u8 ProcessRegionMapInput_Full(void)
     }
     if (JOY_HELD(DPAD_RIGHT) && sRegionMap->cursorPosX >= MAPCURSOR_X_MAX && GetGpuReg(REG_OFFSET_BG2X_L) < 0xF000)
     {
+        taskId = CreateTask(Task_scroll_right, 1);
+        gTasks[taskId].tnumberOfPlays = 0;
+        gTasks[taskId].tFrameCounter = 0;
+        gTasks[taskId].func(taskId);
         input = MAP_INPUT_MOVE_START;
-        SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) + 0x0800);
-        sRegionMap->playerIconSprite->x -= 8;
     }
         if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000)
     {
@@ -986,14 +1012,14 @@ static u16 GetMapSecIdAt(u16 x, u16 y)
     if (x <= 27)
     {
         return sRegionMap_MapSectionLayout[x + y * MAP_WIDTH];
-        MgbaPrintf(MGBA_LOG_INFO, "%d", 600);
     }
     else
     {
-        MgbaPrintf(MGBA_LOG_INFO, "%d", 500);
+
         return sRegionMap_MapSectionLayoutpart2[(x - 27) + y * MAP_WIDTH];
     }
 }
+
 
 static void InitMapBasedOnPlayerLocation(void)
 {
