@@ -116,6 +116,7 @@ static void CB_FadeInFlyMap(void);
 static void CB_HandleFlyMapInput(void);
 static void CB_ExitFlyMap(void);
 static void Task_scroll_right(u8 taskId);
+static void Task_scroll_left(u8 taskId);
 
 // NOTE: Some of the below graphics are not in graphics/pokenav/region_map
 //       because porymap expects them to be in their current location.
@@ -651,19 +652,24 @@ u8 DoRegionMapInputCallback(void)
     return sRegionMap->inputCallback();
 }
 
-#define tFrameCounter   data[0]
 #define tnumberOfPlays   data[1]
-
 static void Task_scroll_right(u8 taskId)
 {
-    gTasks[taskId].tFrameCounter +=1;
-
-    if (gTasks[taskId].tFrameCounter % 3 == 0 )
+    gTasks[taskId].tnumberOfPlays += 1;
+    SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) + 0x0F00);
+    sRegionMap->playerIconSprite->x -= 15;
+    if (gTasks[taskId].tnumberOfPlays == 8)
     {
-        gTasks[taskId].tnumberOfPlays += 1;
-        SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) + 0x0100);
-        sRegionMap->playerIconSprite->x -= 1;
+        DestroyTask(taskId);
+
     }
+}
+
+static void Task_scroll_left(u8 taskId)
+{
+    gTasks[taskId].tnumberOfPlays += 1;
+    SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) - 0x0F00);
+    sRegionMap->playerIconSprite->x += 15;
     if (gTasks[taskId].tnumberOfPlays == 8)
     {
         DestroyTask(taskId);
@@ -675,6 +681,7 @@ static u8 ProcessRegionMapInput_Full(void)
 {
     u8 input;
     u8 taskId;
+    RunTasks();
 
     input = MAP_INPUT_NONE;
     sRegionMap->cursorDeltaX = 0;
@@ -699,19 +706,17 @@ static u8 ProcessRegionMapInput_Full(void)
         sRegionMap->cursorDeltaX = +1;
         input = MAP_INPUT_MOVE_START;
     }
-    if (JOY_HELD(DPAD_RIGHT) && sRegionMap->cursorPosX >= MAPCURSOR_X_MAX && GetGpuReg(REG_OFFSET_BG2X_L) < 0xF000)
+    if (JOY_HELD(DPAD_RIGHT) && sRegionMap->cursorPosX >= MAPCURSOR_X_MAX && GetGpuReg(REG_OFFSET_BG2X_L) < 0xF000 && GetTaskCount() <= 4)
     {
         taskId = CreateTask(Task_scroll_right, 1);
         gTasks[taskId].tnumberOfPlays = 0;
-        gTasks[taskId].tFrameCounter = 0;
-        gTasks[taskId].func(taskId);
         input = MAP_INPUT_MOVE_START;
     }
-        if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000)
+        if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000 && GetTaskCount() <= 4)
     {
+        taskId = CreateTask(Task_scroll_left, 1);
+        gTasks[taskId].tnumberOfPlays = 0;
         input = MAP_INPUT_MOVE_START;
-        SetGpuReg(REG_OFFSET_BG2X_L, GetGpuReg(REG_OFFSET_BG2X_L) - 0x0800);
-        sRegionMap->playerIconSprite->x += 8;
     }
     if (JOY_NEW(A_BUTTON))
     {
