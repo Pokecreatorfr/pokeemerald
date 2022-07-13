@@ -6,7 +6,7 @@
       "name": "PetalburgCity_Layout",
       "width": 30,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/PetalburgCity/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgCity/map.bin"
@@ -16,7 +16,7 @@
       "name": "SlateportCity_Layout",
       "width": 40,
       "height": 60,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/SlateportCity/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity/map.bin"
@@ -26,7 +26,7 @@
       "name": "MauvilleCity_Layout",
       "width": 40,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/MauvilleCity/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity/map.bin"
@@ -36,7 +36,7 @@
       "name": "RustboroCity_Layout",
       "width": 40,
       "height": 60,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/RustboroCity/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity/map.bin"
@@ -46,7 +46,7 @@
       "name": "FortreeCity_Layout",
       "width": 40,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/FortreeCity/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity/map.bin"
@@ -56,7 +56,7 @@
       "name": "LilycoveCity_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/LilycoveCity/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity/map.bin"
@@ -66,7 +66,7 @@
       "name": "MossdeepCity_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/MossdeepCity/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity/map.bin"
@@ -76,7 +76,7 @@
       "name": "SootopolisCity_Layout",
       "width": 60,
       "height": 60,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Sootopolis",
       "border_filepath": "data/layouts/SootopolisCity/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity/map.bin"
@@ -86,7 +86,7 @@
       "name": "EverGrandeCity_Layout",
       "width": 40,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_EverGrande",
       "border_filepath": "data/layouts/EverGrandeCity/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity/map.bin"
@@ -96,7 +96,7 @@
       "name": "LittlerootTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/LittlerootTown/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown/map.bin"
@@ -106,7 +106,7 @@
       "name": "OldaleTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/OldaleTown/border.bin",
       "blockdata_filepath": "data/layouts/OldaleTown/map.bin"
@@ -116,7 +116,7 @@
       "name": "DewfordTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/DewfordTown/border.bin",
       "blockdata_filepath": "data/layouts/DewfordTown/map.bin"
@@ -126,7 +126,7 @@
       "name": "LavaridgeTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/LavaridgeTown/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown/map.bin"
@@ -136,7 +136,7 @@
       "name": "FallarborTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/FallarborTown/border.bin",
       "blockdata_filepath": "data/layouts/FallarborTown/map.bin"
@@ -146,7 +146,7 @@
       "name": "VerdanturfTown_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/VerdanturfTown/border.bin",
       "blockdata_filepath": "data/layouts/VerdanturfTown/map.bin"
@@ -156,7 +156,7 @@
       "name": "PacifidlogTown_Layout",
       "width": 20,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/PacifidlogTown/border.bin",
       "blockdata_filepath": "data/layouts/PacifidlogTown/map.bin"
@@ -166,7 +166,7 @@
       "name": "Route101_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route101/border.bin",
       "blockdata_filepath": "data/layouts/Route101/map.bin"
@@ -176,7 +176,7 @@
       "name": "Route102_Layout",
       "width": 50,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route102/border.bin",
       "blockdata_filepath": "data/layouts/Route102/map.bin"
@@ -186,7 +186,7 @@
       "name": "Route103_Layout",
       "width": 80,
       "height": 22,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route103/border.bin",
       "blockdata_filepath": "data/layouts/Route103/map.bin"
@@ -196,7 +196,7 @@
       "name": "Route104_Layout",
       "width": 40,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route104/border.bin",
       "blockdata_filepath": "data/layouts/Route104/map.bin"
@@ -206,7 +206,7 @@
       "name": "Route105_Layout",
       "width": 40,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/Route105/border.bin",
       "blockdata_filepath": "data/layouts/Route105/map.bin"
@@ -216,7 +216,7 @@
       "name": "Route106_Layout",
       "width": 80,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/Route106/border.bin",
       "blockdata_filepath": "data/layouts/Route106/map.bin"
@@ -226,7 +226,7 @@
       "name": "Route107_Layout",
       "width": 60,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/Route107/border.bin",
       "blockdata_filepath": "data/layouts/Route107/map.bin"
@@ -236,7 +236,7 @@
       "name": "Route108_Layout",
       "width": 60,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/Route108/border.bin",
       "blockdata_filepath": "data/layouts/Route108/map.bin"
@@ -246,7 +246,7 @@
       "name": "Route109_Layout",
       "width": 40,
       "height": 63,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/Route109/border.bin",
       "blockdata_filepath": "data/layouts/Route109/map.bin"
@@ -256,7 +256,7 @@
       "name": "Route110_Layout",
       "width": 40,
       "height": 100,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route110/border.bin",
       "blockdata_filepath": "data/layouts/Route110/map.bin"
@@ -266,7 +266,7 @@
       "name": "Route111_Layout",
       "width": 40,
       "height": 140,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route111/border.bin",
       "blockdata_filepath": "data/layouts/Route111/map.bin"
@@ -276,7 +276,7 @@
       "name": "Route112_Layout",
       "width": 40,
       "height": 60,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/Route112/border.bin",
       "blockdata_filepath": "data/layouts/Route112/map.bin"
@@ -286,7 +286,7 @@
       "name": "Route113_Layout",
       "width": 100,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route113/border.bin",
       "blockdata_filepath": "data/layouts/Route113/map.bin"
@@ -296,7 +296,7 @@
       "name": "Route114_Layout",
       "width": 40,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route114/border.bin",
       "blockdata_filepath": "data/layouts/Route114/map.bin"
@@ -306,7 +306,7 @@
       "name": "Route115_Layout",
       "width": 40,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route115/border.bin",
       "blockdata_filepath": "data/layouts/Route115/map.bin"
@@ -316,7 +316,7 @@
       "name": "Route116_Layout",
       "width": 100,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route116/border.bin",
       "blockdata_filepath": "data/layouts/Route116/map.bin"
@@ -326,7 +326,7 @@
       "name": "Route117_Layout",
       "width": 60,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route117/border.bin",
       "blockdata_filepath": "data/layouts/Route117/map.bin"
@@ -336,7 +336,7 @@
       "name": "Route118_Layout",
       "width": 80,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route118/border.bin",
       "blockdata_filepath": "data/layouts/Route118/map.bin"
@@ -346,7 +346,7 @@
       "name": "Route119_Layout",
       "width": 40,
       "height": 140,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/Route119/border.bin",
       "blockdata_filepath": "data/layouts/Route119/map.bin"
@@ -356,7 +356,7 @@
       "name": "Route120_Layout",
       "width": 40,
       "height": 100,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/Route120/border.bin",
       "blockdata_filepath": "data/layouts/Route120/map.bin"
@@ -366,7 +366,7 @@
       "name": "Route121_Layout",
       "width": 80,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Route121/border.bin",
       "blockdata_filepath": "data/layouts/Route121/map.bin"
@@ -376,7 +376,7 @@
       "name": "Route122_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Route122/border.bin",
       "blockdata_filepath": "data/layouts/Route122/map.bin"
@@ -386,7 +386,7 @@
       "name": "Route123_Layout",
       "width": 140,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Route123/border.bin",
       "blockdata_filepath": "data/layouts/Route123/map.bin"
@@ -396,7 +396,7 @@
       "name": "Route124_Layout",
       "width": 80,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route124/border.bin",
       "blockdata_filepath": "data/layouts/Route124/map.bin"
@@ -406,7 +406,7 @@
       "name": "Route125_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route125/border.bin",
       "blockdata_filepath": "data/layouts/Route125/map.bin"
@@ -416,7 +416,7 @@
       "name": "Route126_Layout",
       "width": 80,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route126/border.bin",
       "blockdata_filepath": "data/layouts/Route126/map.bin"
@@ -426,7 +426,7 @@
       "name": "Route127_Layout",
       "width": 80,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route127/border.bin",
       "blockdata_filepath": "data/layouts/Route127/map.bin"
@@ -436,7 +436,7 @@
       "name": "Route128_Layout",
       "width": 120,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route128/border.bin",
       "blockdata_filepath": "data/layouts/Route128/map.bin"
@@ -446,7 +446,7 @@
       "name": "Route129_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mossdeep",
       "border_filepath": "data/layouts/Route129/border.bin",
       "blockdata_filepath": "data/layouts/Route129/map.bin"
@@ -456,7 +456,7 @@
       "name": "Route130_MirageIsland_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Route130_MirageIsland/border.bin",
       "blockdata_filepath": "data/layouts/Route130_MirageIsland/map.bin"
@@ -466,7 +466,7 @@
       "name": "Route131_Layout",
       "width": 60,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route131/border.bin",
       "blockdata_filepath": "data/layouts/Route131/map.bin"
@@ -476,7 +476,7 @@
       "name": "Route132_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route132/border.bin",
       "blockdata_filepath": "data/layouts/Route132/map.bin"
@@ -486,7 +486,7 @@
       "name": "Route133_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route133/border.bin",
       "blockdata_filepath": "data/layouts/Route133/map.bin"
@@ -496,7 +496,7 @@
       "name": "Route134_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route134/border.bin",
       "blockdata_filepath": "data/layouts/Route134/map.bin"
@@ -506,7 +506,7 @@
       "name": "Underwater_Route126_Layout",
       "width": 80,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route126/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route126/map.bin"
@@ -516,7 +516,7 @@
       "name": "Underwater_Route127_Layout",
       "width": 80,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route127/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route127/map.bin"
@@ -526,7 +526,7 @@
       "name": "Underwater_Route128_Layout",
       "width": 120,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route128/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route128/map.bin"
@@ -806,7 +806,7 @@
       "name": "SlateportCity_SternsShipyard_1F_Layout",
       "width": 21,
       "height": 15,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/SlateportCity_SternsShipyard_1F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_SternsShipyard_1F/map.bin"
@@ -816,7 +816,7 @@
       "name": "SlateportCity_SternsShipyard_2F_Layout",
       "width": 17,
       "height": 15,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/SlateportCity_SternsShipyard_2F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_SternsShipyard_2F/map.bin"
@@ -876,7 +876,7 @@
       "name": "Harbor_Layout",
       "width": 24,
       "height": 15,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/Harbor/border.bin",
       "blockdata_filepath": "data/layouts/Harbor/map.bin"
@@ -896,7 +896,7 @@
       "name": "MauvilleCity_BikeShop_Layout",
       "width": 12,
       "height": 9,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_BikeShop",
       "border_filepath": "data/layouts/MauvilleCity_BikeShop/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity_BikeShop/map.bin"
@@ -926,7 +926,7 @@
       "name": "RustboroCity_DevonCorp_2F_Layout",
       "width": 19,
       "height": 9,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/RustboroCity_DevonCorp_2F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_DevonCorp_2F/map.bin"
@@ -1176,7 +1176,7 @@
       "name": "CableCarStation_Layout",
       "width": 13,
       "height": 12,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/CableCarStation/border.bin",
       "blockdata_filepath": "data/layouts/CableCarStation/map.bin"
@@ -1196,7 +1196,7 @@
       "name": "Route114_FossilManiacsTunnel_Layout",
       "width": 13,
       "height": 26,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route114_FossilManiacsTunnel/border.bin",
       "blockdata_filepath": "data/layouts/Route114_FossilManiacsTunnel/map.bin"
@@ -1246,7 +1246,7 @@
       "name": "MeteorFalls_1F_1R_Layout",
       "width": 30,
       "height": 42,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_1F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_1F_1R/map.bin"
@@ -1256,7 +1256,7 @@
       "name": "MeteorFalls_1F_2R_Layout",
       "width": 30,
       "height": 32,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_1F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_1F_2R/map.bin"
@@ -1266,7 +1266,7 @@
       "name": "MeteorFalls_B1F_1R_Layout",
       "width": 29,
       "height": 38,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_B1F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_B1F_1R/map.bin"
@@ -1276,7 +1276,7 @@
       "name": "MeteorFalls_B1F_2R_Layout",
       "width": 11,
       "height": 18,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_B1F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_B1F_2R/map.bin"
@@ -1286,7 +1286,7 @@
       "name": "RusturfTunnel_Layout",
       "width": 36,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/RusturfTunnel/border.bin",
       "blockdata_filepath": "data/layouts/RusturfTunnel/map.bin"
@@ -1296,7 +1296,7 @@
       "name": "Underwater_SootopolisCity_Layout",
       "width": 20,
       "height": 10,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_SootopolisCity/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_SootopolisCity/map.bin"
@@ -1306,7 +1306,7 @@
       "name": "DesertRuins_Layout",
       "width": 17,
       "height": 33,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/DesertRuins/border.bin",
       "blockdata_filepath": "data/layouts/DesertRuins/map.bin"
@@ -1316,7 +1316,7 @@
       "name": "GraniteCave_1F_Layout",
       "width": 42,
       "height": 15,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GraniteCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_1F/map.bin"
@@ -1326,7 +1326,7 @@
       "name": "GraniteCave_B1F_Layout",
       "width": 32,
       "height": 26,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GraniteCave_B1F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_B1F/map.bin"
@@ -1336,7 +1336,7 @@
       "name": "GraniteCave_B2F_Layout",
       "width": 32,
       "height": 26,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GraniteCave_B2F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_B2F/map.bin"
@@ -1346,7 +1346,7 @@
       "name": "PetalburgWoods_Layout",
       "width": 48,
       "height": 44,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/PetalburgWoods/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgWoods/map.bin"
@@ -1356,7 +1356,7 @@
       "name": "MtChimney_Layout",
       "width": 40,
       "height": 47,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MtChimney/border.bin",
       "blockdata_filepath": "data/layouts/MtChimney/map.bin"
@@ -1366,7 +1366,7 @@
       "name": "MtPyre_1F_Layout",
       "width": 22,
       "height": 19,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_1F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_1F/map.bin"
@@ -1376,7 +1376,7 @@
       "name": "MtPyre_2F_Layout",
       "width": 13,
       "height": 13,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_2F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_2F/map.bin"
@@ -1386,7 +1386,7 @@
       "name": "MtPyre_3F_Layout",
       "width": 13,
       "height": 13,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_3F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_3F/map.bin"
@@ -1396,7 +1396,7 @@
       "name": "MtPyre_4F_Layout",
       "width": 13,
       "height": 13,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_4F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_4F/map.bin"
@@ -1406,7 +1406,7 @@
       "name": "MtPyre_5F_Layout",
       "width": 13,
       "height": 13,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_5F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_5F/map.bin"
@@ -1416,7 +1416,7 @@
       "name": "MtPyre_6F_Layout",
       "width": 13,
       "height": 13,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_6F/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_6F/map.bin"
@@ -1426,7 +1426,7 @@
       "name": "AquaHideout_1F_Layout",
       "width": 28,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_1F/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_1F/map.bin"
@@ -1436,7 +1436,7 @@
       "name": "AquaHideout_B1F_Layout",
       "width": 51,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_B1F/map.bin"
@@ -1446,7 +1446,7 @@
       "name": "AquaHideout_B2F_Layout",
       "width": 34,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_B2F/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_B2F/map.bin"
@@ -1456,7 +1456,7 @@
       "name": "Underwater_SeafloorCavern_Layout",
       "width": 14,
       "height": 9,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_SeafloorCavern/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_SeafloorCavern/map.bin"
@@ -1466,7 +1466,7 @@
       "name": "SeafloorCavern_Entrance_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Entrance/map.bin"
@@ -1476,7 +1476,7 @@
       "name": "SeafloorCavern_Room1_Layout",
       "width": 20,
       "height": 21,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room1/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room1/map.bin"
@@ -1486,7 +1486,7 @@
       "name": "SeafloorCavern_Room2_Layout",
       "width": 18,
       "height": 12,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room2/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room2/map.bin"
@@ -1496,7 +1496,7 @@
       "name": "SeafloorCavern_Room3_Layout",
       "width": 16,
       "height": 17,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room3/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room3/map.bin"
@@ -1506,7 +1506,7 @@
       "name": "SeafloorCavern_Room4_Layout",
       "width": 18,
       "height": 19,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room4/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room4/map.bin"
@@ -1516,7 +1516,7 @@
       "name": "SeafloorCavern_Room5_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room5/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room5/map.bin"
@@ -1526,7 +1526,7 @@
       "name": "SeafloorCavern_Room6_Layout",
       "width": 24,
       "height": 23,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SeafloorCavern_Room6/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room6/map.bin"
@@ -1536,7 +1536,7 @@
       "name": "SeafloorCavern_Room7_Layout",
       "width": 23,
       "height": 25,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SeafloorCavern_Room7/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room7/map.bin"
@@ -1546,7 +1546,7 @@
       "name": "SeafloorCavern_Room8_Layout",
       "width": 11,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room8/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room8/map.bin"
@@ -1556,7 +1556,7 @@
       "name": "SeafloorCavern_Room9_Layout",
       "width": 27,
       "height": 46,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room9/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room9/map.bin"
@@ -1566,7 +1566,7 @@
       "name": "CaveOfOrigin_Entrance_Layout",
       "width": 19,
       "height": 26,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_Entrance/map.bin"
@@ -1576,7 +1576,7 @@
       "name": "CaveOfOrigin_1F_Layout",
       "width": 23,
       "height": 23,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_1F/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_1F/map.bin"
@@ -1586,7 +1586,7 @@
       "name": "CaveOfOrigin_UnusedRubySapphireMap1_Layout",
       "width": 23,
       "height": 23,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap1/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap1/map.bin"
@@ -1596,7 +1596,7 @@
       "name": "CaveOfOrigin_UnusedRubySapphireMap2_Layout",
       "width": 21,
       "height": 21,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap2/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap2/map.bin"
@@ -1606,7 +1606,7 @@
       "name": "CaveOfOrigin_UnusedRubySapphireMap3_Layout",
       "width": 19,
       "height": 21,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap3/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap3/map.bin"
@@ -1616,7 +1616,7 @@
       "name": "CaveOfOrigin_B1F_Layout",
       "width": 19,
       "height": 19,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_B1F/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_B1F/map.bin"
@@ -1626,7 +1626,7 @@
       "name": "VictoryRoad_1F_Layout",
       "width": 46,
       "height": 45,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/VictoryRoad_1F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_1F/map.bin"
@@ -1636,7 +1636,7 @@
       "name": "ShoalCave_LowTideEntranceRoom_Layout",
       "width": 35,
       "height": 35,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideEntranceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideEntranceRoom/map.bin"
@@ -1646,7 +1646,7 @@
       "name": "ShoalCave_LowTideInnerRoom_Layout",
       "width": 46,
       "height": 38,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideInnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideInnerRoom/map.bin"
@@ -1656,7 +1656,7 @@
       "name": "ShoalCave_LowTideStairsRoom_Layout",
       "width": 21,
       "height": 15,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideStairsRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideStairsRoom/map.bin"
@@ -1666,7 +1666,7 @@
       "name": "ShoalCave_LowTideLowerRoom_Layout",
       "width": 31,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideLowerRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideLowerRoom/map.bin"
@@ -1676,7 +1676,7 @@
       "name": "ShoalCave_HighTideEntranceRoom_Layout",
       "width": 35,
       "height": 35,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_HighTideEntranceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_HighTideEntranceRoom/map.bin"
@@ -1686,7 +1686,7 @@
       "name": "ShoalCave_HighTideInnerRoom_Layout",
       "width": 46,
       "height": 38,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_HighTideInnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_HighTideInnerRoom/map.bin"
@@ -1696,7 +1696,7 @@
       "name": "UnusedCave1_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave1/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave1/map.bin"
@@ -1706,7 +1706,7 @@
       "name": "UnusedCave2_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave2/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave2/map.bin"
@@ -1716,7 +1716,7 @@
       "name": "UnusedCave3_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave3/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave3/map.bin"
@@ -1726,7 +1726,7 @@
       "name": "UnusedCave4_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave4/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave4/map.bin"
@@ -1736,7 +1736,7 @@
       "name": "UnusedCave5_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave5/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave5/map.bin"
@@ -1746,7 +1746,7 @@
       "name": "UnusedCave6_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave6/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave6/map.bin"
@@ -1756,7 +1756,7 @@
       "name": "UnusedCave7_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave7/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave7/map.bin"
@@ -1766,7 +1766,7 @@
       "name": "UnusedCave8_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave8/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave8/map.bin"
@@ -1776,7 +1776,7 @@
       "name": "UnusedCave9_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave9/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave9/map.bin"
@@ -1786,7 +1786,7 @@
       "name": "UnusedCave10_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave10/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave10/map.bin"
@@ -1796,7 +1796,7 @@
       "name": "UnusedCave11_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave11/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave11/map.bin"
@@ -1806,7 +1806,7 @@
       "name": "UnusedCave12_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave12/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave12/map.bin"
@@ -1816,7 +1816,7 @@
       "name": "UnusedCave13_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave13/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave13/map.bin"
@@ -1826,7 +1826,7 @@
       "name": "UnusedCave14_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/UnusedCave14/border.bin",
       "blockdata_filepath": "data/layouts/UnusedCave14/map.bin"
@@ -1836,7 +1836,7 @@
       "name": "NewMauville_Entrance_Layout",
       "width": 9,
       "height": 9,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/NewMauville_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/NewMauville_Entrance/map.bin"
@@ -1846,7 +1846,7 @@
       "name": "NewMauville_Inside_Layout",
       "width": 41,
       "height": 41,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_BikeShop",
       "border_filepath": "data/layouts/NewMauville_Inside/border.bin",
       "blockdata_filepath": "data/layouts/NewMauville_Inside/map.bin"
@@ -1856,7 +1856,7 @@
       "name": "AbandonedShip_Deck_Layout",
       "width": 23,
       "height": 21,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AbandonedShip_Deck/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Deck/map.bin"
@@ -1866,7 +1866,7 @@
       "name": "AbandonedShip_Corridors_1F_Layout",
       "width": 18,
       "height": 12,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Corridors_1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Corridors_1F/map.bin"
@@ -1876,7 +1876,7 @@
       "name": "AbandonedShip_Rooms_1F_Layout",
       "width": 18,
       "height": 17,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Rooms_1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Rooms_1F/map.bin"
@@ -1886,7 +1886,7 @@
       "name": "AbandonedShip_Corridors_B1F_Layout",
       "width": 13,
       "height": 10,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Corridors_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Corridors_B1F/map.bin"
@@ -1896,7 +1896,7 @@
       "name": "AbandonedShip_Rooms_B1F_Layout",
       "width": 27,
       "height": 8,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Rooms_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Rooms_B1F/map.bin"
@@ -1906,7 +1906,7 @@
       "name": "AbandonedShip_Rooms2_B1F_Layout",
       "width": 18,
       "height": 8,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Rooms2_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Rooms2_B1F/map.bin"
@@ -1916,7 +1916,7 @@
       "name": "AbandonedShip_Underwater1_Layout",
       "width": 8,
       "height": 8,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Underwater1/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Underwater1/map.bin"
@@ -1926,7 +1926,7 @@
       "name": "AbandonedShip_Room_B1F_Layout",
       "width": 9,
       "height": 8,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Room_B1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Room_B1F/map.bin"
@@ -1936,7 +1936,7 @@
       "name": "AbandonedShip_Rooms2_1F_Layout",
       "width": 9,
       "height": 17,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Rooms2_1F/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Rooms2_1F/map.bin"
@@ -1946,7 +1946,7 @@
       "name": "AbandonedShip_CaptainsOffice_Layout",
       "width": 9,
       "height": 7,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AbandonedShip_CaptainsOffice/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_CaptainsOffice/map.bin"
@@ -1956,7 +1956,7 @@
       "name": "AbandonedShip_Underwater2_Layout",
       "width": 21,
       "height": 7,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_Underwater2/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_Underwater2/map.bin"
@@ -2246,7 +2246,7 @@
       "name": "ContestHall_Layout",
       "width": 15,
       "height": 11,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHall/border.bin",
       "blockdata_filepath": "data/layouts/ContestHall/map.bin"
@@ -2316,7 +2316,7 @@
       "name": "ContestHallBeauty_Layout",
       "width": 15,
       "height": 11,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallBeauty/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallBeauty/map.bin"
@@ -2326,7 +2326,7 @@
       "name": "ContestHallTough_Layout",
       "width": 15,
       "height": 11,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallTough/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallTough/map.bin"
@@ -2336,7 +2336,7 @@
       "name": "ContestHallCool_Layout",
       "width": 15,
       "height": 11,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallCool/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallCool/map.bin"
@@ -2346,7 +2346,7 @@
       "name": "ContestHallSmart_Layout",
       "width": 15,
       "height": 11,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallSmart/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallSmart/map.bin"
@@ -2356,7 +2356,7 @@
       "name": "ContestHallCute_Layout",
       "width": 15,
       "height": 11,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/ContestHallCute/border.bin",
       "blockdata_filepath": "data/layouts/ContestHallCute/map.bin"
@@ -2366,7 +2366,7 @@
       "name": "InsideOfTruck_Layout",
       "width": 5,
       "height": 5,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideOfTruck",
       "border_filepath": "data/layouts/InsideOfTruck/border.bin",
       "blockdata_filepath": "data/layouts/InsideOfTruck/map.bin"
@@ -2376,7 +2376,7 @@
       "name": "SafariZone_Northwest_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Northwest/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Northwest/map.bin"
@@ -2386,7 +2386,7 @@
       "name": "SafariZone_North_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_North/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_North/map.bin"
@@ -2396,7 +2396,7 @@
       "name": "SafariZone_Southwest_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Southwest/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Southwest/map.bin"
@@ -2406,7 +2406,7 @@
       "name": "SafariZone_South_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_South/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_South/map.bin"
@@ -2416,7 +2416,7 @@
       "name": "UnusedOutdoorArea_Layout",
       "width": 58,
       "height": 26,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "0",
       "border_filepath": "data/layouts/UnusedOutdoorArea/border.bin",
       "blockdata_filepath": "data/layouts/UnusedOutdoorArea/map.bin"
@@ -2626,7 +2626,7 @@
       "name": "Route130_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/Route130/border.bin",
       "blockdata_filepath": "data/layouts/Route130/map.bin"
@@ -2646,7 +2646,7 @@
       "name": "BattleFrontier_OutsideWest_Layout",
       "width": 56,
       "height": 72,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
       "border_filepath": "data/layouts/BattleFrontier_OutsideWest/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideWest/map.bin"
@@ -2736,7 +2736,7 @@
       "name": "Underwater_Route124_Layout",
       "width": 80,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route124/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route124/map.bin"
@@ -2746,7 +2746,7 @@
       "name": "MossdeepCity_SpaceCenter_1F_Layout",
       "width": 16,
       "height": 10,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MossdeepCity_SpaceCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity_SpaceCenter_1F/map.bin"
@@ -2756,7 +2756,7 @@
       "name": "MossdeepCity_SpaceCenter_2F_Layout",
       "width": 16,
       "height": 10,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MossdeepCity_SpaceCenter_2F/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity_SpaceCenter_2F/map.bin"
@@ -2766,7 +2766,7 @@
       "name": "SSTidalCorridor_Layout",
       "width": 18,
       "height": 13,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/SSTidalCorridor/border.bin",
       "blockdata_filepath": "data/layouts/SSTidalCorridor/map.bin"
@@ -2776,7 +2776,7 @@
       "name": "SSTidalLowerDeck_Layout",
       "width": 17,
       "height": 13,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/SSTidalLowerDeck/border.bin",
       "blockdata_filepath": "data/layouts/SSTidalLowerDeck/map.bin"
@@ -2786,7 +2786,7 @@
       "name": "SSTidalRooms_Layout",
       "width": 36,
       "height": 18,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/SSTidalRooms/border.bin",
       "blockdata_filepath": "data/layouts/SSTidalRooms/map.bin"
@@ -2796,7 +2796,7 @@
       "name": "IslandCave_Layout",
       "width": 17,
       "height": 33,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/IslandCave/border.bin",
       "blockdata_filepath": "data/layouts/IslandCave/map.bin"
@@ -2806,7 +2806,7 @@
       "name": "AncientTomb_Layout",
       "width": 17,
       "height": 33,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/AncientTomb/border.bin",
       "blockdata_filepath": "data/layouts/AncientTomb/map.bin"
@@ -2816,7 +2816,7 @@
       "name": "Underwater_Route134_Layout",
       "width": 18,
       "height": 10,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route134/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route134/map.bin"
@@ -2826,7 +2826,7 @@
       "name": "Underwater_SealedChamber_Layout",
       "width": 22,
       "height": 48,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_SealedChamber/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_SealedChamber/map.bin"
@@ -2836,7 +2836,7 @@
       "name": "SealedChamber_OuterRoom_Layout",
       "width": 21,
       "height": 23,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SealedChamber_OuterRoom/border.bin",
       "blockdata_filepath": "data/layouts/SealedChamber_OuterRoom/map.bin"
@@ -2846,7 +2846,7 @@
       "name": "VictoryRoad_B1F_Layout",
       "width": 46,
       "height": 31,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/VictoryRoad_B1F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_B1F/map.bin"
@@ -2856,7 +2856,7 @@
       "name": "VictoryRoad_B2F_Layout",
       "width": 46,
       "height": 31,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/VictoryRoad_B2F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_B2F/map.bin"
@@ -2866,7 +2866,7 @@
       "name": "Route104_Prototype_Layout",
       "width": 1,
       "height": 1,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/Route104_Prototype/border.bin",
       "blockdata_filepath": "data/layouts/Route104_Prototype/map.bin"
@@ -2876,7 +2876,7 @@
       "name": "GraniteCave_StevensRoom_Layout",
       "width": 15,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/GraniteCave_StevensRoom/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_StevensRoom/map.bin"
@@ -2886,7 +2886,7 @@
       "name": "AbandonedShip_HiddenFloorCorridors_Layout",
       "width": 13,
       "height": 11,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_HiddenFloorCorridors/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_HiddenFloorCorridors/map.bin"
@@ -2896,7 +2896,7 @@
       "name": "SouthernIsland_Exterior_Layout",
       "width": 33,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SouthernIsland_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/SouthernIsland_Exterior/map.bin"
@@ -2906,7 +2906,7 @@
       "name": "SouthernIsland_Interior_Layout",
       "width": 27,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/SouthernIsland_Interior/border.bin",
       "blockdata_filepath": "data/layouts/SouthernIsland_Interior/map.bin"
@@ -2916,7 +2916,7 @@
       "name": "JaggedPass_Layout",
       "width": 30,
       "height": 46,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/JaggedPass/border.bin",
       "blockdata_filepath": "data/layouts/JaggedPass/map.bin"
@@ -2926,7 +2926,7 @@
       "name": "FieryPath_Layout",
       "width": 35,
       "height": 38,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/FieryPath/border.bin",
       "blockdata_filepath": "data/layouts/FieryPath/map.bin"
@@ -3016,7 +3016,7 @@
       "name": "MtPyre_Exterior_Layout",
       "width": 38,
       "height": 51,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_Exterior/map.bin"
@@ -3026,7 +3026,7 @@
       "name": "MtPyre_Summit_Layout",
       "width": 50,
       "height": 37,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MtPyre_Summit/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_Summit/map.bin"
@@ -3036,7 +3036,7 @@
       "name": "SealedChamber_InnerRoom_Layout",
       "width": 21,
       "height": 23,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SealedChamber_InnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/SealedChamber_InnerRoom/map.bin"
@@ -3096,7 +3096,7 @@
       "name": "AbandonedShip_HiddenFloorRooms_Layout",
       "width": 44,
       "height": 15,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/AbandonedShip_HiddenFloorRooms/border.bin",
       "blockdata_filepath": "data/layouts/AbandonedShip_HiddenFloorRooms/map.bin"
@@ -3106,7 +3106,7 @@
       "name": "ScorchedSlab_Layout",
       "width": 15,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ScorchedSlab/border.bin",
       "blockdata_filepath": "data/layouts/ScorchedSlab/map.bin"
@@ -3116,7 +3116,7 @@
       "name": "CaveOfOrigin_Unused_B4F_Lava_Layout",
       "width": 19,
       "height": 19,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CaveOfOrigin_Unused_B4F_Lava/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_Unused_B4F_Lava/map.bin"
@@ -3156,7 +3156,7 @@
       "name": "AquaHideout_UnusedRubyMap1_Layout",
       "width": 28,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_UnusedRubyMap1/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_UnusedRubyMap1/map.bin"
@@ -3166,7 +3166,7 @@
       "name": "AquaHideout_UnusedRubyMap2_Layout",
       "width": 62,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_UnusedRubyMap2/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_UnusedRubyMap2/map.bin"
@@ -3176,7 +3176,7 @@
       "name": "AquaHideout_UnusedRubyMap3_Layout",
       "width": 34,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/AquaHideout_UnusedRubyMap3/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_UnusedRubyMap3/map.bin"
@@ -3186,7 +3186,7 @@
       "name": "Route131_SkyPillar_Layout",
       "width": 60,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/Route131_SkyPillar/border.bin",
       "blockdata_filepath": "data/layouts/Route131_SkyPillar/map.bin"
@@ -3196,7 +3196,7 @@
       "name": "SkyPillar_Entrance_Layout",
       "width": 18,
       "height": 18,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SkyPillar_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Entrance/map.bin"
@@ -3206,7 +3206,7 @@
       "name": "SkyPillar_Outside_Layout",
       "width": 28,
       "height": 23,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_Outside/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Outside/map.bin"
@@ -3216,7 +3216,7 @@
       "name": "SkyPillar_1F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_1F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_1F/map.bin"
@@ -3226,7 +3226,7 @@
       "name": "SkyPillar_2F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_2F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_2F/map.bin"
@@ -3236,7 +3236,7 @@
       "name": "SkyPillar_3F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_3F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_3F/map.bin"
@@ -3246,7 +3246,7 @@
       "name": "SkyPillar_4F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_4F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_4F/map.bin"
@@ -3256,7 +3256,7 @@
       "name": "SeafloorCavern_Room9_Lava_Layout",
       "width": 27,
       "height": 46,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/SeafloorCavern_Room9_Lava/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room9_Lava/map.bin"
@@ -3276,7 +3276,7 @@
       "name": "ShoalCave_LowTideIceRoom_Layout",
       "width": 20,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ShoalCave_LowTideIceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideIceRoom/map.bin"
@@ -3296,7 +3296,7 @@
       "name": "SkyPillar_5F_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_5F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_5F/map.bin"
@@ -3306,7 +3306,7 @@
       "name": "SkyPillar_Top_Layout",
       "width": 27,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_Top/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Top/map.bin"
@@ -3356,7 +3356,7 @@
       "name": "MagmaHideout_1F_Layout",
       "width": 37,
       "height": 38,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_1F/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_1F/map.bin"
@@ -3366,7 +3366,7 @@
       "name": "MagmaHideout_2F_1R_Layout",
       "width": 33,
       "height": 39,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_2F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_1R/map.bin"
@@ -3376,7 +3376,7 @@
       "name": "MagmaHideout_2F_2R_Layout",
       "width": 49,
       "height": 28,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_2F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_2R/map.bin"
@@ -3386,7 +3386,7 @@
       "name": "MagmaHideout_3F_1R_Layout",
       "width": 28,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_3F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_1R/map.bin"
@@ -3396,7 +3396,7 @@
       "name": "MagmaHideout_3F_2R_Layout",
       "width": 24,
       "height": 17,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_3F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_2R/map.bin"
@@ -3406,7 +3406,7 @@
       "name": "MagmaHideout_4F_Layout",
       "width": 59,
       "height": 28,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_4F/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_4F/map.bin"
@@ -3426,7 +3426,7 @@
       "name": "BattleFrontier_BattlePalaceCorridor_Layout",
       "width": 17,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_BattlePalace",
       "border_filepath": "data/layouts/BattleFrontier_BattlePalaceCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePalaceCorridor/map.bin"
@@ -3436,7 +3436,7 @@
       "name": "BattleFrontier_BattlePalaceBattleRoom_Layout",
       "width": 15,
       "height": 10,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_BattlePalace",
       "border_filepath": "data/layouts/BattleFrontier_BattlePalaceBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattlePalaceBattleRoom/map.bin"
@@ -3446,7 +3446,7 @@
       "name": "BattleFrontier_OutsideEast_Layout",
       "width": 72,
       "height": 72,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
       "border_filepath": "data/layouts/BattleFrontier_OutsideEast/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideEast/map.bin"
@@ -3566,7 +3566,7 @@
       "name": "SootopolisCity_LegendsBattle_Layout",
       "width": 60,
       "height": 60,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Sootopolis",
       "border_filepath": "data/layouts/SootopolisCity_LegendsBattle/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_LegendsBattle/map.bin"
@@ -3786,7 +3786,7 @@
       "name": "MagmaHideout_3F_3R_Layout",
       "width": 33,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_3F_3R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_3R/map.bin"
@@ -3796,7 +3796,7 @@
       "name": "MagmaHideout_2F_3R_Layout",
       "width": 60,
       "height": 19,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/MagmaHideout_2F_3R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_3R/map.bin"
@@ -3806,7 +3806,7 @@
       "name": "MirageTower_1F_Layout",
       "width": 21,
       "height": 17,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/MirageTower_1F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_1F/map.bin"
@@ -3816,7 +3816,7 @@
       "name": "MirageTower_2F_Layout",
       "width": 21,
       "height": 17,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/MirageTower_2F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_2F/map.bin"
@@ -3826,7 +3826,7 @@
       "name": "MirageTower_3F_Layout",
       "width": 21,
       "height": 17,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/MirageTower_3F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_3F/map.bin"
@@ -3866,7 +3866,7 @@
       "name": "VerdanturfTown_BattleTentBattleRoom_Layout",
       "width": 13,
       "height": 9,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_BattleTent",
       "border_filepath": "data/layouts/VerdanturfTown_BattleTentBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/VerdanturfTown_BattleTentBattleRoom/map.bin"
@@ -3876,7 +3876,7 @@
       "name": "MirageTower_4F_Layout",
       "width": 13,
       "height": 10,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MirageTower",
       "border_filepath": "data/layouts/MirageTower_4F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_4F/map.bin"
@@ -3886,7 +3886,7 @@
       "name": "DesertUnderpass_Layout",
       "width": 139,
       "height": 23,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/DesertUnderpass/border.bin",
       "blockdata_filepath": "data/layouts/DesertUnderpass/map.bin"
@@ -3916,7 +3916,7 @@
       "name": "Route111_NoMirageTower_Layout",
       "width": 40,
       "height": 140,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route111_NoMirageTower/border.bin",
       "blockdata_filepath": "data/layouts/Route111_NoMirageTower/map.bin"
@@ -3936,7 +3936,7 @@
       "name": "SafariZone_Northeast_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Northeast/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Northeast/map.bin"
@@ -3946,7 +3946,7 @@
       "name": "SafariZone_Southeast_Layout",
       "width": 40,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Southeast/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Southeast/map.bin"
@@ -3986,7 +3986,7 @@
       "name": "BattleFrontier_ReceptionGate_Layout",
       "width": 9,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_BattleFrontier",
       "border_filepath": "data/layouts/BattleFrontier_ReceptionGate/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ReceptionGate/map.bin"
@@ -3996,7 +3996,7 @@
       "name": "ArtisanCave_B1F_Layout",
       "width": 46,
       "height": 54,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ArtisanCave_B1F/border.bin",
       "blockdata_filepath": "data/layouts/ArtisanCave_B1F/map.bin"
@@ -4006,7 +4006,7 @@
       "name": "ArtisanCave_1F_Layout",
       "width": 21,
       "height": 22,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/ArtisanCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/ArtisanCave_1F/map.bin"
@@ -4016,7 +4016,7 @@
       "name": "FarawayIsland_Entrance_Layout",
       "width": 34,
       "height": 46,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Rustboro",
       "border_filepath": "data/layouts/FarawayIsland_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/FarawayIsland_Entrance/map.bin"
@@ -4026,7 +4026,7 @@
       "name": "FarawayIsland_Interior_Layout",
       "width": 29,
       "height": 26,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/FarawayIsland_Interior/border.bin",
       "blockdata_filepath": "data/layouts/FarawayIsland_Interior/map.bin"
@@ -4036,7 +4036,7 @@
       "name": "BirthIsland_Exterior_Layout",
       "width": 30,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/BirthIsland_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/BirthIsland_Exterior/map.bin"
@@ -4046,7 +4046,7 @@
       "name": "IslandHarbor_Layout",
       "width": 17,
       "height": 13,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_IslandHarbor",
       "border_filepath": "data/layouts/IslandHarbor/border.bin",
       "blockdata_filepath": "data/layouts/IslandHarbor/map.bin"
@@ -4056,7 +4056,7 @@
       "name": "Underwater_MarineCave_Layout",
       "width": 20,
       "height": 10,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_MarineCave/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_MarineCave/map.bin"
@@ -4066,7 +4066,7 @@
       "name": "MarineCave_Entrance_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/MarineCave_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/MarineCave_Entrance/map.bin"
@@ -4076,7 +4076,7 @@
       "name": "TerraCave_Entrance_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/TerraCave_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/TerraCave_Entrance/map.bin"
@@ -4086,7 +4086,7 @@
       "name": "TerraCave_End_Layout",
       "width": 27,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/TerraCave_End/border.bin",
       "blockdata_filepath": "data/layouts/TerraCave_End/map.bin"
@@ -4096,7 +4096,7 @@
       "name": "Underwater_Route105_Layout",
       "width": 40,
       "height": 80,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route105/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route105/map.bin"
@@ -4106,7 +4106,7 @@
       "name": "Underwater_Route125_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route125/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route125/map.bin"
@@ -4116,7 +4116,7 @@
       "name": "Underwater_Route129_Layout",
       "width": 80,
       "height": 40,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route129/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route129/map.bin"
@@ -4126,7 +4126,7 @@
       "name": "MarineCave_End_Layout",
       "width": 27,
       "height": 30,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/MarineCave_End/border.bin",
       "blockdata_filepath": "data/layouts/MarineCave_End/map.bin"
@@ -4196,7 +4196,7 @@
       "name": "AlteringCave_Layout",
       "width": 32,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/AlteringCave/border.bin",
       "blockdata_filepath": "data/layouts/AlteringCave/map.bin"
@@ -4206,7 +4206,7 @@
       "name": "NavelRock_Exterior_Layout",
       "width": 21,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/NavelRock_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Exterior/map.bin"
@@ -4216,7 +4216,7 @@
       "name": "NavelRock_Entrance_Layout",
       "width": 21,
       "height": 32,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Entrance/map.bin"
@@ -4226,7 +4226,7 @@
       "name": "NavelRock_Top_Layout",
       "width": 25,
       "height": 28,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Top/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Top/map.bin"
@@ -4236,7 +4236,7 @@
       "name": "NavelRock_Bottom_Layout",
       "width": 22,
       "height": 22,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Bottom/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Bottom/map.bin"
@@ -4246,7 +4246,7 @@
       "name": "NavelRock_LadderRoom1_Layout",
       "width": 9,
       "height": 8,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_LadderRoom1/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_LadderRoom1/map.bin"
@@ -4256,7 +4256,7 @@
       "name": "NavelRock_LadderRoom2_Layout",
       "width": 9,
       "height": 8,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_LadderRoom2/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_LadderRoom2/map.bin"
@@ -4266,7 +4266,7 @@
       "name": "NavelRock_B1F_Layout",
       "width": 23,
       "height": 11,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_B1F/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_B1F/map.bin"
@@ -4276,7 +4276,7 @@
       "name": "NavelRock_Fork_Layout",
       "width": 27,
       "height": 86,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Fork/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Fork/map.bin"
@@ -4306,7 +4306,7 @@
       "name": "MeteorFalls_StevensCave_Layout",
       "width": 30,
       "height": 32,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_MeteorFalls",
       "border_filepath": "data/layouts/MeteorFalls_StevensCave/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_StevensCave/map.bin"
@@ -4326,7 +4326,7 @@
       "name": "SkyPillar_1F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_1F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_1F_Clean/map.bin"
@@ -4336,7 +4336,7 @@
       "name": "SkyPillar_2F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_2F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_2F_Clean/map.bin"
@@ -4346,7 +4346,7 @@
       "name": "SkyPillar_3F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_3F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_3F_Clean/map.bin"
@@ -4356,7 +4356,7 @@
       "name": "SkyPillar_4F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_4F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_4F_Clean/map.bin"
@@ -4366,7 +4366,7 @@
       "name": "SkyPillar_5F_Clean_Layout",
       "width": 14,
       "height": 14,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_5F_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_5F_Clean/map.bin"
@@ -4376,7 +4376,7 @@
       "name": "SkyPillar_Top_Clean_Layout",
       "width": 27,
       "height": 24,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_Pacifidlog",
       "border_filepath": "data/layouts/SkyPillar_Top_Clean/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Top_Clean/map.bin"

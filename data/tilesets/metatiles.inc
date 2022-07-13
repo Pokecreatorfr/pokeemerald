@@ -1,12 +1,4 @@
 	.align 1
-gMetatiles_General::
-	.incbin "data/tilesets/primary/general/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_General::
-	.incbin "data/tilesets/primary/general/metatile_attributes.bin"
-
-	.align 1
 gMetatiles_Petalburg::
 	.incbin "data/tilesets/secondary/petalburg/metatiles.bin"
 
