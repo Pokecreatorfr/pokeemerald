@@ -164,17 +164,6 @@ gTileset_BattleFrontierOutsideEast::
 	.4byte InitTilesetAnim_BattleFrontierOutsideEast
 
 	.align 2
-gTileset_Building::
-	.byte TRUE @ is compressed
-	.byte FALSE @ is secondary tileset
-	.2byte 0 @ padding
-	.4byte gTilesetTiles_InsideBuilding
-	.4byte gTilesetPalettes_InsideBuilding
-	.4byte gMetatiles_InsideBuilding
-	.4byte gMetatileAttributes_InsideBuilding
-	.4byte InitTilesetAnim_Building
-
-	.align 2
 gTileset_Shop::
 	.byte TRUE @ is compressed
 	.byte TRUE @ is secondary tileset
