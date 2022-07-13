@@ -653,6 +653,7 @@ u8 DoRegionMapInputCallback(void)
 }
 
 #define tnumberOfPlays   data[1]
+
 static void Task_scroll_right(u8 taskId)
 {
     gTasks[taskId].tnumberOfPlays += 1;
@@ -681,7 +682,6 @@ static u8 ProcessRegionMapInput_Full(void)
 {
     u8 input;
     u8 taskId;
-    RunTasks();
 
     input = MAP_INPUT_NONE;
     sRegionMap->cursorDeltaX = 0;
@@ -706,13 +706,13 @@ static u8 ProcessRegionMapInput_Full(void)
         sRegionMap->cursorDeltaX = +1;
         input = MAP_INPUT_MOVE_START;
     }
-    if (JOY_HELD(DPAD_RIGHT) && sRegionMap->cursorPosX >= MAPCURSOR_X_MAX && GetGpuReg(REG_OFFSET_BG2X_L) < 0xF000 && GetTaskCount() <= 4)
+    if (JOY_HELD(DPAD_RIGHT) && sRegionMap->cursorPosX >= MAPCURSOR_X_MAX && GetGpuReg(REG_OFFSET_BG2X_L) < 0xF000)
     {
         taskId = CreateTask(Task_scroll_right, 1);
         gTasks[taskId].tnumberOfPlays = 0;
         input = MAP_INPUT_MOVE_START;
     }
-        if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000 && GetTaskCount() <= 4)
+        if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000)
     {
         taskId = CreateTask(Task_scroll_left, 1);
         gTasks[taskId].tnumberOfPlays = 0;

@@ -12,6 +12,7 @@
 #include "text_window.h"
 #include "window.h"
 #include "constants/rgb.h"
+#include "task.h"
 
 /*
  *  This is the type of map shown when interacting with the metatiles for
@@ -140,6 +141,7 @@ static void MCB2_FieldUpdateRegionMap(void)
 static void FieldUpdateRegionMap(void)
 {
     u8 offset;
+    RunTasks();
 
     switch (sFieldRegionMapHandler->state)
     {
