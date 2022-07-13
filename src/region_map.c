@@ -1907,7 +1907,7 @@ static void CreateFlyDestIcons(void)
     for (mapSecId = MAPSEC_LITTLEROOT_TOWN; mapSecId <= MAPSEC_EVER_GRANDE_CITY; mapSecId++)
     {
         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
-        x = (x + (GetGpuReg(REG_OFFSET_BG2X_L)/0x800) + MAPCURSOR_X_MIN) * 8 + 4;
+        x = (x + MAPCURSOR_X_MIN - (GetGpuReg(REG_OFFSET_BG2X_L)/0x800)) * 8 + 4;
         y = (y + MAPCURSOR_Y_MIN) * 8 + 4;
 
         if (width == 2)
