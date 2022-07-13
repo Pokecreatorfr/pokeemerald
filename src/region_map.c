@@ -706,13 +706,13 @@ static u8 ProcessRegionMapInput_Full(void)
         sRegionMap->cursorDeltaX = +1;
         input = MAP_INPUT_MOVE_START;
     }
-    if (JOY_HELD(DPAD_RIGHT) && sRegionMap->cursorPosX >= MAPCURSOR_X_MAX && GetGpuReg(REG_OFFSET_BG2X_L) < 0xF000)
+    if (JOY_HELD(DPAD_RIGHT) && sRegionMap->cursorPosX >= MAPCURSOR_X_MAX && GetGpuReg(REG_OFFSET_BG2X_L) < 0xF000 && GetGpuReg(REG_OFFSET_BG2X_L) % 0x7800 == 0)
     {
         taskId = CreateTask(Task_scroll_right, 1);
         gTasks[taskId].tnumberOfPlays = 0;
         input = MAP_INPUT_MOVE_START;
     }
-        if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000)
+        if (JOY_HELD(DPAD_LEFT) && sRegionMap->cursorPosX <= MAPCURSOR_X_MIN && GetGpuReg(REG_OFFSET_BG2X_L) > 0x0000 && GetGpuReg(REG_OFFSET_BG2X_L) % 0x7800 == 0)
     {
         taskId = CreateTask(Task_scroll_left, 1);
         gTasks[taskId].tnumberOfPlays = 0;
@@ -1907,7 +1907,7 @@ static void CreateFlyDestIcons(void)
     for (mapSecId = MAPSEC_LITTLEROOT_TOWN; mapSecId <= MAPSEC_EVER_GRANDE_CITY; mapSecId++)
     {
         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
-        x = (x + MAPCURSOR_X_MIN) * 8 + 4;
+        x = (x + (GetGpuReg(REG_OFFSET_BG2X_L)/0x800) + MAPCURSOR_X_MIN) * 8 + 4;
         y = (y + MAPCURSOR_Y_MIN) * 8 + 4;
 
         if (width == 2)
@@ -2006,6 +2006,7 @@ static void CB_FadeInFlyMap(void)
 
 static void CB_HandleFlyMapInput(void)
 {
+    RunTasks();
     if (sFlyMap->state == 0)
     {
         switch (DoRegionMapInputCallback())
