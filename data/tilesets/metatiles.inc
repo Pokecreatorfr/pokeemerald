@@ -431,14 +431,6 @@ gMetatileAttributes_BattlePalace::
 	.incbin "data/tilesets/secondary/battle_palace/metatile_attributes.bin"
 
 	.align 1
-gMetatiles_BattleDome::
-	.incbin "data/tilesets/secondary/battle_dome/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_BattleDome::
-	.incbin "data/tilesets/secondary/battle_dome/metatile_attributes.bin"
-
-	.align 1
 gMetatiles_BattleFactory::
 	.incbin "data/tilesets/secondary/battle_factory/metatiles.bin"
 
