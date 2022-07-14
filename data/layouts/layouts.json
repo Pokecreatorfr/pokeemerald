@@ -3457,7 +3457,7 @@
       "width": 19,
       "height": 12,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryLobby/map.bin"
     },
@@ -3467,7 +3467,7 @@
       "width": 17,
       "height": 14,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryPreBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryPreBattleRoom/map.bin"
     },
@@ -3477,7 +3477,7 @@
       "width": 13,
       "height": 12,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFactory",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_BattleFactoryBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleFactoryBattleRoom/map.bin"
     },
