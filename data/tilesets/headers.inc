@@ -656,17 +656,6 @@ gTileset_BattlePalace::
 	.4byte NULL @ animation callback
 
 	.align 2
-gTileset_BattleFactory::
-	.byte TRUE @ is compressed
-	.byte TRUE @ is secondary tileset
-	.2byte 0 @ padding
-	.4byte gTilesetTiles_BattleFactory
-	.4byte gTilesetPalettes_BattleFactory
-	.4byte gMetatiles_BattleFactory
-	.4byte gMetatileAttributes_BattleFactory
-	.4byte NULL @ animation callback
-
-	.align 2
 gTileset_BattlePike::
 	.byte TRUE @ is compressed
 	.byte TRUE @ is secondary tileset
