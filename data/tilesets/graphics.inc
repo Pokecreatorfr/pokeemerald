@@ -1453,30 +1453,7 @@ gTilesetPalettes_BattlePike::
 	.incbin "data/tilesets/secondary/battle_pike/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/battle_pike/palettes/14.gbapal"
 	.incbin "data/tilesets/secondary/battle_pike/palettes/15.gbapal"
-
-	.align 2
-gTilesetTiles_BattleArena::
-	.incbin "data/tilesets/secondary/battle_arena/tiles.4bpp.lz"
-
-	.align 2
-gTilesetPalettes_BattleArena::
-	.incbin "data/tilesets/secondary/battle_arena/palettes/00.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/01.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/02.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/03.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/04.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/05.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/06.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/07.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/08.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/09.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/10.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/11.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/12.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/13.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_arena/palettes/15.gbapal"
-
+	
 	.align 2
 gTilesetTiles_BattlePyramid::
 	.incbin "data/tilesets/secondary/battle_pyramid/tiles.4bpp.lz"
