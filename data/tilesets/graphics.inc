@@ -298,52 +298,6 @@ gTilesetPalettes_Sootopolis::
 	.incbin "data/tilesets/secondary/sootopolis/palettes/15.gbapal"
 
 	.align 2
-gTilesetTiles_BattleFrontierOutsideWest::
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/tiles.4bpp.lz"
-
-	.align 2
-gTilesetPalettes_BattleFrontierOutsideWest::
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/00.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/01.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/02.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/03.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/04.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/05.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/06.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/07.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/08.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/09.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/10.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/11.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/12.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/13.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/palettes/15.gbapal"
-
-	.align 2
-gTilesetTiles_BattleFrontierOutsideEast::
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/tiles.4bpp.lz"
-
-	.align 2
-gTilesetPalettes_BattleFrontierOutsideEast::
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/00.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/01.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/02.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/03.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/04.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/05.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/06.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/07.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/08.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/09.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/10.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/11.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/12.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/13.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/palettes/15.gbapal"
-
-.align 2
 gTilesetTiles_Shop::
 	.incbin "data/tilesets/secondary/shop/tiles.4bpp.lz"
 
@@ -1340,29 +1294,6 @@ gTilesetPalettes_EliteFour::
 	.incbin "data/tilesets/secondary/elite_four/palettes/15.gbapal"
 
 	.align 2
-gTilesetTiles_BattleFrontier::
-	.incbin "data/tilesets/secondary/battle_frontier/tiles.4bpp.lz"
-
-	.align 2
-gTilesetPalettes_BattleFrontier::
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/00.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/01.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/02.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/03.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/04.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/05.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/06.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/07.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/08.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/09.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/10.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/11.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/12.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/13.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier/palettes/15.gbapal"
-
-	.align 2
 gTilesetTiles_BattlePalace::
 	.incbin "data/tilesets/secondary/battle_palace/tiles.4bpp.lz"
 
@@ -1545,29 +1476,6 @@ gTilesetPalettes_NavelRock::
 	.incbin "data/tilesets/secondary/navel_rock/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/navel_rock/palettes/14.gbapal"
 	.incbin "data/tilesets/secondary/navel_rock/palettes/15.gbapal"
-
-	.align 2
-gTilesetTiles_BattleFrontierRankingHall::
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/tiles.4bpp.lz"
-
-	.align 2
-gTilesetPalettes_BattleFrontierRankingHall::
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/00.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/01.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/02.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/03.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/04.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/05.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/06.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/07.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/08.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/09.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/10.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/11.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/12.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/13.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/14.gbapal"
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/palettes/15.gbapal"
 
 	.align 2
 gTilesetTiles_BattleTent::
