@@ -103,22 +103,6 @@ gMetatileAttributes_Sootopolis::
 	.incbin "data/tilesets/secondary/sootopolis/metatile_attributes.bin"
 
 	.align 1
-gMetatiles_BattleFrontierOutsideWest::
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_BattleFrontierOutsideWest::
-	.incbin "data/tilesets/secondary/battle_frontier_outside_west/metatile_attributes.bin"
-
-	.align 1
-gMetatiles_BattleFrontierOutsideEast::
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_BattleFrontierOutsideEast::
-	.incbin "data/tilesets/secondary/battle_frontier_outside_east/metatile_attributes.bin"
-
-	.align 1
 gMetatiles_Shop::
 	.incbin "data/tilesets/secondary/shop/metatiles.bin"
 
@@ -415,14 +399,6 @@ gMetatileAttributes_EliteFour::
 	.incbin "data/tilesets/secondary/elite_four/metatile_attributes.bin"
 
 	.align 1
-gMetatiles_BattleFrontier::
-	.incbin "data/tilesets/secondary/battle_frontier/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_BattleFrontier::
-	.incbin "data/tilesets/secondary/battle_frontier/metatile_attributes.bin"
-
-	.align 1
 gMetatiles_BattlePalace::
 	.incbin "data/tilesets/secondary/battle_palace/metatiles.bin"
 
@@ -485,14 +461,6 @@ gMetatiles_NavelRock::
 	.align 1
 gMetatileAttributes_NavelRock::
 	.incbin "data/tilesets/secondary/navel_rock/metatile_attributes.bin"
-
-	.align 1
-gMetatiles_BattleFrontierRankingHall::
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_BattleFrontierRankingHall::
-	.incbin "data/tilesets/secondary/battle_frontier_ranking_hall/metatile_attributes.bin"
 
 	.align 1
 gMetatiles_BattleTent::

@@ -142,28 +142,6 @@ gTileset_Sootopolis::
 	.4byte InitTilesetAnim_Sootopolis
 
 	.align 2
-gTileset_BattleFrontierOutsideWest::
-	.byte TRUE @ is compressed
-	.byte TRUE @ is secondary tileset
-	.2byte 0 @ padding
-	.4byte gTilesetTiles_BattleFrontierOutsideWest
-	.4byte gTilesetPalettes_BattleFrontierOutsideWest
-	.4byte gMetatiles_BattleFrontierOutsideWest
-	.4byte gMetatileAttributes_BattleFrontierOutsideWest
-	.4byte InitTilesetAnim_BattleFrontierOutsideWest
-
-	.align 2
-gTileset_BattleFrontierOutsideEast::
-	.byte TRUE @ is compressed
-	.byte TRUE @ is secondary tileset
-	.2byte 0 @ padding
-	.4byte gTilesetTiles_BattleFrontierOutsideEast
-	.4byte gTilesetPalettes_BattleFrontierOutsideEast
-	.4byte gMetatiles_BattleFrontierOutsideEast
-	.4byte gMetatileAttributes_BattleFrontierOutsideEast
-	.4byte InitTilesetAnim_BattleFrontierOutsideEast
-
-	.align 2
 gTileset_Shop::
 	.byte TRUE @ is compressed
 	.byte TRUE @ is secondary tileset
@@ -634,17 +612,6 @@ gTileset_EliteFour::
 	.4byte InitTilesetAnim_EliteFour
 
 	.align 2
-gTileset_BattleFrontier::
-	.byte TRUE @ is compressed
-	.byte TRUE @ is secondary tileset
-	.2byte 0 @ padding
-	.4byte gTilesetTiles_BattleFrontier
-	.4byte gTilesetPalettes_BattleFrontier
-	.4byte gMetatiles_BattleFrontier
-	.4byte gMetatileAttributes_BattleFrontier
-	.4byte NULL @ animation callback
-
-	.align 2
 gTileset_BattlePalace::
 	.byte TRUE @ is compressed
 	.byte TRUE @ is secondary tileset
@@ -730,17 +697,6 @@ gTileset_NavelRock::
 	.4byte gTilesetPalettes_NavelRock
 	.4byte gMetatiles_NavelRock
 	.4byte gMetatileAttributes_NavelRock
-	.4byte NULL @ animation callback
-
-	.align 2
-gTileset_BattleFrontierRankingHall::
-	.byte TRUE @ is compressed
-	.byte TRUE @ is secondary tileset
-	.2byte 0 @ padding
-	.4byte gTilesetTiles_BattleFrontierRankingHall
-	.4byte gTilesetPalettes_BattleFrontierRankingHall
-	.4byte gMetatiles_BattleFrontierRankingHall
-	.4byte gMetatileAttributes_BattleFrontierRankingHall
 	.4byte NULL @ animation callback
 
 	.align 2

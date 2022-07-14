@@ -2637,7 +2637,7 @@
       "width": 25,
       "height": 10,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerLobby/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerLobby/map.bin"
     },
@@ -2647,7 +2647,7 @@
       "width": 56,
       "height": 72,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_OutsideWest/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideWest/map.bin"
     },
@@ -2657,7 +2657,7 @@
       "width": 5,
       "height": 7,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleElevator/border.bin",
       "blockdata_filepath": "data/layouts/BattleElevator/map.bin"
     },
@@ -2667,7 +2667,7 @@
       "width": 17,
       "height": 5,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerCorridor/map.bin"
     },
@@ -2677,7 +2677,7 @@
       "width": 10,
       "height": 9,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerBattleRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerBattleRoom/map.bin"
     },
@@ -2727,7 +2727,7 @@
       "width": 5,
       "height": 6,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/LilycoveCity_DepartmentStoreElevator/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_DepartmentStoreElevator/map.bin"
     },
@@ -3447,7 +3447,7 @@
       "width": 72,
       "height": 72,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_OutsideEast/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_OutsideEast/map.bin"
     },
@@ -3897,7 +3897,7 @@
       "width": 21,
       "height": 15,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerMultiPartnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerMultiPartnerRoom/map.bin"
     },
@@ -3907,7 +3907,7 @@
       "width": 17,
       "height": 5,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_BattleTowerMultiCorridor/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_BattleTowerMultiCorridor/map.bin"
     },
@@ -3957,7 +3957,7 @@
       "width": 53,
       "height": 15,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontierRankingHall",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_RankingHall/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_RankingHall/map.bin"
     },
@@ -3967,7 +3967,7 @@
       "width": 13,
       "height": 8,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_Lounge1/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_Lounge1/map.bin"
     },
@@ -3977,7 +3977,7 @@
       "width": 15,
       "height": 11,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_ExchangeServiceCorner/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ExchangeServiceCorner/map.bin"
     },
@@ -3987,7 +3987,7 @@
       "width": 9,
       "height": 14,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_ReceptionGate/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ReceptionGate/map.bin"
     },
@@ -4287,7 +4287,7 @@
       "width": 9,
       "height": 10,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_Lounge2/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_Lounge2/map.bin"
     },
@@ -4297,7 +4297,7 @@
       "width": 6,
       "height": 8,
       "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_BattleFrontier",
+      "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/BattleFrontier_ScottsHouse/border.bin",
       "blockdata_filepath": "data/layouts/BattleFrontier_ScottsHouse/map.bin"
     },
