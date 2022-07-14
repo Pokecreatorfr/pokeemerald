@@ -455,14 +455,6 @@ gMetatileAttributes_BattlePike::
 	.incbin "data/tilesets/secondary/battle_pike/metatile_attributes.bin"
 
 	.align 1
-gMetatiles_BattleArena::
-	.incbin "data/tilesets/secondary/battle_arena/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_BattleArena::
-	.incbin "data/tilesets/secondary/battle_arena/metatile_attributes.bin"
-
-	.align 1
 gMetatiles_BattlePyramid::
 	.incbin "data/tilesets/secondary/battle_pyramid/metatiles.bin"
 
