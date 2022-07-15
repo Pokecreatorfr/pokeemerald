@@ -38,3 +38,13 @@ porymap.project.cfg
 *.sym
 *.js
 Porymap-Animation
+data/layouts/layouts.json
+tools/aif2pcm/LICENSE
+tools/gbafix/COPYING
+tools/bin2c/LICENSE
+tools/gbagfx/LICENSE
+tools/mid2agb/LICENSE
+tools/preproc/LICENSE
+tools/ramscrgen/LICENSE
+tools/rsfont/LICENSE
+tools/scaninc/LICENSE

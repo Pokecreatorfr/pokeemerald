@@ -26,6 +26,12 @@ static void _InitSecondaryTilesetAnimation(void);
 static void TilesetAnim_4g_tileset_exterior(u16);
 static void QueueAnimTiles__4g_tileset_flower_anim(u16);
 static void QueueAnimTiles__4g_tileset_Water_Anim(u16);
+static void QueueAnimTiles__4g_tileset_Waterfall_Anim_Part1(u16);
+static void QueueAnimTiles__4g_tileset_Waterfall_Anim_Part2(u16);
+static void QueueAnimTiles__4g_tileset_Waterfallsteam_Anim(u16);
+
+
+
 
 const u16 gTilesetAnims_4g_tileset_exterior_flower_anim_step0[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/flowers/flower_anim_step0.4bpp" );
 const u16 gTilesetAnims_4g_tileset_exterior_flower_anim_step1[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/flowers/flower_anim_step1.4bpp" );
@@ -65,6 +71,57 @@ const u16 * const gTilesetAnims_4g_tileset_Water_Anim[] = {
     gTilesetAnims_4g_tileset_exterior_Water_Anim_Step5,
     gTilesetAnims_4g_tileset_exterior_Water_Anim_Step6,
     gTilesetAnims_4g_tileset_exterior_Water_Anim_Step7,
+};
+
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step0[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/1.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step1[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/2.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step2[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/3.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step3[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/4.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step4[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/5.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step5[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/6.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step6[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/7.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step7[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/8.4bpp" );
+
+const u16 * const gTilesetAnims_4g_tileset_Waterfall_Anim_Part1[] = {
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step7,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step0,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step1,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step2,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step3,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step4,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step5,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step6,
+};
+
+const u16 * const gTilesetAnims_4g_tileset_Waterfall_Anim_Part2[] = {
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step3,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step4,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step5,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step6,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step7,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step0,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step1,
+    gTilesetAnims_4g_tileset_exterior_Waterfall_Anim_Step2,
+};
+
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim0[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/steam/1.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim1[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/steam/2.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim2[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/steam/3.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim3[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/steam/4.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim4[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/steam/5.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim5[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/steam/6.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim6[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/steam/7.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim7[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/waterfall/steam/8.4bpp" );
+
+const u16 * const gTilesetAnims_4g_tileset_Waterfallsteam_Anim[] = {
+    gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim0,
+    gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim1,
+    gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim2,
+    gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim3,
+    gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim4,
+    gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim5,
+    gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim6,
+    gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim7,
 };
 
 u16 *const gTilesetAnims_Mauville_Flower1_VDests[] = {
@@ -194,15 +251,38 @@ static void TilesetAnim_4g_tileset_exterior(u16 timer)
 {
     if (timer % 16 == 0)
         QueueAnimTiles__4g_tileset_flower_anim(timer / 16);
-
-    if (timer % 4 == 0)
+    if (timer % 16 == 0)
         QueueAnimTiles__4g_tileset_Water_Anim(timer / 16);
+    if (timer % 8 == 0)
+        QueueAnimTiles__4g_tileset_Waterfall_Anim_Part1(timer / 8);
+    if (timer % 8 == 0)
+        QueueAnimTiles__4g_tileset_Waterfall_Anim_Part2(timer / 8);
+    if (timer % 16 == 0)
+        QueueAnimTiles__4g_tileset_Waterfallsteam_Anim(timer / 16);
 }
 
 static void QueueAnimTiles__4g_tileset_flower_anim(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_4g_tileset_flower_anim); 
     AppendTilesetAnimToBuffer(gTilesetAnims_4g_tileset_flower_anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(467)), 4 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles__4g_tileset_Waterfall_Anim_Part1(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_4g_tileset_Waterfall_Anim_Part1); 
+    AppendTilesetAnimToBuffer(gTilesetAnims_4g_tileset_Waterfall_Anim_Part1[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(0x1ce)), 4 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles__4g_tileset_Waterfall_Anim_Part2(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_4g_tileset_Waterfall_Anim_Part2); 
+    AppendTilesetAnimToBuffer(gTilesetAnims_4g_tileset_Waterfall_Anim_Part2[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(0x1de)), 4 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles__4g_tileset_Waterfallsteam_Anim(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_4g_tileset_Waterfallsteam_Anim); 
+    AppendTilesetAnimToBuffer(gTilesetAnims_4g_tileset_Waterfallsteam_Anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(0x1F6)), 4 * TILE_SIZE_4BPP);
 }
 
 static void QueueAnimTiles__4g_tileset_Water_Anim(u16 timer)
