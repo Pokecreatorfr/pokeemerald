@@ -29,7 +29,7 @@ static void QueueAnimTiles__4g_tileset_Water_Anim(u16);
 static void QueueAnimTiles__4g_tileset_Waterfall_Anim_Part1(u16);
 static void QueueAnimTiles__4g_tileset_Waterfall_Anim_Part2(u16);
 static void QueueAnimTiles__4g_tileset_Waterfallsteam_Anim(u16);
-
+static void QueueAnimTiles__4g_tileset_CalmWater_Anim(u16);
 
 
 
@@ -122,6 +122,20 @@ const u16 * const gTilesetAnims_4g_tileset_Waterfallsteam_Anim[] = {
     gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim5,
     gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim6,
     gTilesetAnims_4g_tileset_exterior_Waterfallsteam_Anim7,
+};
+
+const u16 gTilesetAnims_4g_tileset_exterior_CalmWater_Anim0[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/calm_water/1.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_CalmWater_Anim1[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/calm_water/2.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_CalmWater_Anim2[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/calm_water/3.4bpp" );
+const u16 gTilesetAnims_4g_tileset_exterior_CalmWater_Anim3[] = INCBIN_U16( "data/tilesets/primary/4g_tileset_exterior/anim/calm_water/4.4bpp" );
+
+const u16 * const gTilesetAnims_4g_tileset_CalmWater_Anim[] = {
+    gTilesetAnims_4g_tileset_exterior_CalmWater_Anim0,
+    gTilesetAnims_4g_tileset_exterior_CalmWater_Anim1,
+    gTilesetAnims_4g_tileset_exterior_CalmWater_Anim2,
+    gTilesetAnims_4g_tileset_exterior_CalmWater_Anim0,
+    gTilesetAnims_4g_tileset_exterior_CalmWater_Anim1,
+    gTilesetAnims_4g_tileset_exterior_CalmWater_Anim3,
 };
 
 u16 *const gTilesetAnims_Mauville_Flower1_VDests[] = {
@@ -259,6 +273,8 @@ static void TilesetAnim_4g_tileset_exterior(u16 timer)
         QueueAnimTiles__4g_tileset_Waterfall_Anim_Part2(timer / 8);
     if (timer % 16 == 0)
         QueueAnimTiles__4g_tileset_Waterfallsteam_Anim(timer / 16);
+    if (timer % 64 == 0)
+        QueueAnimTiles__4g_tileset_CalmWater_Anim(timer / 64);
 }
 
 static void QueueAnimTiles__4g_tileset_flower_anim(u16 timer)
@@ -284,6 +300,13 @@ static void QueueAnimTiles__4g_tileset_Waterfallsteam_Anim(u16 timer)
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_4g_tileset_Waterfallsteam_Anim); 
     AppendTilesetAnimToBuffer(gTilesetAnims_4g_tileset_Waterfallsteam_Anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(0x1F6)), 4 * TILE_SIZE_4BPP);
 }
+
+static void QueueAnimTiles__4g_tileset_CalmWater_Anim(u16 timer)
+{
+    u16 i = timer % ARRAY_COUNT(gTilesetAnims_4g_tileset_CalmWater_Anim); 
+    AppendTilesetAnimToBuffer(gTilesetAnims_4g_tileset_CalmWater_Anim[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(0x1B8)), 4 * TILE_SIZE_4BPP);
+}
+
 
 static void QueueAnimTiles__4g_tileset_Water_Anim(u16 timer)
 {
