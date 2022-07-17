@@ -3,6 +3,7 @@
 *.i
 *.elf
 *.gba
+!data/*.gba
 *.sgm
 *.sa1
 *.ss[0-9]
@@ -37,14 +38,3 @@ porymap.project.cfg
 *.diff
 *.sym
 *.js
-Porymap-Animation
-data/layouts/layouts.json
-tools/aif2pcm/LICENSE
-tools/gbafix/COPYING
-tools/bin2c/LICENSE
-tools/gbagfx/LICENSE
-tools/mid2agb/LICENSE
-tools/preproc/LICENSE
-tools/ramscrgen/LICENSE
-tools/rsfont/LICENSE
-tools/scaninc/LICENSE
