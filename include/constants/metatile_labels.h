@@ -6,6 +6,7 @@
 #define METATILE_4g_tileset_exterior_pokecenter_door  0x061
 #define METATILE_4g_tileset_exterior_pokemart_door    0x021
 #define METATILE_4g_tileset_exterior_wood_door        0x324
+#define METATILE_4g_tileset_exterior_house_door       0x291
 
 // gTileset_BattleArena
 #define METATILE_BattleArena_Door  0x21B
