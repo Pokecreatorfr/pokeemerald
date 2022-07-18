@@ -110,9 +110,12 @@ static const u8 sDoorAnimPalettes_4G_house_door3[] = {11, 11, 11, 11, 11, 11, 11
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
     {METATILE_4g_tileset_exterior_pokemart_door,            DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_PokeMart, sDoorAnimPalettes_4G_PokeMart},
+    {METATILE_4g_tileset_exterior_pokemart_door2,            DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_PokeMart, sDoorAnimPalettes_4G_PokeMart},
     {METATILE_4g_tileset_exterior_pokecenter_door,          DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_PokeCenter, sDoorAnimPalettes_4G_PokeCenter},
     {METATILE_4g_tileset_exterior_gym_door,                 DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_Gym, sDoorAnimPalettes_4G_Gym},
+    {METATILE_4g_tileset_exterior_gym_door2,                 DOOR_SOUND_SLIDING, 3, sDoorAnimTiles_4G_Gym, sDoorAnimPalettes_4G_Gym},
     {METATILE_4g_tileset_exterior_wood_door,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_wood_door, sDoorAnimPalettes_4G_wood_door},
+    {METATILE_4g_tileset_exterior_wood_door2,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_wood_door, sDoorAnimPalettes_4G_wood_door},
     {METATILE_4g_tileset_exterior_house_door,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_house_door, sDoorAnimPalettes_4G_house_door},
     {METATILE_4g_tileset_exterior_house_doorbis,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_house_door, sDoorAnimPalettes_4G_house_door},
     {METATILE_4g_tileset_exterior_house_door2,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_house_door2, sDoorAnimPalettes_4G_house_door2},
