@@ -44,6 +44,10 @@ static const u8 sDoorAnimTiles_4G_house_door2[] = INCBIN_U8("graphics/door_anims
 static const u16 sDoorNullPalette6[16] = {};
 static const u8 sDoorAnimTiles_4G_house_door3[] = INCBIN_U8("graphics/door_anims/4G_house_door3.4bpp");
 static const u16 sDoorNullPalette7[16] = {};
+static const u8 sDoorAnimTiles_4G_dual_wood_door[] = INCBIN_U8("graphics/door_anims/4G_dual_wood_door.4bpp");
+static const u16 sDoorNullPalette8[16] = {};
+static const u8 sDoorAnimTiles_4G_forest_door[] = INCBIN_U8("graphics/door_anims/4G_forest_door.4bpp");
+static const u16 sDoorNullPalette9[16] = {};
 
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
@@ -106,6 +110,8 @@ static const u8 sDoorAnimPalettes_4G_wood_door[] = {7, 7, 7, 7, 7, 7, 7, 7};
 static const u8 sDoorAnimPalettes_4G_house_door[] = {12, 12, 12, 12, 12, 12, 12, 12};
 static const u8 sDoorAnimPalettes_4G_house_door2[] = {9, 9, 9, 9, 9, 9, 9, 9};
 static const u8 sDoorAnimPalettes_4G_house_door3[] = {11, 11, 11, 11, 11, 11, 11, 11};
+static const u8 sDoorAnimPalettes_4G_dual_wood_door[] = {7, 7, 7, 7, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_4G_forest_door[] = {10, 10, 10, 10, 10, 10, 10, 10};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -120,6 +126,8 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_4g_tileset_exterior_house_doorbis,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_house_door, sDoorAnimPalettes_4G_house_door},
     {METATILE_4g_tileset_exterior_house_door2,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_house_door2, sDoorAnimPalettes_4G_house_door2},
     {METATILE_4g_tileset_exterior_house_door3,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_house_door3, sDoorAnimPalettes_4G_house_door3},
+    {METATILE_4g_tileset_exterior_dual_wood_door,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_dual_wood_door, sDoorAnimPalettes_4G_dual_wood_door},
+    {METATILE_4g_tileset_exterior_forest_door,                 DOOR_SOUND_NORMAL, 3, sDoorAnimTiles_4G_forest_door, sDoorAnimPalettes_4G_forest_door},
     {},
 };
 
