@@ -1,8 +1,9 @@
 	.align 2
 voicegroup191::
     voice_keysplit voicegroup192, KeySplitTable6
-    @1
-    @2
+    voice_keysplit voicegroup192, KeySplitTable7
+    voice_keysplit voicegroup192, KeySplitTable8
+    voice_keysplit voicegroup193, KeySplitTable9
     @3
     @4
     @5
