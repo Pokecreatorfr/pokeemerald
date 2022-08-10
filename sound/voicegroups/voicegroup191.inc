@@ -5,8 +5,7 @@ voicegroup191::
     voice_keysplit voicegroup192, KeySplitTable8
     voice_keysplit voicegroup193, KeySplitTable9
     voice_keysplit voicegroup194, KeySplitTable10
-    @4
-    @5
+    voice_keysplit voicegroup195, KeySplitTable11
     @6
     @7
     @8
