@@ -6,15 +6,15 @@ voicegroup191::
     voice_keysplit voicegroup193, KeySplitTable9
     voice_keysplit voicegroup194, KeySplitTable10
     voice_keysplit voicegroup195, KeySplitTable11
-    @6
-    @7
-    @8
-    @9
-    @10
-    @11
-    @12
-    @13
-    @14
+    voice_keysplit voicegroup196, KeySplitTable12
+    voice_keysplit voicegroup197, KeySplitTable13
+    voice_keysplit voicegroup198, KeySplitTable14    
+    voice_keysplit voicegroup199, KeySplitTable15
+    voice_keysplit voicegroup200, KeySplitTable16
+    voice_keysplit voicegroup201, KeySplitTable17
+    voice_keysplit voicegroup202, KeySplitTable18
+    voice_keysplit voicegroup203, KeySplitTable19
+    voice_keysplit voicegroup204, KeySplitTable20
     @15
     @16
     @17
