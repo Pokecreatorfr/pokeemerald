@@ -21,14 +21,14 @@ voicegroup191::
     voice_keysplit voicegroup208, KeySplitTable24
     voice_keysplit voicegroup209, KeySplitTable25
     voice_keysplit voicegroup210, KeySplitTable26
-    @21
-    @22
-    @23
-    @24
-    @25
-    @26
-    @27
-    @28
+    voice_keysplit voicegroup211, KeySplitTable27
+    voice_keysplit voicegroup212, KeySplitTable28
+    voice_keysplit voicegroup213, KeySplitTable29
+    voice_keysplit voicegroup214, KeySplitTable30
+    voice_keysplit voicegroup215, KeySplitTable31
+    voice_keysplit voicegroup216, KeySplitTable32
+    voice_keysplit voicegroup217, KeySplitTable33
+    voice_keysplit voicegroup218, KeySplitTable34
     @29
     @30
     @31
