@@ -29,17 +29,17 @@ voicegroup191::
     voice_keysplit voicegroup216, KeySplitTable32
     voice_keysplit voicegroup217, KeySplitTable33
     voice_keysplit voicegroup218, KeySplitTable34
-    @29
-    @30
-    @31
-    @32
-    @33
-    @34
-    @35
-    @36
-    @37
-    @38
-    @39
+    voice_keysplit voicegroup219, KeySplitTable35
+    voice_keysplit voicegroup220, KeySplitTable36
+    voice_keysplit voicegroup221, KeySplitTable37
+    voice_keysplit voicegroup222, KeySplitTable38
+    voice_keysplit voicegroup223, KeySplitTable39
+    voice_keysplit voicegroup224, KeySplitTable40
+    voice_keysplit voicegroup225, KeySplitTable41
+    voice_keysplit voicegroup226, KeySplitTable42
+    voice_keysplit voicegroup227, KeySplitTable43
+    voice_keysplit voicegroup228, KeySplitTable44
+    voice_keysplit voicegroup229, KeySplitTable45
     @40
     @41
     @42
