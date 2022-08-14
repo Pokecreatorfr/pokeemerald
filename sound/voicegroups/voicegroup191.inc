@@ -50,16 +50,16 @@ voicegroup191::
     voice_keysplit voicegroup236, KeySplitTable53
     voice_keysplit voicegroup237, KeySplitTable54
     voice_keysplit voicegroup237, KeySplitTable54
-    @50
-    @51
-    @52
-    @53
-    @54
-    @55
-    @56
-    @57
-    @58
-    @59
+    voice_keysplit voicegroup238, KeySplitTable55
+    voice_keysplit voicegroup238, KeySplitTable56
+    voice_keysplit voicegroup239, KeySplitTable57
+    voice_keysplit voicegroup240, KeySplitTable58
+    voice_keysplit voicegroup241, KeySplitTable59
+    voice_directsound 60, 0, DirectSoundWaveData_O_HIT68, 255, 0, 255, 127
+    voice_keysplit voicegroup242, KeySplitTable60
+    voice_keysplit voicegroup243, KeySplitTable61
+    voice_keysplit voicegroup244, KeySplitTable62
+    voice_keysplit voicegroup245, KeySplitTable63
     @60
     @61
     @62
