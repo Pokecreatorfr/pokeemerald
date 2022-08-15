@@ -110,21 +110,21 @@ voicegroup191::
     voice_keysplit voicegroup292, KeySplitTable109
     voice_keysplit voicegroup293, KeySplitTable111
     voice_keysplit voicegroup294, KeySplitTable112
-    @110
-    @111
-    @112
-    @113
-    @114
-    @115
-    @116
-    @117
-    @118
-    @119
-    @120
-    @121
-    @122
-    @123
-    @124
-    @125
-    @126
-    @127
+    voice_keysplit voicegroup295, KeySplitTable113
+    voice_keysplit voicegroup296, KeySplitTable114
+    voice_keysplit voicegroup297, KeySplitTable115
+    voice_directsound 60, 0, DirectSoundWaveData_AGOGO60, 255, 0, 255, 127
+    voice_keysplit voicegroup298, KeySplitTable116
+    voice_directsound 60, 0, DirectSoundWaveData_WODBK60, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_SURDO60, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_TOM__60, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_SYNDR56, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_CRASH60B, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_GFRET69, 255, 0, 255, 127
+    voice_keysplit voicegroup299, KeySplitTable117
+    voice_directsound 60, 0, DirectSoundWaveData_SEA__60, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_BIRD_60, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_TELE_60, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_TELE260, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_APPLS64A, 255, 0, 255, 127
+    voice_directsound 60, 0, DirectSoundWaveData_PISTL60, 255, 0, 255, 127
