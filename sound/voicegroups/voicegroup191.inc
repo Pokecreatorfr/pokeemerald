@@ -80,16 +80,16 @@ voicegroup191::
     voice_keysplit voicegroup263, KeySplitTable81
     voice_keysplit voicegroup264, KeySplitTable82
     voice_keysplit voicegroup265, KeySplitTable83
-    @80
-    @81
-    @82
-    @83
-    @84
-    @85
-    @86
-    @87
-    @88
-    @89
+    voice_keysplit voicegroup266, KeySplitTable84
+    voice_keysplit voicegroup267, KeySplitTable85
+    voice_keysplit voicegroup268, KeySplitTable86
+    voice_keysplit voicegroup269, KeySplitTable87
+    voice_keysplit voicegroup270, KeySplitTable88
+    voice_keysplit voicegroup271, KeySplitTable89
+    voice_keysplit voicegroup272, KeySplitTable90
+    voice_keysplit voicegroup273, KeySplitTable91
+    voice_keysplit voicegroup274, KeySplitTable92
+    voice_keysplit voicegroup275, KeySplitTable93
     @90
     @91
     @92
