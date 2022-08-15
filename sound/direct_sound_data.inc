@@ -1,3 +1,5 @@
+#define SAMPLERATE 2 @ 1 = 13379 2 = 26758 
+
 	.align 2
 DirectSoundWaveData_sc88pro_glockenspiel::
 	.incbin "sound/direct_sound_samples/sc88pro_glockenspiel.bin"
@@ -4603,1983 +4605,3967 @@ DirectSoundWaveData_sd90_classical_whistle::
 DirectSoundWaveData_sd90_enhanced_delay_shaku::
 	.incbin "sound/direct_sound_samples/sd90_enhanced_delay_shaku.bin"
 
+#if SAMPLERATE == 1
 	.align 2
 DirectSoundWaveData_101BS35::
-	.incbin "sound/direct_sound_samples/gswavetable/101BS35.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/101BS35.bin"
 
 	.align 2
 DirectSoundWaveData_101BS48::
-	.incbin "sound/direct_sound_samples/gswavetable/101BS48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/101BS48.bin"
 
 	.align 2
 DirectSoundWaveData_12STR55A::
-	.incbin "sound/direct_sound_samples/gswavetable/12STR55A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/12STR55A.bin"
 
 	.align 2
 DirectSoundWaveData_12STR79A::
-	.incbin "sound/direct_sound_samples/gswavetable/12STR79A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/12STR79A.bin"
 
 	.align 2
 DirectSoundWaveData_12STR89A::
-	.incbin "sound/direct_sound_samples/gswavetable/12STR89A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/12STR89A.bin"
 
 	.align 2
 DirectSoundWaveData_5_SAW81::
-	.incbin "sound/direct_sound_samples/gswavetable/5_SAW81.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/5_SAW81.bin"
 
 	.align 2
 DirectSoundWaveData_60ORG67::
-	.incbin "sound/direct_sound_samples/gswavetable/60ORG67.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60ORG67.bin"
 
 	.align 2
 DirectSoundWaveData_60ORG91::
-	.incbin "sound/direct_sound_samples/gswavetable/60ORG91.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60ORG91.bin"
 
 	.align 2
 DirectSoundWaveData_60ORG96::
-	.incbin "sound/direct_sound_samples/gswavetable/60ORG96.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60ORG96.bin"
 
 	.align 2
 DirectSoundWaveData_60PNO43::
-	.incbin "sound/direct_sound_samples/gswavetable/60PNO43.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60PNO43.bin"
 
 	.align 2
 DirectSoundWaveData_60PNO48::
-	.incbin "sound/direct_sound_samples/gswavetable/60PNO48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60PNO48.bin"
 
 	.align 2
 DirectSoundWaveData_60PNO58::
-	.incbin "sound/direct_sound_samples/gswavetable/60PNO58.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60PNO58.bin"
 
 	.align 2
 DirectSoundWaveData_60PNO66::
-	.incbin "sound/direct_sound_samples/gswavetable/60PNO66.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60PNO66.bin"
 
 	.align 2
 DirectSoundWaveData_60PNO80::
-	.incbin "sound/direct_sound_samples/gswavetable/60PNO80.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60PNO80.bin"
 
 	.align 2
 DirectSoundWaveData_60PNO86::
-	.incbin "sound/direct_sound_samples/gswavetable/60PNO86.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60PNO86.bin"
 
 	.align 2
 DirectSoundWaveData_60PNO92::
-	.incbin "sound/direct_sound_samples/gswavetable/60PNO92.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/60PNO92.bin"
 
 	.align 2
 DirectSoundWaveData_808CW64::
-	.incbin "sound/direct_sound_samples/gswavetable/808CW64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/808CW64.bin"
 
 	.align 2
 DirectSoundWaveData_808MC64::
-	.incbin "sound/direct_sound_samples/gswavetable/808MC64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/808MC64.bin"
 
 	.align 2
 DirectSoundWaveData_808OH60A::
-	.incbin "sound/direct_sound_samples/gswavetable/808OH60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/808OH60A.bin"
 
 	.align 2
 DirectSoundWaveData_808SD60::
-	.incbin "sound/direct_sound_samples/gswavetable/808SD60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/808SD60.bin"
 
 	.align 2
 DirectSoundWaveData_ACCFR68A::
-	.incbin "sound/direct_sound_samples/gswavetable/ACCFR68A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ACCFR68A.bin"
 
 	.align 2
 DirectSoundWaveData_ACCFR96A::
-	.incbin "sound/direct_sound_samples/gswavetable/ACCFR96A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ACCFR96A.bin"
 
 	.align 2
 DirectSoundWaveData_ACOBS32A::
-	.incbin "sound/direct_sound_samples/gswavetable/ACOBS32A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ACOBS32A.bin"
 
 	.align 2
 DirectSoundWaveData_ACOBS43A::
-	.incbin "sound/direct_sound_samples/gswavetable/ACOBS43A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ACOBS43A.bin"
 
 	.align 2
 DirectSoundWaveData_ACOBS60A::
-	.incbin "sound/direct_sound_samples/gswavetable/ACOBS60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ACOBS60A.bin"
 
 	.align 2
 DirectSoundWaveData_AGOGO60::
-	.incbin "sound/direct_sound_samples/gswavetable/AGOGO60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/AGOGO60.bin"
 
 	.align 2
 DirectSoundWaveData_APPLS64A::
-	.incbin "sound/direct_sound_samples/gswavetable/APPLS64A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/APPLS64A.bin"
 
 	.align 2
 DirectSoundWaveData_ATMOS60A::
-	.incbin "sound/direct_sound_samples/gswavetable/ATMOS60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ATMOS60A.bin"
 
 	.align 2
 DirectSoundWaveData_ATMOS84::
-	.incbin "sound/direct_sound_samples/gswavetable/ATMOS84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ATMOS84.bin"
 
 	.align 2
 DirectSoundWaveData_A_SAX53::
-	.incbin "sound/direct_sound_samples/gswavetable/A_SAX53.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/A_SAX53.bin"
 
 	.align 2
 DirectSoundWaveData_A_SAX59::
-	.incbin "sound/direct_sound_samples/gswavetable/A_SAX59.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/A_SAX59.bin"
 
 	.align 2
 DirectSoundWaveData_A_SAX63::
-	.incbin "sound/direct_sound_samples/gswavetable/A_SAX63.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/A_SAX63.bin"
 
 	.align 2
 DirectSoundWaveData_A_SAX69::
-	.incbin "sound/direct_sound_samples/gswavetable/A_SAX69.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/A_SAX69.bin"
 
 	.align 2
 DirectSoundWaveData_A_SAX77::
-	.incbin "sound/direct_sound_samples/gswavetable/A_SAX77.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/A_SAX77.bin"
 
 	.align 2
 DirectSoundWaveData_A_SAX87::
-	.incbin "sound/direct_sound_samples/gswavetable/A_SAX87.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/A_SAX87.bin"
 
 	.align 2
 DirectSoundWaveData_A_SAX96::
-	.incbin "sound/direct_sound_samples/gswavetable/A_SAX96.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/A_SAX96.bin"
 
 	.align 2
 DirectSoundWaveData_A_SAXA5::
-	.incbin "sound/direct_sound_samples/gswavetable/A_SAXA5.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/A_SAXA5.bin"
 
 	.align 2
 DirectSoundWaveData_BAGPP53A::
-	.incbin "sound/direct_sound_samples/gswavetable/BAGPP53A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BAGPP53A.bin"
 
 	.align 2
 DirectSoundWaveData_BAGPP64A::
-	.incbin "sound/direct_sound_samples/gswavetable/BAGPP64A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BAGPP64A.bin"
 
 	.align 2
 DirectSoundWaveData_BAGPP74A::
-	.incbin "sound/direct_sound_samples/gswavetable/BAGPP74A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BAGPP74A.bin"
 
 	.align 2
 DirectSoundWaveData_BAGPP84A::
-	.incbin "sound/direct_sound_samples/gswavetable/BAGPP84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BAGPP84A.bin"
 
 	.align 2
 DirectSoundWaveData_BAGPP93A::
-	.incbin "sound/direct_sound_samples/gswavetable/BAGPP93A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BAGPP93A.bin"
 
 	.align 2
 DirectSoundWaveData_BANDO64::
-	.incbin "sound/direct_sound_samples/gswavetable/BANDO64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BANDO64.bin"
 
 	.align 2
 DirectSoundWaveData_BANDO74::
-	.incbin "sound/direct_sound_samples/gswavetable/BANDO74.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BANDO74.bin"
 
 	.align 2
 DirectSoundWaveData_BANJO60::
-	.incbin "sound/direct_sound_samples/gswavetable/BANJO60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BANJO60.bin"
 
 	.align 2
 DirectSoundWaveData_BANJO70::
-	.incbin "sound/direct_sound_samples/gswavetable/BANJO70.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BANJO70.bin"
 
 	.align 2
 DirectSoundWaveData_BANJO83::
-	.incbin "sound/direct_sound_samples/gswavetable/BANJO83.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BANJO83.bin"
 
 	.align 2
 DirectSoundWaveData_BASSN44::
-	.incbin "sound/direct_sound_samples/gswavetable/BASSN44.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BASSN44.bin"
 
 	.align 2
 DirectSoundWaveData_BASSN69::
-	.incbin "sound/direct_sound_samples/gswavetable/BASSN69.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BASSN69.bin"
 
 	.align 2
 DirectSoundWaveData_BELTR60::
-	.incbin "sound/direct_sound_samples/gswavetable/BELTR60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BELTR60.bin"
 
 	.align 2
 DirectSoundWaveData_BIRD_60::
-	.incbin "sound/direct_sound_samples/gswavetable/BIRD_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BIRD_60.bin"
 
 	.align 2
 DirectSoundWaveData_BOTTL72::
-	.incbin "sound/direct_sound_samples/gswavetable/BOTTL72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BOTTL72.bin"
 
 	.align 2
 DirectSoundWaveData_BOTTL84::
-	.incbin "sound/direct_sound_samples/gswavetable/BOTTL84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BOTTL84.bin"
 
 	.align 2
 DirectSoundWaveData_BRASS64::
-	.incbin "sound/direct_sound_samples/gswavetable/BRASS64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BRASS64.bin"
 
 	.align 2
 DirectSoundWaveData_BRASS72A::
-	.incbin "sound/direct_sound_samples/gswavetable/BRASS72A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BRASS72A.bin"
 
 	.align 2
 DirectSoundWaveData_BRASS84A::
-	.incbin "sound/direct_sound_samples/gswavetable/BRASS84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BRASS84A.bin"
 
 	.align 2
 DirectSoundWaveData_BRASS96A::
-	.incbin "sound/direct_sound_samples/gswavetable/BRASS96A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BRASS96A.bin"
 
 	.align 2
 DirectSoundWaveData_BSLAP60::
-	.incbin "sound/direct_sound_samples/gswavetable/BSLAP60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BSLAP60.bin"
 
 	.align 2
 DirectSoundWaveData_BSWRL60::
-	.incbin "sound/direct_sound_samples/gswavetable/BSWRL60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BSWRL60.bin"
 
 	.align 2
 DirectSoundWaveData_BS_LD48::
-	.incbin "sound/direct_sound_samples/gswavetable/BS_LD48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BS_LD48.bin"
 
 	.align 2
 DirectSoundWaveData_BS_LD72::
-	.incbin "sound/direct_sound_samples/gswavetable/BS_LD72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BS_LD72.bin"
 
 	.align 2
 DirectSoundWaveData_BS_LD96::
-	.incbin "sound/direct_sound_samples/gswavetable/BS_LD96.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BS_LD96.bin"
 
 	.align 2
 DirectSoundWaveData_BUBLE68A::
-	.incbin "sound/direct_sound_samples/gswavetable/BUBLE68A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BUBLE68A.bin"
 
 	.align 2
 DirectSoundWaveData_BURST64A::
-	.incbin "sound/direct_sound_samples/gswavetable/BURST64A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/BURST64A.bin"
 
 	.align 2
 DirectSoundWaveData_B_SAX38::
-	.incbin "sound/direct_sound_samples/gswavetable/B_SAX38.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/B_SAX38.bin"
 
 	.align 2
 DirectSoundWaveData_B_SAX48::
-	.incbin "sound/direct_sound_samples/gswavetable/B_SAX48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/B_SAX48.bin"
 
 	.align 2
 DirectSoundWaveData_B_SAX59::
-	.incbin "sound/direct_sound_samples/gswavetable/B_SAX59.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/B_SAX59.bin"
 
 	.align 2
 DirectSoundWaveData_B_SAX86::
-	.incbin "sound/direct_sound_samples/gswavetable/B_SAX86.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/B_SAX86.bin"
 
 	.align 2
 DirectSoundWaveData_B_SAXB0A::
-	.incbin "sound/direct_sound_samples/gswavetable/B_SAXB0A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/B_SAXB0A.bin"
 
 	.align 2
 DirectSoundWaveData_B_TAP64::
-	.incbin "sound/direct_sound_samples/gswavetable/B_TAP64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/B_TAP64.bin"
 
 	.align 2
 DirectSoundWaveData_CABA_60::
-	.incbin "sound/direct_sound_samples/gswavetable/CABA_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CABA_60.bin"
 
 	.align 2
 DirectSoundWaveData_CALLI72::
-	.incbin "sound/direct_sound_samples/gswavetable/CALLI72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CALLI72.bin"
 
 	.align 2
 DirectSoundWaveData_CALLI84::
-	.incbin "sound/direct_sound_samples/gswavetable/CALLI84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CALLI84.bin"
 
 	.align 2
 DirectSoundWaveData_CAST_60::
-	.incbin "sound/direct_sound_samples/gswavetable/CAST_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CAST_60.bin"
 
 	.align 2
 DirectSoundWaveData_CELLH64::
-	.incbin "sound/direct_sound_samples/gswavetable/CELLH64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CELLH64.bin"
 
 	.align 2
 DirectSoundWaveData_CELLL64::
-	.incbin "sound/direct_sound_samples/gswavetable/CELLL64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CELLL64.bin"
 
 	.align 2
 DirectSoundWaveData_CELLO28::
-	.incbin "sound/direct_sound_samples/gswavetable/CELLO28.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CELLO28.bin"
 
 	.align 2
 DirectSoundWaveData_CELLO41::
-	.incbin "sound/direct_sound_samples/gswavetable/CELLO41.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CELLO41.bin"
 
 	.align 2
 DirectSoundWaveData_CELLO76::
-	.incbin "sound/direct_sound_samples/gswavetable/CELLO76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CELLO76.bin"
 
 	.align 2
 DirectSoundWaveData_CELST77::
-	.incbin "sound/direct_sound_samples/gswavetable/CELST77.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CELST77.bin"
 
 	.align 2
 DirectSoundWaveData_CELSTA1::
-	.incbin "sound/direct_sound_samples/gswavetable/CELSTA1.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CELSTA1.bin"
 
 	.align 2
 DirectSoundWaveData_CHFFR72A::
-	.incbin "sound/direct_sound_samples/gswavetable/CHFFR72A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CHFFR72A.bin"
 
 	.align 2
 DirectSoundWaveData_CHFFR84::
-	.incbin "sound/direct_sound_samples/gswavetable/CHFFR84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CHFFR84.bin"
 
 	.align 2
 DirectSoundWaveData_CHH__60A::
-	.incbin "sound/direct_sound_samples/gswavetable/CHH__60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CHH__60A.bin"
 
 	.align 2
 DirectSoundWaveData_CHINA60A::
-	.incbin "sound/direct_sound_samples/gswavetable/CHINA60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CHINA60A.bin"
 
 	.align 2
 DirectSoundWaveData_CHOIR65A::
-	.incbin "sound/direct_sound_samples/gswavetable/CHOIR65A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CHOIR65A.bin"
 
 	.align 2
 DirectSoundWaveData_CHRNG60::
-	.incbin "sound/direct_sound_samples/gswavetable/CHRNG60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CHRNG60.bin"
 
 	.align 2
 DirectSoundWaveData_CHRNG84::
-	.incbin "sound/direct_sound_samples/gswavetable/CHRNG84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CHRNG84.bin"
 
 	.align 2
 DirectSoundWaveData_CLAVE60::
-	.incbin "sound/direct_sound_samples/gswavetable/CLAVE60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLAVE60.bin"
 
 	.align 2
 DirectSoundWaveData_CLAVI48::
-	.incbin "sound/direct_sound_samples/gswavetable/CLAVI48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLAVI48.bin"
 
 	.align 2
 DirectSoundWaveData_CLAVI60::
-	.incbin "sound/direct_sound_samples/gswavetable/CLAVI60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLAVI60.bin"
 
 	.align 2
 DirectSoundWaveData_CLAVI72::
-	.incbin "sound/direct_sound_samples/gswavetable/CLAVI72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLAVI72.bin"
 
 	.align 2
 DirectSoundWaveData_CLAVI84::
-	.incbin "sound/direct_sound_samples/gswavetable/CLAVI84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLAVI84.bin"
 
 	.align 2
 DirectSoundWaveData_CLICK60::
-	.incbin "sound/direct_sound_samples/gswavetable/CLICK60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLICK60.bin"
 
 	.align 2
 DirectSoundWaveData_CLNGT48::
-	.incbin "sound/direct_sound_samples/gswavetable/CLNGT48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLNGT48.bin"
 
 	.align 2
 DirectSoundWaveData_CLNGT60::
-	.incbin "sound/direct_sound_samples/gswavetable/CLNGT60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLNGT60.bin"
 
 	.align 2
 DirectSoundWaveData_CLNGT67::
-	.incbin "sound/direct_sound_samples/gswavetable/CLNGT67.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLNGT67.bin"
 
 	.align 2
 DirectSoundWaveData_CLNGT72::
-	.incbin "sound/direct_sound_samples/gswavetable/CLNGT72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLNGT72.bin"
 
 	.align 2
 DirectSoundWaveData_CLNGT84::
-	.incbin "sound/direct_sound_samples/gswavetable/CLNGT84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CLNGT84.bin"
 
 	.align 2
 DirectSoundWaveData_CONBH41::
-	.incbin "sound/direct_sound_samples/gswavetable/CONBH41.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CONBH41.bin"
 
 	.align 2
 DirectSoundWaveData_CONBL41::
-	.incbin "sound/direct_sound_samples/gswavetable/CONBL41.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CONBL41.bin"
 
 	.align 2
 DirectSoundWaveData_CONBS28::
-	.incbin "sound/direct_sound_samples/gswavetable/CONBS28.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CONBS28.bin"
 
 	.align 2
 DirectSoundWaveData_COS__59::
-	.incbin "sound/direct_sound_samples/gswavetable/COS__59.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/COS__59.bin"
 
 	.align 2
 DirectSoundWaveData_COS__76::
-	.incbin "sound/direct_sound_samples/gswavetable/COS__76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/COS__76.bin"
 
 	.align 2
 DirectSoundWaveData_COWBL66::
-	.incbin "sound/direct_sound_samples/gswavetable/COWBL66.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/COWBL66.bin"
 
 	.align 2
 DirectSoundWaveData_CPASS64::
-	.incbin "sound/direct_sound_samples/gswavetable/CPASS64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CPASS64.bin"
 
 	.align 2
 DirectSoundWaveData_CRASH60B::
-	.incbin "sound/direct_sound_samples/gswavetable/CRASH60B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CRASH60B.bin"
 
 	.align 2
 DirectSoundWaveData_CRASH65::
-	.incbin "sound/direct_sound_samples/gswavetable/CRASH65.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CRASH65.bin"
 
 	.align 2
 DirectSoundWaveData_CREAK64::
-	.incbin "sound/direct_sound_samples/gswavetable/CREAK64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CREAK64.bin"
 
 	.align 2
 DirectSoundWaveData_CSTOP64::
-	.incbin "sound/direct_sound_samples/gswavetable/CSTOP64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/CSTOP64.bin"
 
 	.align 2
 DirectSoundWaveData_C_ORG46A::
-	.incbin "sound/direct_sound_samples/gswavetable/C_ORG46A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/C_ORG46A.bin"
 
 	.align 2
 DirectSoundWaveData_C_ORG56A::
-	.incbin "sound/direct_sound_samples/gswavetable/C_ORG56A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/C_ORG56A.bin"
 
 	.align 2
 DirectSoundWaveData_C_ORG66A::
-	.incbin "sound/direct_sound_samples/gswavetable/C_ORG66A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/C_ORG66A.bin"
 
 	.align 2
 DirectSoundWaveData_C_ORG78A::
-	.incbin "sound/direct_sound_samples/gswavetable/C_ORG78A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/C_ORG78A.bin"
 
 	.align 2
 DirectSoundWaveData_C_ORG90A::
-	.incbin "sound/direct_sound_samples/gswavetable/C_ORG90A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/C_ORG90A.bin"
 
 	.align 2
 DirectSoundWaveData_DELP160A::
-	.incbin "sound/direct_sound_samples/gswavetable/DELP160A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DELP160A.bin"
 
 	.align 2
 DirectSoundWaveData_DELP184A::
-	.incbin "sound/direct_sound_samples/gswavetable/DELP184A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DELP184A.bin"
 
 	.align 2
 DirectSoundWaveData_DELP278::
-	.incbin "sound/direct_sound_samples/gswavetable/DELP278.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DELP278.bin"
 
 	.align 2
 DirectSoundWaveData_DOCSL53::
-	.incbin "sound/direct_sound_samples/gswavetable/DOCSL53.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DOCSL53.bin"
 
 	.align 2
 DirectSoundWaveData_DOCSL77::
-	.incbin "sound/direct_sound_samples/gswavetable/DOCSL77.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DOCSL77.bin"
 
 	.align 2
 DirectSoundWaveData_DOGBW60::
-	.incbin "sound/direct_sound_samples/gswavetable/DOGBW60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DOGBW60.bin"
 
 	.align 2
 DirectSoundWaveData_DORG190::
-	.incbin "sound/direct_sound_samples/gswavetable/DORG190.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DORG190.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGT48::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGT48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGT48.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGT54::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGT54.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGT54.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGT59::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGT59.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGT59.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGT64::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGT64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGT64.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGT71::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGT71.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGT71.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGT77::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGT77.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGT77.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGT92::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGT92.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGT92.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGTA1::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGTA1.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGTA1.bin"
 
 	.align 2
 DirectSoundWaveData_DSTGTA9::
-	.incbin "sound/direct_sound_samples/gswavetable/DSTGTA9.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DSTGTA9.bin"
 
 	.align 2
 DirectSoundWaveData_DWCUT60::
-	.incbin "sound/direct_sound_samples/gswavetable/DWCUT60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/DWCUT60.bin"
 
 	.align 2
 DirectSoundWaveData_EHORN53A::
-	.incbin "sound/direct_sound_samples/gswavetable/EHORN53A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EHORN53A.bin"
 
 	.align 2
 DirectSoundWaveData_EHORN61A::
-	.incbin "sound/direct_sound_samples/gswavetable/EHORN61A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EHORN61A.bin"
 
 	.align 2
 DirectSoundWaveData_EHORN70A::
-	.incbin "sound/direct_sound_samples/gswavetable/EHORN70A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EHORN70A.bin"
 
 	.align 2
 DirectSoundWaveData_EHORN82A::
-	.incbin "sound/direct_sound_samples/gswavetable/EHORN82A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EHORN82A.bin"
 
 	.align 2
 DirectSoundWaveData_ELESD60A::
-	.incbin "sound/direct_sound_samples/gswavetable/ELESD60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELESD60A.bin"
 
 	.align 2
 DirectSoundWaveData_ELP1_49::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP1_49.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP1_49.bin"
 
 	.align 2
 DirectSoundWaveData_ELP1_56::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP1_56.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP1_56.bin"
 
 	.align 2
 DirectSoundWaveData_ELP1_67::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP1_67.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP1_67.bin"
 
 	.align 2
 DirectSoundWaveData_ELP1_80::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP1_80.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP1_80.bin"
 
 	.align 2
 DirectSoundWaveData_ELP1_97::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP1_97.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP1_97.bin"
 
 	.align 2
 DirectSoundWaveData_ELP2_60::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP2_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP2_60.bin"
 
 	.align 2
 DirectSoundWaveData_ELP2_68::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP2_68.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP2_68.bin"
 
 	.align 2
 DirectSoundWaveData_ELP2_76::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP2_76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP2_76.bin"
 
 	.align 2
 DirectSoundWaveData_ELP2_84::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP2_84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP2_84.bin"
 
 	.align 2
 DirectSoundWaveData_ELP2_92::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP2_92.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP2_92.bin"
 
 	.align 2
 DirectSoundWaveData_ELP2_A0::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP2_A0.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP2_A0.bin"
 
 	.align 2
 DirectSoundWaveData_ELP2_A8::
-	.incbin "sound/direct_sound_samples/gswavetable/ELP2_A8.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ELP2_A8.bin"
 
 	.align 2
 DirectSoundWaveData_ENGIN64::
-	.incbin "sound/direct_sound_samples/gswavetable/ENGIN64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ENGIN64.bin"
 
 	.align 2
 DirectSoundWaveData_EORG173::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG173.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG173.bin"
 
 	.align 2
 DirectSoundWaveData_EORG185::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG185.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG185.bin"
 
 	.align 2
 DirectSoundWaveData_EORG197::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG197.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG197.bin"
 
 	.align 2
 DirectSoundWaveData_EORG253::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG253.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG253.bin"
 
 	.align 2
 DirectSoundWaveData_EORG268::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG268.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG268.bin"
 
 	.align 2
 DirectSoundWaveData_EORG286::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG286.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG286.bin"
 
 	.align 2
 DirectSoundWaveData_EORG367::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG367.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG367.bin"
 
 	.align 2
 DirectSoundWaveData_EORG379::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG379.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG379.bin"
 
 	.align 2
 DirectSoundWaveData_EORG391::
-	.incbin "sound/direct_sound_samples/gswavetable/EORG391.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/EORG391.bin"
 
 	.align 2
 DirectSoundWaveData_FANTA53::
-	.incbin "sound/direct_sound_samples/gswavetable/FANTA53.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FANTA53.bin"
 
 	.align 2
 DirectSoundWaveData_FANTA81::
-	.incbin "sound/direct_sound_samples/gswavetable/FANTA81.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FANTA81.bin"
 
 	.align 2
 DirectSoundWaveData_FATSD60A::
-	.incbin "sound/direct_sound_samples/gswavetable/FATSD60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FATSD60A.bin"
 
 	.align 2
 DirectSoundWaveData_FHORN60::
-	.incbin "sound/direct_sound_samples/gswavetable/FHORN60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FHORN60.bin"
 
 	.align 2
 DirectSoundWaveData_FHORN72::
-	.incbin "sound/direct_sound_samples/gswavetable/FHORN72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FHORN72.bin"
 
 	.align 2
 DirectSoundWaveData_FLUTE65A::
-	.incbin "sound/direct_sound_samples/gswavetable/FLUTE65A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FLUTE65A.bin"
 
 	.align 2
 DirectSoundWaveData_FLUTE73A::
-	.incbin "sound/direct_sound_samples/gswavetable/FLUTE73A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FLUTE73A.bin"
 
 	.align 2
 DirectSoundWaveData_FLUTE79A::
-	.incbin "sound/direct_sound_samples/gswavetable/FLUTE79A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FLUTE79A.bin"
 
 	.align 2
 DirectSoundWaveData_FLUTE88A::
-	.incbin "sound/direct_sound_samples/gswavetable/FLUTE88A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FLUTE88A.bin"
 
 	.align 2
 DirectSoundWaveData_FLUTE96A::
-	.incbin "sound/direct_sound_samples/gswavetable/FLUTE96A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FLUTE96A.bin"
 
 	.align 2
 DirectSoundWaveData_FLUTEA5A::
-	.incbin "sound/direct_sound_samples/gswavetable/FLUTEA5A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FLUTEA5A.bin"
 
 	.align 2
 DirectSoundWaveData_FMVOX66A::
-	.incbin "sound/direct_sound_samples/gswavetable/FMVOX66A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FMVOX66A.bin"
 
 	.align 2
 DirectSoundWaveData_FMVOX86A::
-	.incbin "sound/direct_sound_samples/gswavetable/FMVOX86A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FMVOX86A.bin"
 
 	.align 2
 DirectSoundWaveData_FNTBL53C::
-	.incbin "sound/direct_sound_samples/gswavetable/FNTBL53C.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FNTBL53C.bin"
 
 	.align 2
 DirectSoundWaveData_FRTLS36A::
-	.incbin "sound/direct_sound_samples/gswavetable/FRTLS36A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FRTLS36A.bin"
 
 	.align 2
 DirectSoundWaveData_FRTLS48A::
-	.incbin "sound/direct_sound_samples/gswavetable/FRTLS48A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FRTLS48A.bin"
 
 	.align 2
 DirectSoundWaveData_FRTLS60A::
-	.incbin "sound/direct_sound_samples/gswavetable/FRTLS60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/FRTLS60A.bin"
 
 	.align 2
 DirectSoundWaveData_GATSD60A::
-	.incbin "sound/direct_sound_samples/gswavetable/GATSD60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/GATSD60A.bin"
 
 	.align 2
 DirectSoundWaveData_GFRET69::
-	.incbin "sound/direct_sound_samples/gswavetable/GFRET69.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/GFRET69.bin"
 
 	.align 2
 DirectSoundWaveData_GLKN285::
-	.incbin "sound/direct_sound_samples/gswavetable/GLKN285.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/GLKN285.bin"
 
 	.align 2
 DirectSoundWaveData_GLKN385::
-	.incbin "sound/direct_sound_samples/gswavetable/GLKN385.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/GLKN385.bin"
 
 	.align 2
 DirectSoundWaveData_GLKN585::
-	.incbin "sound/direct_sound_samples/gswavetable/GLKN585.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/GLKN585.bin"
 
 	.align 2
 DirectSoundWaveData_GOBLN84A::
-	.incbin "sound/direct_sound_samples/gswavetable/GOBLN84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/GOBLN84A.bin"
 
 	.align 2
 DirectSoundWaveData_HARMO68::
-	.incbin "sound/direct_sound_samples/gswavetable/HARMO68.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARMO68.bin"
 
 	.align 2
 DirectSoundWaveData_HARMO76::
-	.incbin "sound/direct_sound_samples/gswavetable/HARMO76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARMO76.bin"
 
 	.align 2
 DirectSoundWaveData_HARMO84::
-	.incbin "sound/direct_sound_samples/gswavetable/HARMO84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARMO84.bin"
 
 	.align 2
 DirectSoundWaveData_HARMO92::
-	.incbin "sound/direct_sound_samples/gswavetable/HARMO92.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARMO92.bin"
 
 	.align 2
 DirectSoundWaveData_HARMOA0::
-	.incbin "sound/direct_sound_samples/gswavetable/HARMOA0.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARMOA0.bin"
 
 	.align 2
 DirectSoundWaveData_HARMOA8::
-	.incbin "sound/direct_sound_samples/gswavetable/HARMOA8.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARMOA8.bin"
 
 	.align 2
 DirectSoundWaveData_HARP_57A::
-	.incbin "sound/direct_sound_samples/gswavetable/HARP_57A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARP_57A.bin"
 
 	.align 2
 DirectSoundWaveData_HARP_70A::
-	.incbin "sound/direct_sound_samples/gswavetable/HARP_70A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARP_70A.bin"
 
 	.align 2
 DirectSoundWaveData_HARP_83A::
-	.incbin "sound/direct_sound_samples/gswavetable/HARP_83A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARP_83A.bin"
 
 	.align 2
 DirectSoundWaveData_HARP_96A::
-	.incbin "sound/direct_sound_samples/gswavetable/HARP_96A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HARP_96A.bin"
 
 	.align 2
 DirectSoundWaveData_HBNGO60::
-	.incbin "sound/direct_sound_samples/gswavetable/HBNGO60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HBNGO60.bin"
 
 	.align 2
 DirectSoundWaveData_HCLAP60::
-	.incbin "sound/direct_sound_samples/gswavetable/HCLAP60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HCLAP60.bin"
 
 	.align 2
 DirectSoundWaveData_HEART64::
-	.incbin "sound/direct_sound_samples/gswavetable/HEART64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HEART64.bin"
 
 	.align 2
 DirectSoundWaveData_HELI_60::
-	.incbin "sound/direct_sound_samples/gswavetable/HELI_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HELI_60.bin"
 
 	.align 2
 DirectSoundWaveData_HI_Q_60::
-	.incbin "sound/direct_sound_samples/gswavetable/HI_Q_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HI_Q_60.bin"
 
 	.align 2
 DirectSoundWaveData_HONKY42A::
-	.incbin "sound/direct_sound_samples/gswavetable/HONKY42A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HONKY42A.bin"
 
 	.align 2
 DirectSoundWaveData_HONKY62B::
-	.incbin "sound/direct_sound_samples/gswavetable/HONKY62B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HONKY62B.bin"
 
 	.align 2
 DirectSoundWaveData_HONKY71A::
-	.incbin "sound/direct_sound_samples/gswavetable/HONKY71A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HONKY71A.bin"
 
 	.align 2
 DirectSoundWaveData_HONKY84A::
-	.incbin "sound/direct_sound_samples/gswavetable/HONKY84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HONKY84A.bin"
 
 	.align 2
 DirectSoundWaveData_HONKY96A::
-	.incbin "sound/direct_sound_samples/gswavetable/HONKY96A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HONKY96A.bin"
 
 	.align 2
 DirectSoundWaveData_HORSE64::
-	.incbin "sound/direct_sound_samples/gswavetable/HORSE64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HORSE64.bin"
 
 	.align 2
 DirectSoundWaveData_HRMGT52::
-	.incbin "sound/direct_sound_samples/gswavetable/HRMGT52.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HRMGT52.bin"
 
 	.align 2
 DirectSoundWaveData_HRMGT76::
-	.incbin "sound/direct_sound_samples/gswavetable/HRMGT76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HRMGT76.bin"
 
 	.align 2
 DirectSoundWaveData_HRPSI48A::
-	.incbin "sound/direct_sound_samples/gswavetable/HRPSI48A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HRPSI48A.bin"
 
 	.align 2
 DirectSoundWaveData_HRPSI60A::
-	.incbin "sound/direct_sound_samples/gswavetable/HRPSI60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HRPSI60A.bin"
 
 	.align 2
 DirectSoundWaveData_HRPSI72A::
-	.incbin "sound/direct_sound_samples/gswavetable/HRPSI72A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HRPSI72A.bin"
 
 	.align 2
 DirectSoundWaveData_HRPSI87A::
-	.incbin "sound/direct_sound_samples/gswavetable/HRPSI87A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/HRPSI87A.bin"
 
 	.align 2
 DirectSoundWaveData_ICE__60A::
-	.incbin "sound/direct_sound_samples/gswavetable/ICE__60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ICE__60A.bin"
 
 	.align 2
 DirectSoundWaveData_ICE__84A::
-	.incbin "sound/direct_sound_samples/gswavetable/ICE__84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/ICE__84A.bin"
 
 	.align 2
 DirectSoundWaveData_JAZGT50A::
-	.incbin "sound/direct_sound_samples/gswavetable/JAZGT50A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/JAZGT50A.bin"
 
 	.align 2
 DirectSoundWaveData_JAZGT59A::
-	.incbin "sound/direct_sound_samples/gswavetable/JAZGT59A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/JAZGT59A.bin"
 
 	.align 2
 DirectSoundWaveData_JAZGT68A::
-	.incbin "sound/direct_sound_samples/gswavetable/JAZGT68A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/JAZGT68A.bin"
 
 	.align 2
 DirectSoundWaveData_JAZGT74A::
-	.incbin "sound/direct_sound_samples/gswavetable/JAZGT74A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/JAZGT74A.bin"
 
 	.align 2
 DirectSoundWaveData_JAZGT84A::
-	.incbin "sound/direct_sound_samples/gswavetable/JAZGT84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/JAZGT84A.bin"
 
 	.align 2
 DirectSoundWaveData_JAZGT93A::
-	.incbin "sound/direct_sound_samples/gswavetable/JAZGT93A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/JAZGT93A.bin"
 
 	.align 2
 DirectSoundWaveData_JAZGTA1A::
-	.incbin "sound/direct_sound_samples/gswavetable/JAZGTA1A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/JAZGTA1A.bin"
 
 	.align 2
 DirectSoundWaveData_JBELL60::
-	.incbin "sound/direct_sound_samples/gswavetable/JBELL60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/JBELL60.bin"
 
 	.align 2
 DirectSoundWaveData_KEY__60::
-	.incbin "sound/direct_sound_samples/gswavetable/KEY__60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/KEY__60.bin"
 
 	.align 2
 DirectSoundWaveData_KICK264::
-	.incbin "sound/direct_sound_samples/gswavetable/KICK264.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/KICK264.bin"
 
 	.align 2
 DirectSoundWaveData_KLMBA70::
-	.incbin "sound/direct_sound_samples/gswavetable/KLMBA70.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/KLMBA70.bin"
 
 	.align 2
 DirectSoundWaveData_KOTO_57::
-	.incbin "sound/direct_sound_samples/gswavetable/KOTO_57.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/KOTO_57.bin"
 
 	.align 2
 DirectSoundWaveData_KOTO_80::
-	.incbin "sound/direct_sound_samples/gswavetable/KOTO_80.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/KOTO_80.bin"
 
 	.align 2
 DirectSoundWaveData_KOTO_A2A::
-	.incbin "sound/direct_sound_samples/gswavetable/KOTO_A2A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/KOTO_A2A.bin"
 
 	.align 2
 DirectSoundWaveData_LASER64A::
-	.incbin "sound/direct_sound_samples/gswavetable/LASER64A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/LASER64A.bin"
 
 	.align 2
 DirectSoundWaveData_LAUGH59A::
-	.incbin "sound/direct_sound_samples/gswavetable/LAUGH59A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/LAUGH59A.bin"
 
 	.align 2
 DirectSoundWaveData_LBNGO60::
-	.incbin "sound/direct_sound_samples/gswavetable/LBNGO60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/LBNGO60.bin"
 
 	.align 2
 DirectSoundWaveData_LGUIR60::
-	.incbin "sound/direct_sound_samples/gswavetable/LGUIR60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/LGUIR60.bin"
 
 	.align 2
 DirectSoundWaveData_LWHSL60A::
-	.incbin "sound/direct_sound_samples/gswavetable/LWHSL60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/LWHSL60A.bin"
 
 	.align 2
 DirectSoundWaveData_MARCS60::
-	.incbin "sound/direct_sound_samples/gswavetable/MARCS60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MARCS60.bin"
 
 	.align 2
 DirectSoundWaveData_MCNGA60::
-	.incbin "sound/direct_sound_samples/gswavetable/MCNGA60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MCNGA60.bin"
 
 	.align 2
 DirectSoundWaveData_MCUIC60::
-	.incbin "sound/direct_sound_samples/gswavetable/MCUIC60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MCUIC60.bin"
 
 	.align 2
 DirectSoundWaveData_METRO60::
-	.incbin "sound/direct_sound_samples/gswavetable/METRO60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/METRO60.bin"
 
 	.align 2
 DirectSoundWaveData_MGSQR45::
-	.incbin "sound/direct_sound_samples/gswavetable/MGSQR45.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MGSQR45.bin"
 
 	.align 2
 DirectSoundWaveData_MGSQR57::
-	.incbin "sound/direct_sound_samples/gswavetable/MGSQR57.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MGSQR57.bin"
 
 	.align 2
 DirectSoundWaveData_MGSQR69::
-	.incbin "sound/direct_sound_samples/gswavetable/MGSQR69.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MGSQR69.bin"
 
 	.align 2
 DirectSoundWaveData_MGSQR81::
-	.incbin "sound/direct_sound_samples/gswavetable/MGSQR81.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MGSQR81.bin"
 
 	.align 2
 DirectSoundWaveData_MGSQR93::
-	.incbin "sound/direct_sound_samples/gswavetable/MGSQR93.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MGSQR93.bin"
 
 	.align 2
 DirectSoundWaveData_MMBAS40::
-	.incbin "sound/direct_sound_samples/gswavetable/MMBAS40.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MMBAS40.bin"
 
 	.align 2
 DirectSoundWaveData_MMBAS43::
-	.incbin "sound/direct_sound_samples/gswavetable/MMBAS43.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MMBAS43.bin"
 
 	.align 2
 DirectSoundWaveData_MMBAS62::
-	.incbin "sound/direct_sound_samples/gswavetable/MMBAS62.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MMBAS62.bin"
 
 	.align 2
 DirectSoundWaveData_MONDO60::
-	.incbin "sound/direct_sound_samples/gswavetable/MONDO60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MONDO60.bin"
 
 	.align 2
 DirectSoundWaveData_MRMBA50::
-	.incbin "sound/direct_sound_samples/gswavetable/MRMBA50.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MRMBA50.bin"
 
 	.align 2
 DirectSoundWaveData_MRMBA62::
-	.incbin "sound/direct_sound_samples/gswavetable/MRMBA62.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MRMBA62.bin"
 
 	.align 2
 DirectSoundWaveData_MRMBA90::
-	.incbin "sound/direct_sound_samples/gswavetable/MRMBA90.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MRMBA90.bin"
 
 	.align 2
 DirectSoundWaveData_MUTGT43::
-	.incbin "sound/direct_sound_samples/gswavetable/MUTGT43.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MUTGT43.bin"
 
 	.align 2
 DirectSoundWaveData_MUTGT64::
-	.incbin "sound/direct_sound_samples/gswavetable/MUTGT64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MUTGT64.bin"
 
 	.align 2
 DirectSoundWaveData_MUTGT81::
-	.incbin "sound/direct_sound_samples/gswavetable/MUTGT81.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MUTGT81.bin"
 
 	.align 2
 DirectSoundWaveData_MUTTP64B::
-	.incbin "sound/direct_sound_samples/gswavetable/MUTTP64B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MUTTP64B.bin"
 
 	.align 2
 DirectSoundWaveData_MUTTP73B::
-	.incbin "sound/direct_sound_samples/gswavetable/MUTTP73B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MUTTP73B.bin"
 
 	.align 2
 DirectSoundWaveData_MUTTP79B::
-	.incbin "sound/direct_sound_samples/gswavetable/MUTTP79B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MUTTP79B.bin"
 
 	.align 2
 DirectSoundWaveData_MUTTP86B::
-	.incbin "sound/direct_sound_samples/gswavetable/MUTTP86B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/MUTTP86B.bin"
 
 	.align 2
 DirectSoundWaveData_M_BOX82::
-	.incbin "sound/direct_sound_samples/gswavetable/M_BOX82.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/M_BOX82.bin"
 
 	.align 2
 DirectSoundWaveData_M_GUN64::
-	.incbin "sound/direct_sound_samples/gswavetable/M_GUN64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/M_GUN64.bin"
 
 	.align 2
 DirectSoundWaveData_NYLON48A::
-	.incbin "sound/direct_sound_samples/gswavetable/NYLON48A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/NYLON48A.bin"
 
 	.align 2
 DirectSoundWaveData_NYLON57A::
-	.incbin "sound/direct_sound_samples/gswavetable/NYLON57A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/NYLON57A.bin"
 
 	.align 2
 DirectSoundWaveData_NYLON70A::
-	.incbin "sound/direct_sound_samples/gswavetable/NYLON70A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/NYLON70A.bin"
 
 	.align 2
 DirectSoundWaveData_NYLON79A::
-	.incbin "sound/direct_sound_samples/gswavetable/NYLON79A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/NYLON79A.bin"
 
 	.align 2
 DirectSoundWaveData_NYLON88A::
-	.incbin "sound/direct_sound_samples/gswavetable/NYLON88A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/NYLON88A.bin"
 
 	.align 2
 DirectSoundWaveData_NYLON97A::
-	.incbin "sound/direct_sound_samples/gswavetable/NYLON97A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/NYLON97A.bin"
 
 	.align 2
 DirectSoundWaveData_NYLONA5A::
-	.incbin "sound/direct_sound_samples/gswavetable/NYLONA5A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/NYLONA5A.bin"
 
 	.align 2
 DirectSoundWaveData_OBOE_61A::
-	.incbin "sound/direct_sound_samples/gswavetable/OBOE_61A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OBOE_61A.bin"
 
 	.align 2
 DirectSoundWaveData_OBOE_69A::
-	.incbin "sound/direct_sound_samples/gswavetable/OBOE_69A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OBOE_69A.bin"
 
 	.align 2
 DirectSoundWaveData_OBOE_77A::
-	.incbin "sound/direct_sound_samples/gswavetable/OBOE_77A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OBOE_77A.bin"
 
 	.align 2
 DirectSoundWaveData_OBOE_81::
-	.incbin "sound/direct_sound_samples/gswavetable/OBOE_81.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OBOE_81.bin"
 
 	.align 2
 DirectSoundWaveData_OBOE_85A::
-	.incbin "sound/direct_sound_samples/gswavetable/OBOE_85A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OBOE_85A.bin"
 
 	.align 2
 DirectSoundWaveData_OCARI72A::
-	.incbin "sound/direct_sound_samples/gswavetable/OCARI72A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OCARI72A.bin"
 
 	.align 2
 DirectSoundWaveData_OCARI84A::
-	.incbin "sound/direct_sound_samples/gswavetable/OCARI84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OCARI84A.bin"
 
 	.align 2
 DirectSoundWaveData_OCARI96A::
-	.incbin "sound/direct_sound_samples/gswavetable/OCARI96A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OCARI96A.bin"
 
 	.align 2
 DirectSoundWaveData_OCNGA60::
-	.incbin "sound/direct_sound_samples/gswavetable/OCNGA60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OCNGA60.bin"
 
 	.align 2
 DirectSoundWaveData_OCUIC60::
-	.incbin "sound/direct_sound_samples/gswavetable/OCUIC60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OCUIC60.bin"
 
 	.align 2
 DirectSoundWaveData_OHH__60B::
-	.incbin "sound/direct_sound_samples/gswavetable/OHH__60B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OHH__60B.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV44::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV44.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV44.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV49::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV49.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV49.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV60::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV60.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV60A::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV60A.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV70::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV70.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV70.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV73::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV73.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV73.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV77::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV77.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV77.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV89::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV89.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV89.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRV96::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRV96.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRV96.bin"
 
 	.align 2
 DirectSoundWaveData_OVDRVA6::
-	.incbin "sound/direct_sound_samples/gswavetable/OVDRVA6.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/OVDRVA6.bin"
 
 	.align 2
 DirectSoundWaveData_O_HIT68::
-	.incbin "sound/direct_sound_samples/gswavetable/O_HIT68.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/O_HIT68.bin"
 
 	.align 2
 DirectSoundWaveData_PANNS84::
-	.incbin "sound/direct_sound_samples/gswavetable/PANNS84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PANNS84.bin"
 
 	.align 2
 DirectSoundWaveData_PANNS96::
-	.incbin "sound/direct_sound_samples/gswavetable/PANNS96.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PANNS96.bin"
 
 	.align 2
 DirectSoundWaveData_PCKBS30A::
-	.incbin "sound/direct_sound_samples/gswavetable/PCKBS30A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PCKBS30A.bin"
 
 	.align 2
 DirectSoundWaveData_PCKBS40A::
-	.incbin "sound/direct_sound_samples/gswavetable/PCKBS40A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PCKBS40A.bin"
 
 	.align 2
 DirectSoundWaveData_PCKBS50A::
-	.incbin "sound/direct_sound_samples/gswavetable/PCKBS50A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PCKBS50A.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO36::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO36.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO36.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO41::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO41.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO41.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO48::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO48.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO56::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO56.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO56.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO64::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO64.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO73::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO73.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO73.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO78::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO78.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO78.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO84::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO84.bin"
 
 	.align 2
 DirectSoundWaveData_PIANO92::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANO92.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANO92.bin"
 
 	.align 2
 DirectSoundWaveData_PIANOA3::
-	.incbin "sound/direct_sound_samples/gswavetable/PIANOA3.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIANOA3.bin"
 
 	.align 2
 DirectSoundWaveData_PICLO79::
-	.incbin "sound/direct_sound_samples/gswavetable/PICLO79.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PICLO79.bin"
 
 	.align 2
 DirectSoundWaveData_PICLO84::
-	.incbin "sound/direct_sound_samples/gswavetable/PICLO84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PICLO84.bin"
 
 	.align 2
 DirectSoundWaveData_PICLO98::
-	.incbin "sound/direct_sound_samples/gswavetable/PICLO98.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PICLO98.bin"
 
 	.align 2
 DirectSoundWaveData_PISTL60::
-	.incbin "sound/direct_sound_samples/gswavetable/PISTL60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PISTL60.bin"
 
 	.align 2
 DirectSoundWaveData_PIZZH84::
-	.incbin "sound/direct_sound_samples/gswavetable/PIZZH84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIZZH84.bin"
 
 	.align 2
 DirectSoundWaveData_PIZZ_71::
-	.incbin "sound/direct_sound_samples/gswavetable/PIZZ_71.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PIZZ_71.bin"
 
 	.align 2
 DirectSoundWaveData_PNFLT72::
-	.incbin "sound/direct_sound_samples/gswavetable/PNFLT72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PNFLT72.bin"
 
 	.align 2
 DirectSoundWaveData_POLY_48A::
-	.incbin "sound/direct_sound_samples/gswavetable/POLY_48A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/POLY_48A.bin"
 
 	.align 2
 DirectSoundWaveData_POLY_60A::
-	.incbin "sound/direct_sound_samples/gswavetable/POLY_60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/POLY_60A.bin"
 
 	.align 2
 DirectSoundWaveData_POLY_72A::
-	.incbin "sound/direct_sound_samples/gswavetable/POLY_72A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/POLY_72A.bin"
 
 	.align 2
 DirectSoundWaveData_POLY_84A::
-	.incbin "sound/direct_sound_samples/gswavetable/POLY_84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/POLY_84A.bin"
 
 	.align 2
 DirectSoundWaveData_POLY_96A::
-	.incbin "sound/direct_sound_samples/gswavetable/POLY_96A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/POLY_96A.bin"
 
 	.align 2
 DirectSoundWaveData_POPVX64A::
-	.incbin "sound/direct_sound_samples/gswavetable/POPVX64A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/POPVX64A.bin"
 
 	.align 2
 DirectSoundWaveData_POPVX71A::
-	.incbin "sound/direct_sound_samples/gswavetable/POPVX71A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/POPVX71A.bin"
 
 	.align 2
 DirectSoundWaveData_POPVX74A::
-	.incbin "sound/direct_sound_samples/gswavetable/POPVX74A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/POPVX74A.bin"
 
 	.align 2
 DirectSoundWaveData_PUNCH64::
-	.incbin "sound/direct_sound_samples/gswavetable/PUNCH64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/PUNCH64.bin"
 
 	.align 2
 DirectSoundWaveData_RDBEL64B::
-	.incbin "sound/direct_sound_samples/gswavetable/RDBEL64B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/RDBEL64B.bin"
 
 	.align 2
 DirectSoundWaveData_RDCYM60B::
-	.incbin "sound/direct_sound_samples/gswavetable/RDCYM60B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/RDCYM60B.bin"
 
 	.align 2
 DirectSoundWaveData_RECDR66A::
-	.incbin "sound/direct_sound_samples/gswavetable/RECDR66A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/RECDR66A.bin"
 
 	.align 2
 DirectSoundWaveData_RECDR75A::
-	.incbin "sound/direct_sound_samples/gswavetable/RECDR75A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/RECDR75A.bin"
 
 	.align 2
 DirectSoundWaveData_RECDR83A::
-	.incbin "sound/direct_sound_samples/gswavetable/RECDR83A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/RECDR83A.bin"
 
 	.align 2
 DirectSoundWaveData_RECDR93A::
-	.incbin "sound/direct_sound_samples/gswavetable/RECDR93A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/RECDR93A.bin"
 
 	.align 2
 DirectSoundWaveData_RECDRA3A::
-	.incbin "sound/direct_sound_samples/gswavetable/RECDRA3A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/RECDRA3A.bin"
 
 	.align 2
 DirectSoundWaveData_R_ORG53::
-	.incbin "sound/direct_sound_samples/gswavetable/R_ORG53.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/R_ORG53.bin"
 
 	.align 2
 DirectSoundWaveData_R_ORG72::
-	.incbin "sound/direct_sound_samples/gswavetable/R_ORG72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/R_ORG72.bin"
 
 	.align 2
 DirectSoundWaveData_R_ORG88::
-	.incbin "sound/direct_sound_samples/gswavetable/R_ORG88.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/R_ORG88.bin"
 
 	.align 2
 DirectSoundWaveData_SANTR74::
-	.incbin "sound/direct_sound_samples/gswavetable/SANTR74.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SANTR74.bin"
 
 	.align 2
 DirectSoundWaveData_SAW0_48::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW0_48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW0_48.bin"
 
 	.align 2
 DirectSoundWaveData_SAW0_60::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW0_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW0_60.bin"
 
 	.align 2
 DirectSoundWaveData_SAW0_72::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW0_72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW0_72.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__40::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__40.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__40.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__52::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__52.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__52.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__64::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__64.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__76::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__76.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__88::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__88.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__88.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__A0A::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__A0A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__A0A.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__A7A::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__A7A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__A7A.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__B2A::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__B2A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__B2A.bin"
 
 	.align 2
 DirectSoundWaveData_SAW__B9B::
-	.incbin "sound/direct_sound_samples/gswavetable/SAW__B9B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SAW__B9B.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS148A::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS148A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS148A.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS160A::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS160A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS160A.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS172A::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS172A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS172A.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS184A::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS184A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS184A.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS196A::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS196A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS196A.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS243::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS243.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS243.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS255::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS255.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS255.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS272::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS272.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS272.bin"
 
 	.align 2
 DirectSoundWaveData_SBRS296::
-	.incbin "sound/direct_sound_samples/gswavetable/SBRS296.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SBRS296.bin"
 
 	.align 2
 DirectSoundWaveData_SCRCH64::
-	.incbin "sound/direct_sound_samples/gswavetable/SCRCH64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SCRCH64.bin"
 
 	.align 2
 DirectSoundWaveData_SCREM64A::
-	.incbin "sound/direct_sound_samples/gswavetable/SCREM64A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SCREM64A.bin"
 
 	.align 2
 DirectSoundWaveData_SDOOR64::
-	.incbin "sound/direct_sound_samples/gswavetable/SDOOR64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SDOOR64.bin"
 
 	.align 2
 DirectSoundWaveData_SEA__60::
-	.incbin "sound/direct_sound_samples/gswavetable/SEA__60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SEA__60.bin"
 
 	.align 2
 DirectSoundWaveData_SGUIR60::
-	.incbin "sound/direct_sound_samples/gswavetable/SGUIR60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SGUIR60.bin"
 
 	.align 2
 DirectSoundWaveData_SHAKU63::
-	.incbin "sound/direct_sound_samples/gswavetable/SHAKU63.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SHAKU63.bin"
 
 	.align 2
 DirectSoundWaveData_SHAKU70::
-	.incbin "sound/direct_sound_samples/gswavetable/SHAKU70.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SHAKU70.bin"
 
 	.align 2
 DirectSoundWaveData_SHAKU78::
-	.incbin "sound/direct_sound_samples/gswavetable/SHAKU78.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SHAKU78.bin"
 
 	.align 2
 DirectSoundWaveData_SHAMI53::
-	.incbin "sound/direct_sound_samples/gswavetable/SHAMI53.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SHAMI53.bin"
 
 	.align 2
 DirectSoundWaveData_SHAMI65::
-	.incbin "sound/direct_sound_samples/gswavetable/SHAMI65.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SHAMI65.bin"
 
 	.align 2
 DirectSoundWaveData_SHAMI77::
-	.incbin "sound/direct_sound_samples/gswavetable/SHAMI77.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SHAMI77.bin"
 
 	.align 2
 DirectSoundWaveData_SHAMI89::
-	.incbin "sound/direct_sound_samples/gswavetable/SHAMI89.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SHAMI89.bin"
 
 	.align 2
 DirectSoundWaveData_SIDE_60::
-	.incbin "sound/direct_sound_samples/gswavetable/SIDE_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SIDE_60.bin"
 
 	.align 2
 DirectSoundWaveData_SINE_52::
-	.incbin "sound/direct_sound_samples/gswavetable/SINE_52.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SINE_52.bin"
 
 	.align 2
 DirectSoundWaveData_SINE_64::
-	.incbin "sound/direct_sound_samples/gswavetable/SINE_64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SINE_64.bin"
 
 	.align 2
 DirectSoundWaveData_SINE_76::
-	.incbin "sound/direct_sound_samples/gswavetable/SINE_76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SINE_76.bin"
 
 	.align 2
 DirectSoundWaveData_SINE_88::
-	.incbin "sound/direct_sound_samples/gswavetable/SINE_88.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SINE_88.bin"
 
 	.align 2
 DirectSoundWaveData_SINE_A0A::
-	.incbin "sound/direct_sound_samples/gswavetable/SINE_A0A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SINE_A0A.bin"
 
 	.align 2
 DirectSoundWaveData_SINE_B2A::
-	.incbin "sound/direct_sound_samples/gswavetable/SINE_B2A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SINE_B2A.bin"
 
 	.align 2
 DirectSoundWaveData_SINE_B9::
-	.incbin "sound/direct_sound_samples/gswavetable/SINE_B9.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SINE_B9.bin"
 
 	.align 2
 DirectSoundWaveData_SIREN64::
-	.incbin "sound/direct_sound_samples/gswavetable/SIREN64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SIREN64.bin"
 
 	.align 2
 DirectSoundWaveData_SITAR60::
-	.incbin "sound/direct_sound_samples/gswavetable/SITAR60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SITAR60.bin"
 
 	.align 2
 DirectSoundWaveData_SITAR76::
-	.incbin "sound/direct_sound_samples/gswavetable/SITAR76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SITAR76.bin"
 
 	.align 2
 DirectSoundWaveData_SITAR95::
-	.incbin "sound/direct_sound_samples/gswavetable/SITAR95.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SITAR95.bin"
 
 	.align 2
 DirectSoundWaveData_SLAP_60::
-	.incbin "sound/direct_sound_samples/gswavetable/SLAP_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SLAP_60.bin"
 
 	.align 2
 DirectSoundWaveData_SLPBS31::
-	.incbin "sound/direct_sound_samples/gswavetable/SLPBS31.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SLPBS31.bin"
 
 	.align 2
 DirectSoundWaveData_SLPBS43::
-	.incbin "sound/direct_sound_samples/gswavetable/SLPBS43.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SLPBS43.bin"
 
 	.align 2
 DirectSoundWaveData_SLPBS84::
-	.incbin "sound/direct_sound_samples/gswavetable/SLPBS84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SLPBS84.bin"
 
 	.align 2
 DirectSoundWaveData_SLPMT52A::
-	.incbin "sound/direct_sound_samples/gswavetable/SLPMT52A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SLPMT52A.bin"
 
 	.align 2
 DirectSoundWaveData_SOLKK60A::
-	.incbin "sound/direct_sound_samples/gswavetable/SOLKK60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SOLKK60A.bin"
 
 	.align 2
 DirectSoundWaveData_SOUND60::
-	.incbin "sound/direct_sound_samples/gswavetable/SOUND60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SOUND60.bin"
 
 	.align 2
 DirectSoundWaveData_SOUND84::
-	.incbin "sound/direct_sound_samples/gswavetable/SOUND84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SOUND84.bin"
 
 	.align 2
 DirectSoundWaveData_SPACE79::
-	.incbin "sound/direct_sound_samples/gswavetable/SPACE79.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SPACE79.bin"
 
 	.align 2
 DirectSoundWaveData_SPULL60::
-	.incbin "sound/direct_sound_samples/gswavetable/SPULL60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SPULL60.bin"
 
 	.align 2
 DirectSoundWaveData_SPUSH60::
-	.incbin "sound/direct_sound_samples/gswavetable/SPUSH60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SPUSH60.bin"
 
 	.align 2
 DirectSoundWaveData_SQUAR41::
-	.incbin "sound/direct_sound_samples/gswavetable/SQUAR41.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SQUAR41.bin"
 
 	.align 2
 DirectSoundWaveData_SQUAR48::
-	.incbin "sound/direct_sound_samples/gswavetable/SQUAR48.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SQUAR48.bin"
 
 	.align 2
 DirectSoundWaveData_SQUAR60::
-	.incbin "sound/direct_sound_samples/gswavetable/SQUAR60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SQUAR60.bin"
 
 	.align 2
 DirectSoundWaveData_SQUAR67::
-	.incbin "sound/direct_sound_samples/gswavetable/SQUAR67.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SQUAR67.bin"
 
 	.align 2
 DirectSoundWaveData_SQUAR79::
-	.incbin "sound/direct_sound_samples/gswavetable/SQUAR79.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SQUAR79.bin"
 
 	.align 2
 DirectSoundWaveData_SQUAR96::
-	.incbin "sound/direct_sound_samples/gswavetable/SQUAR96.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SQUAR96.bin"
 
 	.align 2
 DirectSoundWaveData_SSTR148::
-	.incbin "sound/direct_sound_samples/gswavetable/SSTR148.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SSTR148.bin"
 
 	.align 2
 DirectSoundWaveData_SSTR162A::
-	.incbin "sound/direct_sound_samples/gswavetable/SSTR162A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SSTR162A.bin"
 
 	.align 2
 DirectSoundWaveData_SSTR186A::
-	.incbin "sound/direct_sound_samples/gswavetable/SSTR186A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SSTR186A.bin"
 
 	.align 2
 DirectSoundWaveData_SSTR367::
-	.incbin "sound/direct_sound_samples/gswavetable/SSTR367.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SSTR367.bin"
 
 	.align 2
 DirectSoundWaveData_SSTR382::
-	.incbin "sound/direct_sound_samples/gswavetable/SSTR382.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SSTR382.bin"
 
 	.align 2
 DirectSoundWaveData_STAR_60A::
-	.incbin "sound/direct_sound_samples/gswavetable/STAR_60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STAR_60A.bin"
 
 	.align 2
 DirectSoundWaveData_STAR_84A::
-	.incbin "sound/direct_sound_samples/gswavetable/STAR_84A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STAR_84A.bin"
 
 	.align 2
 DirectSoundWaveData_STEPS64::
-	.incbin "sound/direct_sound_samples/gswavetable/STEPS64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STEPS64.bin"
 
 	.align 2
 DirectSoundWaveData_STICK64::
-	.incbin "sound/direct_sound_samples/gswavetable/STICK64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STICK64.bin"
 
 	.align 2
 DirectSoundWaveData_STLDR72::
-	.incbin "sound/direct_sound_samples/gswavetable/STLDR72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STLDR72.bin"
 
 	.align 2
 DirectSoundWaveData_STLGT41B::
-	.incbin "sound/direct_sound_samples/gswavetable/STLGT41B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STLGT41B.bin"
 
 	.align 2
 DirectSoundWaveData_STLGT49B::
-	.incbin "sound/direct_sound_samples/gswavetable/STLGT49B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STLGT49B.bin"
 
 	.align 2
 DirectSoundWaveData_STLGT57B::
-	.incbin "sound/direct_sound_samples/gswavetable/STLGT57B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STLGT57B.bin"
 
 	.align 2
 DirectSoundWaveData_STLGT65B::
-	.incbin "sound/direct_sound_samples/gswavetable/STLGT65B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STLGT65B.bin"
 
 	.align 2
 DirectSoundWaveData_STLGT74B::
-	.incbin "sound/direct_sound_samples/gswavetable/STLGT74B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STLGT74B.bin"
 
 	.align 2
 DirectSoundWaveData_STLGT84B::
-	.incbin "sound/direct_sound_samples/gswavetable/STLGT84B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STLGT84B.bin"
 
 	.align 2
 DirectSoundWaveData_STREM67B::
-	.incbin "sound/direct_sound_samples/gswavetable/STREM67B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STREM67B.bin"
 
 	.align 2
 DirectSoundWaveData_STRNG52B::
-	.incbin "sound/direct_sound_samples/gswavetable/STRNG52B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STRNG52B.bin"
 
 	.align 2
 DirectSoundWaveData_STRNG71B::
-	.incbin "sound/direct_sound_samples/gswavetable/STRNG71B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STRNG71B.bin"
 
 	.align 2
 DirectSoundWaveData_STRNG88B::
-	.incbin "sound/direct_sound_samples/gswavetable/STRNG88B.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STRNG88B.bin"
 
 	.align 2
 DirectSoundWaveData_STSHP64::
-	.incbin "sound/direct_sound_samples/gswavetable/STSHP64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/STSHP64.bin"
 
 	.align 2
 DirectSoundWaveData_SURDO60::
-	.incbin "sound/direct_sound_samples/gswavetable/SURDO60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SURDO60.bin"
 
 	.align 2
 DirectSoundWaveData_SWHSL60A::
-	.incbin "sound/direct_sound_samples/gswavetable/SWHSL60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SWHSL60A.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS133::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS133.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS133.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS148A::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS148A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS148A.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS172A::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS172A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS172A.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS196A::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS196A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS196A.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS233::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS233.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS233.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS248A::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS248A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS248A.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS272A::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS272A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS272A.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS336A::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS336A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS336A.bin"
 
 	.align 2
 DirectSoundWaveData_SYBS429A::
-	.incbin "sound/direct_sound_samples/gswavetable/SYBS429A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYBS429A.bin"
 
 	.align 2
 DirectSoundWaveData_SYNCL55::
-	.incbin "sound/direct_sound_samples/gswavetable/SYNCL55.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYNCL55.bin"
 
 	.align 2
 DirectSoundWaveData_SYNCL64::
-	.incbin "sound/direct_sound_samples/gswavetable/SYNCL64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYNCL64.bin"
 
 	.align 2
 DirectSoundWaveData_SYNCL70::
-	.incbin "sound/direct_sound_samples/gswavetable/SYNCL70.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYNCL70.bin"
 
 	.align 2
 DirectSoundWaveData_SYNCL75::
-	.incbin "sound/direct_sound_samples/gswavetable/SYNCL75.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYNCL75.bin"
 
 	.align 2
 DirectSoundWaveData_SYNCL87::
-	.incbin "sound/direct_sound_samples/gswavetable/SYNCL87.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYNCL87.bin"
 
 	.align 2
 DirectSoundWaveData_SYNDR56::
-	.incbin "sound/direct_sound_samples/gswavetable/SYNDR56.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYNDR56.bin"
 
 	.align 2
 DirectSoundWaveData_SYNVX70::
-	.incbin "sound/direct_sound_samples/gswavetable/SYNVX70.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYNVX70.bin"
 
 	.align 2
 DirectSoundWaveData_SYNVXA6A::
-	.incbin "sound/direct_sound_samples/gswavetable/SYNVXA6A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/SYNVXA6A.bin"
 
 	.align 2
 DirectSoundWaveData_S_SAX70::
-	.incbin "sound/direct_sound_samples/gswavetable/S_SAX70.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/S_SAX70.bin"
 
 	.align 2
 DirectSoundWaveData_S_SAX76::
-	.incbin "sound/direct_sound_samples/gswavetable/S_SAX76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/S_SAX76.bin"
 
 	.align 2
 DirectSoundWaveData_S_SAX82::
-	.incbin "sound/direct_sound_samples/gswavetable/S_SAX82.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/S_SAX82.bin"
 
 	.align 2
 DirectSoundWaveData_S_SAX88::
-	.incbin "sound/direct_sound_samples/gswavetable/S_SAX88.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/S_SAX88.bin"
 
 	.align 2
 DirectSoundWaveData_S_SAX95::
-	.incbin "sound/direct_sound_samples/gswavetable/S_SAX95.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/S_SAX95.bin"
 
 	.align 2
 DirectSoundWaveData_S_SAXA2::
-	.incbin "sound/direct_sound_samples/gswavetable/S_SAXA2.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/S_SAXA2.bin"
 
 	.align 2
 DirectSoundWaveData_S_SAXA8::
-	.incbin "sound/direct_sound_samples/gswavetable/S_SAXA8.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/S_SAXA8.bin"
 
 	.align 2
 DirectSoundWaveData_TAMBO60::
-	.incbin "sound/direct_sound_samples/gswavetable/TAMBO60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TAMBO60.bin"
 
 	.align 2
 DirectSoundWaveData_TELE260::
-	.incbin "sound/direct_sound_samples/gswavetable/TELE260.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TELE260.bin"
 
 	.align 2
 DirectSoundWaveData_TELE_60::
-	.incbin "sound/direct_sound_samples/gswavetable/TELE_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TELE_60.bin"
 
 	.align 2
 DirectSoundWaveData_THUND64::
-	.incbin "sound/direct_sound_samples/gswavetable/THUND64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/THUND64.bin"
 
 	.align 2
 DirectSoundWaveData_TIMBL60::
-	.incbin "sound/direct_sound_samples/gswavetable/TIMBL60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TIMBL60.bin"
 
 	.align 2
 DirectSoundWaveData_TKOTO67::
-	.incbin "sound/direct_sound_samples/gswavetable/TKOTO67.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TKOTO67.bin"
 
 	.align 2
 DirectSoundWaveData_TKOTO79::
-	.incbin "sound/direct_sound_samples/gswavetable/TKOTO79.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TKOTO79.bin"
 
 	.align 2
 DirectSoundWaveData_TMPNI47::
-	.incbin "sound/direct_sound_samples/gswavetable/TMPNI47.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TMPNI47.bin"
 
 	.align 2
 DirectSoundWaveData_TNKBLA5::
-	.incbin "sound/direct_sound_samples/gswavetable/TNKBLA5.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TNKBLA5.bin"
 
 	.align 2
 DirectSoundWaveData_TOM__60::
-	.incbin "sound/direct_sound_samples/gswavetable/TOM__60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TOM__60.bin"
 
 	.align 2
 DirectSoundWaveData_TRAIN64::
-	.incbin "sound/direct_sound_samples/gswavetable/TRAIN64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRAIN64.bin"
 
 	.align 2
 DirectSoundWaveData_TRI__60::
-	.incbin "sound/direct_sound_samples/gswavetable/TRI__60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRI__60.bin"
 
 	.align 2
 DirectSoundWaveData_TRMBN40A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMBN40A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMBN40A.bin"
 
 	.align 2
 DirectSoundWaveData_TRMBN48A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMBN48A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMBN48A.bin"
 
 	.align 2
 DirectSoundWaveData_TRMBN55A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMBN55A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMBN55A.bin"
 
 	.align 2
 DirectSoundWaveData_TRMBN62A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMBN62A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMBN62A.bin"
 
 	.align 2
 DirectSoundWaveData_TRMBN68A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMBN68A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMBN68A.bin"
 
 	.align 2
 DirectSoundWaveData_TRMBN77A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMBN77A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMBN77A.bin"
 
 	.align 2
 DirectSoundWaveData_TRMBN86A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMBN86A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMBN86A.bin"
 
 	.align 2
 DirectSoundWaveData_TRMBN93A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMBN93A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMBN93A.bin"
 
 	.align 2
 DirectSoundWaveData_TRMPT65::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMPT65.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMPT65.bin"
 
 	.align 2
 DirectSoundWaveData_TRMPT73::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMPT73.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMPT73.bin"
 
 	.align 2
 DirectSoundWaveData_TRMPT81::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMPT81.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMPT81.bin"
 
 	.align 2
 DirectSoundWaveData_TRMPT86::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMPT86.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMPT86.bin"
 
 	.align 2
 DirectSoundWaveData_TRMPT92::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMPT92.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMPT92.bin"
 
 	.align 2
 DirectSoundWaveData_TRMPTA1::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMPTA1.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMPTA1.bin"
 
 	.align 2
 DirectSoundWaveData_TRMPTB1A::
-	.incbin "sound/direct_sound_samples/gswavetable/TRMPTB1A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TRMPTB1A.bin"
 
 	.align 2
 DirectSoundWaveData_TUBA_34::
-	.incbin "sound/direct_sound_samples/gswavetable/TUBA_34.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TUBA_34.bin"
 
 	.align 2
 DirectSoundWaveData_TUBA_45::
-	.incbin "sound/direct_sound_samples/gswavetable/TUBA_45.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TUBA_45.bin"
 
 	.align 2
 DirectSoundWaveData_TUBLR84::
-	.incbin "sound/direct_sound_samples/gswavetable/TUBLR84.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/TUBLR84.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAX46::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAX46.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAX46.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAX57::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAX57.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAX57.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAX63::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAX63.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAX63.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAX68::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAX68.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAX68.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAX74::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAX74.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAX74.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAX81::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAX81.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAX81.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAX89::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAX89.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAX89.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAX97::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAX97.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAX97.bin"
 
 	.align 2
 DirectSoundWaveData_T_SAXA8::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SAXA8.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SAXA8.bin"
 
 	.align 2
 DirectSoundWaveData_T_SNR60A::
-	.incbin "sound/direct_sound_samples/gswavetable/T_SNR60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/T_SNR60A.bin"
 
 	.align 2
 DirectSoundWaveData_UPCUT60::
-	.incbin "sound/direct_sound_samples/gswavetable/UPCUT60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/UPCUT60.bin"
 
 	.align 2
 DirectSoundWaveData_VBSLP64::
-	.incbin "sound/direct_sound_samples/gswavetable/VBSLP64.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VBSLP64.bin"
 
 	.align 2
 DirectSoundWaveData_VIBE_52A::
-	.incbin "sound/direct_sound_samples/gswavetable/VIBE_52A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIBE_52A.bin"
 
 	.align 2
 DirectSoundWaveData_VIBE_64A::
-	.incbin "sound/direct_sound_samples/gswavetable/VIBE_64A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIBE_64A.bin"
 
 	.align 2
 DirectSoundWaveData_VIBE_76A::
-	.incbin "sound/direct_sound_samples/gswavetable/VIBE_76A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIBE_76A.bin"
 
 	.align 2
 DirectSoundWaveData_VIBE_88A::
-	.incbin "sound/direct_sound_samples/gswavetable/VIBE_88A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIBE_88A.bin"
 
 	.align 2
 DirectSoundWaveData_VIBE_A0A::
-	.incbin "sound/direct_sound_samples/gswavetable/VIBE_A0A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIBE_A0A.bin"
 
 	.align 2
 DirectSoundWaveData_VIOLN68::
-	.incbin "sound/direct_sound_samples/gswavetable/VIOLN68.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIOLN68.bin"
 
 	.align 2
 DirectSoundWaveData_VIOLN70::
-	.incbin "sound/direct_sound_samples/gswavetable/VIOLN70.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIOLN70.bin"
 
 	.align 2
 DirectSoundWaveData_VIOLN76::
-	.incbin "sound/direct_sound_samples/gswavetable/VIOLN76.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIOLN76.bin"
 
 	.align 2
 DirectSoundWaveData_VIOLN80::
-	.incbin "sound/direct_sound_samples/gswavetable/VIOLN80.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIOLN80.bin"
 
 	.align 2
 DirectSoundWaveData_VIOLN86::
-	.incbin "sound/direct_sound_samples/gswavetable/VIOLN86.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIOLN86.bin"
 
 	.align 2
 DirectSoundWaveData_VIOLN95::
-	.incbin "sound/direct_sound_samples/gswavetable/VIOLN95.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIOLN95.bin"
 
 	.align 2
 DirectSoundWaveData_VIOLNA4::
-	.incbin "sound/direct_sound_samples/gswavetable/VIOLNA4.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/VIOLNA4.bin"
 
 	.align 2
 DirectSoundWaveData_WCHIM60A::
-	.incbin "sound/direct_sound_samples/gswavetable/WCHIM60A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/WCHIM60A.bin"
 
 	.align 2
 DirectSoundWaveData_WIND_60::
-	.incbin "sound/direct_sound_samples/gswavetable/WIND_60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/WIND_60.bin"
 
 	.align 2
 DirectSoundWaveData_WODBK60::
-	.incbin "sound/direct_sound_samples/gswavetable/WODBK60.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/WODBK60.bin"
 
 	.align 2
 DirectSoundWaveData_WRMPD72A::
-	.incbin "sound/direct_sound_samples/gswavetable/WRMPD72A.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/WRMPD72A.bin"
 
 	.align 2
 DirectSoundWaveData_XYLO_72::
-	.incbin "sound/direct_sound_samples/gswavetable/XYLO_72.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/XYLO_72.bin"
 
 	.align 2
 DirectSoundWaveData_XYLO_93::
-	.incbin "sound/direct_sound_samples/gswavetable/XYLO_93.bin"
+	.incbin "sound/direct_sound_samples/gswavetable/13379/XYLO_93.bin"
 
+#endif
+#if SAMPLERATE == 2
+	.align 2
+DirectSoundWaveData_101BS35::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/101BS35.bin"
+
+	.align 2
+DirectSoundWaveData_101BS48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/101BS48.bin"
+
+	.align 2
+DirectSoundWaveData_12STR55A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/12STR55A.bin"
+
+	.align 2
+DirectSoundWaveData_12STR79A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/12STR79A.bin"
+
+	.align 2
+DirectSoundWaveData_12STR89A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/12STR89A.bin"
+
+	.align 2
+DirectSoundWaveData_5_SAW81::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/5_SAW81.bin"
+
+	.align 2
+DirectSoundWaveData_60ORG67::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60ORG67.bin"
+
+	.align 2
+DirectSoundWaveData_60ORG91::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60ORG91.bin"
+
+	.align 2
+DirectSoundWaveData_60ORG96::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60ORG96.bin"
+
+	.align 2
+DirectSoundWaveData_60PNO43::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60PNO43.bin"
+
+	.align 2
+DirectSoundWaveData_60PNO48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60PNO48.bin"
+
+	.align 2
+DirectSoundWaveData_60PNO58::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60PNO58.bin"
+
+	.align 2
+DirectSoundWaveData_60PNO66::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60PNO66.bin"
+
+	.align 2
+DirectSoundWaveData_60PNO80::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60PNO80.bin"
+
+	.align 2
+DirectSoundWaveData_60PNO86::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60PNO86.bin"
+
+	.align 2
+DirectSoundWaveData_60PNO92::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/60PNO92.bin"
+
+	.align 2
+DirectSoundWaveData_808CW64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/808CW64.bin"
+
+	.align 2
+DirectSoundWaveData_808MC64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/808MC64.bin"
+
+	.align 2
+DirectSoundWaveData_808OH60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/808OH60A.bin"
+
+	.align 2
+DirectSoundWaveData_808SD60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/808SD60.bin"
+
+	.align 2
+DirectSoundWaveData_ACCFR68A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ACCFR68A.bin"
+
+	.align 2
+DirectSoundWaveData_ACCFR96A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ACCFR96A.bin"
+
+	.align 2
+DirectSoundWaveData_ACOBS32A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ACOBS32A.bin"
+
+	.align 2
+DirectSoundWaveData_ACOBS43A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ACOBS43A.bin"
+
+	.align 2
+DirectSoundWaveData_ACOBS60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ACOBS60A.bin"
+
+	.align 2
+DirectSoundWaveData_AGOGO60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/AGOGO60.bin"
+
+	.align 2
+DirectSoundWaveData_APPLS64A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/APPLS64A.bin"
+
+	.align 2
+DirectSoundWaveData_ATMOS60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ATMOS60A.bin"
+
+	.align 2
+DirectSoundWaveData_ATMOS84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ATMOS84.bin"
+
+	.align 2
+DirectSoundWaveData_A_SAX53::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/A_SAX53.bin"
+
+	.align 2
+DirectSoundWaveData_A_SAX59::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/A_SAX59.bin"
+
+	.align 2
+DirectSoundWaveData_A_SAX63::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/A_SAX63.bin"
+
+	.align 2
+DirectSoundWaveData_A_SAX69::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/A_SAX69.bin"
+
+	.align 2
+DirectSoundWaveData_A_SAX77::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/A_SAX77.bin"
+
+	.align 2
+DirectSoundWaveData_A_SAX87::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/A_SAX87.bin"
+
+	.align 2
+DirectSoundWaveData_A_SAX96::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/A_SAX96.bin"
+
+	.align 2
+DirectSoundWaveData_A_SAXA5::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/A_SAXA5.bin"
+
+	.align 2
+DirectSoundWaveData_BAGPP53A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BAGPP53A.bin"
+
+	.align 2
+DirectSoundWaveData_BAGPP64A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BAGPP64A.bin"
+
+	.align 2
+DirectSoundWaveData_BAGPP74A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BAGPP74A.bin"
+
+	.align 2
+DirectSoundWaveData_BAGPP84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BAGPP84A.bin"
+
+	.align 2
+DirectSoundWaveData_BAGPP93A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BAGPP93A.bin"
+
+	.align 2
+DirectSoundWaveData_BANDO64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BANDO64.bin"
+
+	.align 2
+DirectSoundWaveData_BANDO74::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BANDO74.bin"
+
+	.align 2
+DirectSoundWaveData_BANJO60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BANJO60.bin"
+
+	.align 2
+DirectSoundWaveData_BANJO70::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BANJO70.bin"
+
+	.align 2
+DirectSoundWaveData_BANJO83::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BANJO83.bin"
+
+	.align 2
+DirectSoundWaveData_BASSN44::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BASSN44.bin"
+
+	.align 2
+DirectSoundWaveData_BASSN69::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BASSN69.bin"
+
+	.align 2
+DirectSoundWaveData_BELTR60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BELTR60.bin"
+
+	.align 2
+DirectSoundWaveData_BIRD_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BIRD_60.bin"
+
+	.align 2
+DirectSoundWaveData_BOTTL72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BOTTL72.bin"
+
+	.align 2
+DirectSoundWaveData_BOTTL84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BOTTL84.bin"
+
+	.align 2
+DirectSoundWaveData_BRASS64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BRASS64.bin"
+
+	.align 2
+DirectSoundWaveData_BRASS72A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BRASS72A.bin"
+
+	.align 2
+DirectSoundWaveData_BRASS84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BRASS84A.bin"
+
+	.align 2
+DirectSoundWaveData_BRASS96A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BRASS96A.bin"
+
+	.align 2
+DirectSoundWaveData_BSLAP60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BSLAP60.bin"
+
+	.align 2
+DirectSoundWaveData_BSWRL60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BSWRL60.bin"
+
+	.align 2
+DirectSoundWaveData_BS_LD48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BS_LD48.bin"
+
+	.align 2
+DirectSoundWaveData_BS_LD72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BS_LD72.bin"
+
+	.align 2
+DirectSoundWaveData_BS_LD96::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BS_LD96.bin"
+
+	.align 2
+DirectSoundWaveData_BUBLE68A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BUBLE68A.bin"
+
+	.align 2
+DirectSoundWaveData_BURST64A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/BURST64A.bin"
+
+	.align 2
+DirectSoundWaveData_B_SAX38::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/B_SAX38.bin"
+
+	.align 2
+DirectSoundWaveData_B_SAX48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/B_SAX48.bin"
+
+	.align 2
+DirectSoundWaveData_B_SAX59::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/B_SAX59.bin"
+
+	.align 2
+DirectSoundWaveData_B_SAX86::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/B_SAX86.bin"
+
+	.align 2
+DirectSoundWaveData_B_SAXB0A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/B_SAXB0A.bin"
+
+	.align 2
+DirectSoundWaveData_B_TAP64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/B_TAP64.bin"
+
+	.align 2
+DirectSoundWaveData_CABA_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CABA_60.bin"
+
+	.align 2
+DirectSoundWaveData_CALLI72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CALLI72.bin"
+
+	.align 2
+DirectSoundWaveData_CALLI84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CALLI84.bin"
+
+	.align 2
+DirectSoundWaveData_CAST_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CAST_60.bin"
+
+	.align 2
+DirectSoundWaveData_CELLH64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CELLH64.bin"
+
+	.align 2
+DirectSoundWaveData_CELLL64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CELLL64.bin"
+
+	.align 2
+DirectSoundWaveData_CELLO28::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CELLO28.bin"
+
+	.align 2
+DirectSoundWaveData_CELLO41::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CELLO41.bin"
+
+	.align 2
+DirectSoundWaveData_CELLO76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CELLO76.bin"
+
+	.align 2
+DirectSoundWaveData_CELST77::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CELST77.bin"
+
+	.align 2
+DirectSoundWaveData_CELSTA1::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CELSTA1.bin"
+
+	.align 2
+DirectSoundWaveData_CHFFR72A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CHFFR72A.bin"
+
+	.align 2
+DirectSoundWaveData_CHFFR84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CHFFR84.bin"
+
+	.align 2
+DirectSoundWaveData_CHH__60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CHH__60A.bin"
+
+	.align 2
+DirectSoundWaveData_CHINA60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CHINA60A.bin"
+
+	.align 2
+DirectSoundWaveData_CHOIR65A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CHOIR65A.bin"
+
+	.align 2
+DirectSoundWaveData_CHRNG60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CHRNG60.bin"
+
+	.align 2
+DirectSoundWaveData_CHRNG84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CHRNG84.bin"
+
+	.align 2
+DirectSoundWaveData_CLAVE60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLAVE60.bin"
+
+	.align 2
+DirectSoundWaveData_CLAVI48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLAVI48.bin"
+
+	.align 2
+DirectSoundWaveData_CLAVI60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLAVI60.bin"
+
+	.align 2
+DirectSoundWaveData_CLAVI72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLAVI72.bin"
+
+	.align 2
+DirectSoundWaveData_CLAVI84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLAVI84.bin"
+
+	.align 2
+DirectSoundWaveData_CLICK60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLICK60.bin"
+
+	.align 2
+DirectSoundWaveData_CLNGT48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLNGT48.bin"
+
+	.align 2
+DirectSoundWaveData_CLNGT60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLNGT60.bin"
+
+	.align 2
+DirectSoundWaveData_CLNGT67::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLNGT67.bin"
+
+	.align 2
+DirectSoundWaveData_CLNGT72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLNGT72.bin"
+
+	.align 2
+DirectSoundWaveData_CLNGT84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CLNGT84.bin"
+
+	.align 2
+DirectSoundWaveData_CONBH41::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CONBH41.bin"
+
+	.align 2
+DirectSoundWaveData_CONBL41::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CONBL41.bin"
+
+	.align 2
+DirectSoundWaveData_CONBS28::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CONBS28.bin"
+
+	.align 2
+DirectSoundWaveData_COS__59::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/COS__59.bin"
+
+	.align 2
+DirectSoundWaveData_COS__76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/COS__76.bin"
+
+	.align 2
+DirectSoundWaveData_COWBL66::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/COWBL66.bin"
+
+	.align 2
+DirectSoundWaveData_CPASS64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CPASS64.bin"
+
+	.align 2
+DirectSoundWaveData_CRASH60B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CRASH60B.bin"
+
+	.align 2
+DirectSoundWaveData_CRASH65::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CRASH65.bin"
+
+	.align 2
+DirectSoundWaveData_CREAK64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CREAK64.bin"
+
+	.align 2
+DirectSoundWaveData_CSTOP64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/CSTOP64.bin"
+
+	.align 2
+DirectSoundWaveData_C_ORG46A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/C_ORG46A.bin"
+
+	.align 2
+DirectSoundWaveData_C_ORG56A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/C_ORG56A.bin"
+
+	.align 2
+DirectSoundWaveData_C_ORG66A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/C_ORG66A.bin"
+
+	.align 2
+DirectSoundWaveData_C_ORG78A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/C_ORG78A.bin"
+
+	.align 2
+DirectSoundWaveData_C_ORG90A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/C_ORG90A.bin"
+
+	.align 2
+DirectSoundWaveData_DELP160A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DELP160A.bin"
+
+	.align 2
+DirectSoundWaveData_DELP184A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DELP184A.bin"
+
+	.align 2
+DirectSoundWaveData_DELP278::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DELP278.bin"
+
+	.align 2
+DirectSoundWaveData_DOCSL53::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DOCSL53.bin"
+
+	.align 2
+DirectSoundWaveData_DOCSL77::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DOCSL77.bin"
+
+	.align 2
+DirectSoundWaveData_DOGBW60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DOGBW60.bin"
+
+	.align 2
+DirectSoundWaveData_DORG190::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DORG190.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGT48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGT48.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGT54::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGT54.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGT59::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGT59.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGT64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGT64.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGT71::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGT71.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGT77::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGT77.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGT92::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGT92.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGTA1::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGTA1.bin"
+
+	.align 2
+DirectSoundWaveData_DSTGTA9::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DSTGTA9.bin"
+
+	.align 2
+DirectSoundWaveData_DWCUT60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/DWCUT60.bin"
+
+	.align 2
+DirectSoundWaveData_EHORN53A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EHORN53A.bin"
+
+	.align 2
+DirectSoundWaveData_EHORN61A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EHORN61A.bin"
+
+	.align 2
+DirectSoundWaveData_EHORN70A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EHORN70A.bin"
+
+	.align 2
+DirectSoundWaveData_EHORN82A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EHORN82A.bin"
+
+	.align 2
+DirectSoundWaveData_ELESD60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELESD60A.bin"
+
+	.align 2
+DirectSoundWaveData_ELP1_49::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP1_49.bin"
+
+	.align 2
+DirectSoundWaveData_ELP1_56::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP1_56.bin"
+
+	.align 2
+DirectSoundWaveData_ELP1_67::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP1_67.bin"
+
+	.align 2
+DirectSoundWaveData_ELP1_80::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP1_80.bin"
+
+	.align 2
+DirectSoundWaveData_ELP1_97::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP1_97.bin"
+
+	.align 2
+DirectSoundWaveData_ELP2_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP2_60.bin"
+
+	.align 2
+DirectSoundWaveData_ELP2_68::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP2_68.bin"
+
+	.align 2
+DirectSoundWaveData_ELP2_76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP2_76.bin"
+
+	.align 2
+DirectSoundWaveData_ELP2_84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP2_84.bin"
+
+	.align 2
+DirectSoundWaveData_ELP2_92::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP2_92.bin"
+
+	.align 2
+DirectSoundWaveData_ELP2_A0::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP2_A0.bin"
+
+	.align 2
+DirectSoundWaveData_ELP2_A8::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ELP2_A8.bin"
+
+	.align 2
+DirectSoundWaveData_ENGIN64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ENGIN64.bin"
+
+	.align 2
+DirectSoundWaveData_EORG173::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG173.bin"
+
+	.align 2
+DirectSoundWaveData_EORG185::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG185.bin"
+
+	.align 2
+DirectSoundWaveData_EORG197::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG197.bin"
+
+	.align 2
+DirectSoundWaveData_EORG253::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG253.bin"
+
+	.align 2
+DirectSoundWaveData_EORG268::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG268.bin"
+
+	.align 2
+DirectSoundWaveData_EORG286::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG286.bin"
+
+	.align 2
+DirectSoundWaveData_EORG367::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG367.bin"
+
+	.align 2
+DirectSoundWaveData_EORG379::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG379.bin"
+
+	.align 2
+DirectSoundWaveData_EORG391::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/EORG391.bin"
+
+	.align 2
+DirectSoundWaveData_FANTA53::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FANTA53.bin"
+
+	.align 2
+DirectSoundWaveData_FANTA81::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FANTA81.bin"
+
+	.align 2
+DirectSoundWaveData_FATSD60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FATSD60A.bin"
+
+	.align 2
+DirectSoundWaveData_FHORN60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FHORN60.bin"
+
+	.align 2
+DirectSoundWaveData_FHORN72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FHORN72.bin"
+
+	.align 2
+DirectSoundWaveData_FLUTE65A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FLUTE65A.bin"
+
+	.align 2
+DirectSoundWaveData_FLUTE73A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FLUTE73A.bin"
+
+	.align 2
+DirectSoundWaveData_FLUTE79A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FLUTE79A.bin"
+
+	.align 2
+DirectSoundWaveData_FLUTE88A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FLUTE88A.bin"
+
+	.align 2
+DirectSoundWaveData_FLUTE96A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FLUTE96A.bin"
+
+	.align 2
+DirectSoundWaveData_FLUTEA5A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FLUTEA5A.bin"
+
+	.align 2
+DirectSoundWaveData_FMVOX66A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FMVOX66A.bin"
+
+	.align 2
+DirectSoundWaveData_FMVOX86A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FMVOX86A.bin"
+
+	.align 2
+DirectSoundWaveData_FNTBL53C::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FNTBL53C.bin"
+
+	.align 2
+DirectSoundWaveData_FRTLS36A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FRTLS36A.bin"
+
+	.align 2
+DirectSoundWaveData_FRTLS48A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FRTLS48A.bin"
+
+	.align 2
+DirectSoundWaveData_FRTLS60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/FRTLS60A.bin"
+
+	.align 2
+DirectSoundWaveData_GATSD60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/GATSD60A.bin"
+
+	.align 2
+DirectSoundWaveData_GFRET69::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/GFRET69.bin"
+
+	.align 2
+DirectSoundWaveData_GLKN285::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/GLKN285.bin"
+
+	.align 2
+DirectSoundWaveData_GLKN385::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/GLKN385.bin"
+
+	.align 2
+DirectSoundWaveData_GLKN585::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/GLKN585.bin"
+
+	.align 2
+DirectSoundWaveData_GOBLN84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/GOBLN84A.bin"
+
+	.align 2
+DirectSoundWaveData_HARMO68::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARMO68.bin"
+
+	.align 2
+DirectSoundWaveData_HARMO76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARMO76.bin"
+
+	.align 2
+DirectSoundWaveData_HARMO84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARMO84.bin"
+
+	.align 2
+DirectSoundWaveData_HARMO92::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARMO92.bin"
+
+	.align 2
+DirectSoundWaveData_HARMOA0::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARMOA0.bin"
+
+	.align 2
+DirectSoundWaveData_HARMOA8::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARMOA8.bin"
+
+	.align 2
+DirectSoundWaveData_HARP_57A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARP_57A.bin"
+
+	.align 2
+DirectSoundWaveData_HARP_70A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARP_70A.bin"
+
+	.align 2
+DirectSoundWaveData_HARP_83A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARP_83A.bin"
+
+	.align 2
+DirectSoundWaveData_HARP_96A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HARP_96A.bin"
+
+	.align 2
+DirectSoundWaveData_HBNGO60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HBNGO60.bin"
+
+	.align 2
+DirectSoundWaveData_HCLAP60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HCLAP60.bin"
+
+	.align 2
+DirectSoundWaveData_HEART64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HEART64.bin"
+
+	.align 2
+DirectSoundWaveData_HELI_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HELI_60.bin"
+
+	.align 2
+DirectSoundWaveData_HI_Q_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HI_Q_60.bin"
+
+	.align 2
+DirectSoundWaveData_HONKY42A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HONKY42A.bin"
+
+	.align 2
+DirectSoundWaveData_HONKY62B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HONKY62B.bin"
+
+	.align 2
+DirectSoundWaveData_HONKY71A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HONKY71A.bin"
+
+	.align 2
+DirectSoundWaveData_HONKY84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HONKY84A.bin"
+
+	.align 2
+DirectSoundWaveData_HONKY96A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HONKY96A.bin"
+
+	.align 2
+DirectSoundWaveData_HORSE64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HORSE64.bin"
+
+	.align 2
+DirectSoundWaveData_HRMGT52::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HRMGT52.bin"
+
+	.align 2
+DirectSoundWaveData_HRMGT76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HRMGT76.bin"
+
+	.align 2
+DirectSoundWaveData_HRPSI48A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HRPSI48A.bin"
+
+	.align 2
+DirectSoundWaveData_HRPSI60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HRPSI60A.bin"
+
+	.align 2
+DirectSoundWaveData_HRPSI72A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HRPSI72A.bin"
+
+	.align 2
+DirectSoundWaveData_HRPSI87A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/HRPSI87A.bin"
+
+	.align 2
+DirectSoundWaveData_ICE__60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ICE__60A.bin"
+
+	.align 2
+DirectSoundWaveData_ICE__84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/ICE__84A.bin"
+
+	.align 2
+DirectSoundWaveData_JAZGT50A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/JAZGT50A.bin"
+
+	.align 2
+DirectSoundWaveData_JAZGT59A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/JAZGT59A.bin"
+
+	.align 2
+DirectSoundWaveData_JAZGT68A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/JAZGT68A.bin"
+
+	.align 2
+DirectSoundWaveData_JAZGT74A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/JAZGT74A.bin"
+
+	.align 2
+DirectSoundWaveData_JAZGT84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/JAZGT84A.bin"
+
+	.align 2
+DirectSoundWaveData_JAZGT93A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/JAZGT93A.bin"
+
+	.align 2
+DirectSoundWaveData_JAZGTA1A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/JAZGTA1A.bin"
+
+	.align 2
+DirectSoundWaveData_JBELL60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/JBELL60.bin"
+
+	.align 2
+DirectSoundWaveData_KEY__60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/KEY__60.bin"
+
+	.align 2
+DirectSoundWaveData_KICK264::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/KICK264.bin"
+
+	.align 2
+DirectSoundWaveData_KLMBA70::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/KLMBA70.bin"
+
+	.align 2
+DirectSoundWaveData_KOTO_57::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/KOTO_57.bin"
+
+	.align 2
+DirectSoundWaveData_KOTO_80::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/KOTO_80.bin"
+
+	.align 2
+DirectSoundWaveData_KOTO_A2A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/KOTO_A2A.bin"
+
+	.align 2
+DirectSoundWaveData_LASER64A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/LASER64A.bin"
+
+	.align 2
+DirectSoundWaveData_LAUGH59A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/LAUGH59A.bin"
+
+	.align 2
+DirectSoundWaveData_LBNGO60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/LBNGO60.bin"
+
+	.align 2
+DirectSoundWaveData_LGUIR60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/LGUIR60.bin"
+
+	.align 2
+DirectSoundWaveData_LWHSL60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/LWHSL60A.bin"
+
+	.align 2
+DirectSoundWaveData_MARCS60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MARCS60.bin"
+
+	.align 2
+DirectSoundWaveData_MCNGA60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MCNGA60.bin"
+
+	.align 2
+DirectSoundWaveData_MCUIC60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MCUIC60.bin"
+
+	.align 2
+DirectSoundWaveData_METRO60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/METRO60.bin"
+
+	.align 2
+DirectSoundWaveData_MGSQR45::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MGSQR45.bin"
+
+	.align 2
+DirectSoundWaveData_MGSQR57::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MGSQR57.bin"
+
+	.align 2
+DirectSoundWaveData_MGSQR69::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MGSQR69.bin"
+
+	.align 2
+DirectSoundWaveData_MGSQR81::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MGSQR81.bin"
+
+	.align 2
+DirectSoundWaveData_MGSQR93::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MGSQR93.bin"
+
+	.align 2
+DirectSoundWaveData_MMBAS40::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MMBAS40.bin"
+
+	.align 2
+DirectSoundWaveData_MMBAS43::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MMBAS43.bin"
+
+	.align 2
+DirectSoundWaveData_MMBAS62::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MMBAS62.bin"
+
+	.align 2
+DirectSoundWaveData_MONDO60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MONDO60.bin"
+
+	.align 2
+DirectSoundWaveData_MRMBA50::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MRMBA50.bin"
+
+	.align 2
+DirectSoundWaveData_MRMBA62::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MRMBA62.bin"
+
+	.align 2
+DirectSoundWaveData_MRMBA90::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MRMBA90.bin"
+
+	.align 2
+DirectSoundWaveData_MUTGT43::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MUTGT43.bin"
+
+	.align 2
+DirectSoundWaveData_MUTGT64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MUTGT64.bin"
+
+	.align 2
+DirectSoundWaveData_MUTGT81::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MUTGT81.bin"
+
+	.align 2
+DirectSoundWaveData_MUTTP64B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MUTTP64B.bin"
+
+	.align 2
+DirectSoundWaveData_MUTTP73B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MUTTP73B.bin"
+
+	.align 2
+DirectSoundWaveData_MUTTP79B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MUTTP79B.bin"
+
+	.align 2
+DirectSoundWaveData_MUTTP86B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/MUTTP86B.bin"
+
+	.align 2
+DirectSoundWaveData_M_BOX82::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/M_BOX82.bin"
+
+	.align 2
+DirectSoundWaveData_M_GUN64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/M_GUN64.bin"
+
+	.align 2
+DirectSoundWaveData_NYLON48A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/NYLON48A.bin"
+
+	.align 2
+DirectSoundWaveData_NYLON57A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/NYLON57A.bin"
+
+	.align 2
+DirectSoundWaveData_NYLON70A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/NYLON70A.bin"
+
+	.align 2
+DirectSoundWaveData_NYLON79A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/NYLON79A.bin"
+
+	.align 2
+DirectSoundWaveData_NYLON88A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/NYLON88A.bin"
+
+	.align 2
+DirectSoundWaveData_NYLON97A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/NYLON97A.bin"
+
+	.align 2
+DirectSoundWaveData_NYLONA5A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/NYLONA5A.bin"
+
+	.align 2
+DirectSoundWaveData_OBOE_61A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OBOE_61A.bin"
+
+	.align 2
+DirectSoundWaveData_OBOE_69A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OBOE_69A.bin"
+
+	.align 2
+DirectSoundWaveData_OBOE_77A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OBOE_77A.bin"
+
+	.align 2
+DirectSoundWaveData_OBOE_81::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OBOE_81.bin"
+
+	.align 2
+DirectSoundWaveData_OBOE_85A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OBOE_85A.bin"
+
+	.align 2
+DirectSoundWaveData_OCARI72A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OCARI72A.bin"
+
+	.align 2
+DirectSoundWaveData_OCARI84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OCARI84A.bin"
+
+	.align 2
+DirectSoundWaveData_OCARI96A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OCARI96A.bin"
+
+	.align 2
+DirectSoundWaveData_OCNGA60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OCNGA60.bin"
+
+	.align 2
+DirectSoundWaveData_OCUIC60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OCUIC60.bin"
+
+	.align 2
+DirectSoundWaveData_OHH__60B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OHH__60B.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV44::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV44.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV49::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV49.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV60.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV60A.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV70::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV70.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV73::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV73.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV77::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV77.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV89::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV89.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRV96::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRV96.bin"
+
+	.align 2
+DirectSoundWaveData_OVDRVA6::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/OVDRVA6.bin"
+
+	.align 2
+DirectSoundWaveData_O_HIT68::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/O_HIT68.bin"
+
+	.align 2
+DirectSoundWaveData_PANNS84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PANNS84.bin"
+
+	.align 2
+DirectSoundWaveData_PANNS96::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PANNS96.bin"
+
+	.align 2
+DirectSoundWaveData_PCKBS30A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PCKBS30A.bin"
+
+	.align 2
+DirectSoundWaveData_PCKBS40A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PCKBS40A.bin"
+
+	.align 2
+DirectSoundWaveData_PCKBS50A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PCKBS50A.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO36::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO36.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO41::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO41.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO48.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO56::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO56.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO64.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO73::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO73.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO78::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO78.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO84.bin"
+
+	.align 2
+DirectSoundWaveData_PIANO92::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANO92.bin"
+
+	.align 2
+DirectSoundWaveData_PIANOA3::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIANOA3.bin"
+
+	.align 2
+DirectSoundWaveData_PICLO79::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PICLO79.bin"
+
+	.align 2
+DirectSoundWaveData_PICLO84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PICLO84.bin"
+
+	.align 2
+DirectSoundWaveData_PICLO98::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PICLO98.bin"
+
+	.align 2
+DirectSoundWaveData_PISTL60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PISTL60.bin"
+
+	.align 2
+DirectSoundWaveData_PIZZH84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIZZH84.bin"
+
+	.align 2
+DirectSoundWaveData_PIZZ_71::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PIZZ_71.bin"
+
+	.align 2
+DirectSoundWaveData_PNFLT72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PNFLT72.bin"
+
+	.align 2
+DirectSoundWaveData_POLY_48A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/POLY_48A.bin"
+
+	.align 2
+DirectSoundWaveData_POLY_60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/POLY_60A.bin"
+
+	.align 2
+DirectSoundWaveData_POLY_72A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/POLY_72A.bin"
+
+	.align 2
+DirectSoundWaveData_POLY_84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/POLY_84A.bin"
+
+	.align 2
+DirectSoundWaveData_POLY_96A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/POLY_96A.bin"
+
+	.align 2
+DirectSoundWaveData_POPVX64A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/POPVX64A.bin"
+
+	.align 2
+DirectSoundWaveData_POPVX71A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/POPVX71A.bin"
+
+	.align 2
+DirectSoundWaveData_POPVX74A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/POPVX74A.bin"
+
+	.align 2
+DirectSoundWaveData_PUNCH64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/PUNCH64.bin"
+
+	.align 2
+DirectSoundWaveData_RDBEL64B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/RDBEL64B.bin"
+
+	.align 2
+DirectSoundWaveData_RDCYM60B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/RDCYM60B.bin"
+
+	.align 2
+DirectSoundWaveData_RECDR66A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/RECDR66A.bin"
+
+	.align 2
+DirectSoundWaveData_RECDR75A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/RECDR75A.bin"
+
+	.align 2
+DirectSoundWaveData_RECDR83A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/RECDR83A.bin"
+
+	.align 2
+DirectSoundWaveData_RECDR93A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/RECDR93A.bin"
+
+	.align 2
+DirectSoundWaveData_RECDRA3A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/RECDRA3A.bin"
+
+	.align 2
+DirectSoundWaveData_R_ORG53::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/R_ORG53.bin"
+
+	.align 2
+DirectSoundWaveData_R_ORG72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/R_ORG72.bin"
+
+	.align 2
+DirectSoundWaveData_R_ORG88::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/R_ORG88.bin"
+
+	.align 2
+DirectSoundWaveData_SANTR74::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SANTR74.bin"
+
+	.align 2
+DirectSoundWaveData_SAW0_48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW0_48.bin"
+
+	.align 2
+DirectSoundWaveData_SAW0_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW0_60.bin"
+
+	.align 2
+DirectSoundWaveData_SAW0_72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW0_72.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__40::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__40.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__52::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__52.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__64.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__76.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__88::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__88.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__A0A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__A0A.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__A7A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__A7A.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__B2A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__B2A.bin"
+
+	.align 2
+DirectSoundWaveData_SAW__B9B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SAW__B9B.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS148A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS148A.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS160A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS160A.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS172A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS172A.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS184A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS184A.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS196A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS196A.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS243::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS243.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS255::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS255.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS272::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS272.bin"
+
+	.align 2
+DirectSoundWaveData_SBRS296::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SBRS296.bin"
+
+	.align 2
+DirectSoundWaveData_SCRCH64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SCRCH64.bin"
+
+	.align 2
+DirectSoundWaveData_SCREM64A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SCREM64A.bin"
+
+	.align 2
+DirectSoundWaveData_SDOOR64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SDOOR64.bin"
+
+	.align 2
+DirectSoundWaveData_SEA__60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SEA__60.bin"
+
+	.align 2
+DirectSoundWaveData_SGUIR60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SGUIR60.bin"
+
+	.align 2
+DirectSoundWaveData_SHAKU63::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SHAKU63.bin"
+
+	.align 2
+DirectSoundWaveData_SHAKU70::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SHAKU70.bin"
+
+	.align 2
+DirectSoundWaveData_SHAKU78::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SHAKU78.bin"
+
+	.align 2
+DirectSoundWaveData_SHAMI53::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SHAMI53.bin"
+
+	.align 2
+DirectSoundWaveData_SHAMI65::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SHAMI65.bin"
+
+	.align 2
+DirectSoundWaveData_SHAMI77::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SHAMI77.bin"
+
+	.align 2
+DirectSoundWaveData_SHAMI89::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SHAMI89.bin"
+
+	.align 2
+DirectSoundWaveData_SIDE_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SIDE_60.bin"
+
+	.align 2
+DirectSoundWaveData_SINE_52::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SINE_52.bin"
+
+	.align 2
+DirectSoundWaveData_SINE_64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SINE_64.bin"
+
+	.align 2
+DirectSoundWaveData_SINE_76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SINE_76.bin"
+
+	.align 2
+DirectSoundWaveData_SINE_88::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SINE_88.bin"
+
+	.align 2
+DirectSoundWaveData_SINE_A0A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SINE_A0A.bin"
+
+	.align 2
+DirectSoundWaveData_SINE_B2A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SINE_B2A.bin"
+
+	.align 2
+DirectSoundWaveData_SINE_B9::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SINE_B9.bin"
+
+	.align 2
+DirectSoundWaveData_SIREN64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SIREN64.bin"
+
+	.align 2
+DirectSoundWaveData_SITAR60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SITAR60.bin"
+
+	.align 2
+DirectSoundWaveData_SITAR76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SITAR76.bin"
+
+	.align 2
+DirectSoundWaveData_SITAR95::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SITAR95.bin"
+
+	.align 2
+DirectSoundWaveData_SLAP_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SLAP_60.bin"
+
+	.align 2
+DirectSoundWaveData_SLPBS31::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SLPBS31.bin"
+
+	.align 2
+DirectSoundWaveData_SLPBS43::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SLPBS43.bin"
+
+	.align 2
+DirectSoundWaveData_SLPBS84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SLPBS84.bin"
+
+	.align 2
+DirectSoundWaveData_SLPMT52A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SLPMT52A.bin"
+
+	.align 2
+DirectSoundWaveData_SOLKK60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SOLKK60A.bin"
+
+	.align 2
+DirectSoundWaveData_SOUND60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SOUND60.bin"
+
+	.align 2
+DirectSoundWaveData_SOUND84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SOUND84.bin"
+
+	.align 2
+DirectSoundWaveData_SPACE79::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SPACE79.bin"
+
+	.align 2
+DirectSoundWaveData_SPULL60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SPULL60.bin"
+
+	.align 2
+DirectSoundWaveData_SPUSH60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SPUSH60.bin"
+
+	.align 2
+DirectSoundWaveData_SQUAR41::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SQUAR41.bin"
+
+	.align 2
+DirectSoundWaveData_SQUAR48::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SQUAR48.bin"
+
+	.align 2
+DirectSoundWaveData_SQUAR60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SQUAR60.bin"
+
+	.align 2
+DirectSoundWaveData_SQUAR67::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SQUAR67.bin"
+
+	.align 2
+DirectSoundWaveData_SQUAR79::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SQUAR79.bin"
+
+	.align 2
+DirectSoundWaveData_SQUAR96::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SQUAR96.bin"
+
+	.align 2
+DirectSoundWaveData_SSTR148::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SSTR148.bin"
+
+	.align 2
+DirectSoundWaveData_SSTR162A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SSTR162A.bin"
+
+	.align 2
+DirectSoundWaveData_SSTR186A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SSTR186A.bin"
+
+	.align 2
+DirectSoundWaveData_SSTR367::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SSTR367.bin"
+
+	.align 2
+DirectSoundWaveData_SSTR382::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SSTR382.bin"
+
+	.align 2
+DirectSoundWaveData_STAR_60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STAR_60A.bin"
+
+	.align 2
+DirectSoundWaveData_STAR_84A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STAR_84A.bin"
+
+	.align 2
+DirectSoundWaveData_STEPS64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STEPS64.bin"
+
+	.align 2
+DirectSoundWaveData_STICK64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STICK64.bin"
+
+	.align 2
+DirectSoundWaveData_STLDR72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STLDR72.bin"
+
+	.align 2
+DirectSoundWaveData_STLGT41B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STLGT41B.bin"
+
+	.align 2
+DirectSoundWaveData_STLGT49B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STLGT49B.bin"
+
+	.align 2
+DirectSoundWaveData_STLGT57B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STLGT57B.bin"
+
+	.align 2
+DirectSoundWaveData_STLGT65B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STLGT65B.bin"
+
+	.align 2
+DirectSoundWaveData_STLGT74B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STLGT74B.bin"
+
+	.align 2
+DirectSoundWaveData_STLGT84B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STLGT84B.bin"
+
+	.align 2
+DirectSoundWaveData_STREM67B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STREM67B.bin"
+
+	.align 2
+DirectSoundWaveData_STRNG52B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STRNG52B.bin"
+
+	.align 2
+DirectSoundWaveData_STRNG71B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STRNG71B.bin"
+
+	.align 2
+DirectSoundWaveData_STRNG88B::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STRNG88B.bin"
+
+	.align 2
+DirectSoundWaveData_STSHP64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/STSHP64.bin"
+
+	.align 2
+DirectSoundWaveData_SURDO60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SURDO60.bin"
+
+	.align 2
+DirectSoundWaveData_SWHSL60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SWHSL60A.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS133::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS133.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS148A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS148A.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS172A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS172A.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS196A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS196A.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS233::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS233.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS248A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS248A.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS272A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS272A.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS336A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS336A.bin"
+
+	.align 2
+DirectSoundWaveData_SYBS429A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYBS429A.bin"
+
+	.align 2
+DirectSoundWaveData_SYNCL55::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYNCL55.bin"
+
+	.align 2
+DirectSoundWaveData_SYNCL64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYNCL64.bin"
+
+	.align 2
+DirectSoundWaveData_SYNCL70::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYNCL70.bin"
+
+	.align 2
+DirectSoundWaveData_SYNCL75::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYNCL75.bin"
+
+	.align 2
+DirectSoundWaveData_SYNCL87::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYNCL87.bin"
+
+	.align 2
+DirectSoundWaveData_SYNDR56::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYNDR56.bin"
+
+	.align 2
+DirectSoundWaveData_SYNVX70::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYNVX70.bin"
+
+	.align 2
+DirectSoundWaveData_SYNVXA6A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/SYNVXA6A.bin"
+
+	.align 2
+DirectSoundWaveData_S_SAX70::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/S_SAX70.bin"
+
+	.align 2
+DirectSoundWaveData_S_SAX76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/S_SAX76.bin"
+
+	.align 2
+DirectSoundWaveData_S_SAX82::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/S_SAX82.bin"
+
+	.align 2
+DirectSoundWaveData_S_SAX88::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/S_SAX88.bin"
+
+	.align 2
+DirectSoundWaveData_S_SAX95::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/S_SAX95.bin"
+
+	.align 2
+DirectSoundWaveData_S_SAXA2::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/S_SAXA2.bin"
+
+	.align 2
+DirectSoundWaveData_S_SAXA8::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/S_SAXA8.bin"
+
+	.align 2
+DirectSoundWaveData_TAMBO60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TAMBO60.bin"
+
+	.align 2
+DirectSoundWaveData_TELE260::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TELE260.bin"
+
+	.align 2
+DirectSoundWaveData_TELE_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TELE_60.bin"
+
+	.align 2
+DirectSoundWaveData_THUND64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/THUND64.bin"
+
+	.align 2
+DirectSoundWaveData_TIMBL60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TIMBL60.bin"
+
+	.align 2
+DirectSoundWaveData_TKOTO67::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TKOTO67.bin"
+
+	.align 2
+DirectSoundWaveData_TKOTO79::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TKOTO79.bin"
+
+	.align 2
+DirectSoundWaveData_TMPNI47::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TMPNI47.bin"
+
+	.align 2
+DirectSoundWaveData_TNKBLA5::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TNKBLA5.bin"
+
+	.align 2
+DirectSoundWaveData_TOM__60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TOM__60.bin"
+
+	.align 2
+DirectSoundWaveData_TRAIN64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRAIN64.bin"
+
+	.align 2
+DirectSoundWaveData_TRI__60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRI__60.bin"
+
+	.align 2
+DirectSoundWaveData_TRMBN40A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMBN40A.bin"
+
+	.align 2
+DirectSoundWaveData_TRMBN48A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMBN48A.bin"
+
+	.align 2
+DirectSoundWaveData_TRMBN55A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMBN55A.bin"
+
+	.align 2
+DirectSoundWaveData_TRMBN62A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMBN62A.bin"
+
+	.align 2
+DirectSoundWaveData_TRMBN68A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMBN68A.bin"
+
+	.align 2
+DirectSoundWaveData_TRMBN77A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMBN77A.bin"
+
+	.align 2
+DirectSoundWaveData_TRMBN86A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMBN86A.bin"
+
+	.align 2
+DirectSoundWaveData_TRMBN93A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMBN93A.bin"
+
+	.align 2
+DirectSoundWaveData_TRMPT65::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMPT65.bin"
+
+	.align 2
+DirectSoundWaveData_TRMPT73::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMPT73.bin"
+
+	.align 2
+DirectSoundWaveData_TRMPT81::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMPT81.bin"
+
+	.align 2
+DirectSoundWaveData_TRMPT86::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMPT86.bin"
+
+	.align 2
+DirectSoundWaveData_TRMPT92::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMPT92.bin"
+
+	.align 2
+DirectSoundWaveData_TRMPTA1::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMPTA1.bin"
+
+	.align 2
+DirectSoundWaveData_TRMPTB1A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TRMPTB1A.bin"
+
+	.align 2
+DirectSoundWaveData_TUBA_34::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TUBA_34.bin"
+
+	.align 2
+DirectSoundWaveData_TUBA_45::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TUBA_45.bin"
+
+	.align 2
+DirectSoundWaveData_TUBLR84::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/TUBLR84.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAX46::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAX46.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAX57::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAX57.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAX63::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAX63.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAX68::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAX68.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAX74::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAX74.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAX81::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAX81.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAX89::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAX89.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAX97::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAX97.bin"
+
+	.align 2
+DirectSoundWaveData_T_SAXA8::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SAXA8.bin"
+
+	.align 2
+DirectSoundWaveData_T_SNR60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/T_SNR60A.bin"
+
+	.align 2
+DirectSoundWaveData_UPCUT60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/UPCUT60.bin"
+
+	.align 2
+DirectSoundWaveData_VBSLP64::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VBSLP64.bin"
+
+	.align 2
+DirectSoundWaveData_VIBE_52A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIBE_52A.bin"
+
+	.align 2
+DirectSoundWaveData_VIBE_64A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIBE_64A.bin"
+
+	.align 2
+DirectSoundWaveData_VIBE_76A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIBE_76A.bin"
+
+	.align 2
+DirectSoundWaveData_VIBE_88A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIBE_88A.bin"
+
+	.align 2
+DirectSoundWaveData_VIBE_A0A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIBE_A0A.bin"
+
+	.align 2
+DirectSoundWaveData_VIOLN68::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIOLN68.bin"
+
+	.align 2
+DirectSoundWaveData_VIOLN70::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIOLN70.bin"
+
+	.align 2
+DirectSoundWaveData_VIOLN76::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIOLN76.bin"
+
+	.align 2
+DirectSoundWaveData_VIOLN80::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIOLN80.bin"
+
+	.align 2
+DirectSoundWaveData_VIOLN86::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIOLN86.bin"
+
+	.align 2
+DirectSoundWaveData_VIOLN95::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIOLN95.bin"
+
+	.align 2
+DirectSoundWaveData_VIOLNA4::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/VIOLNA4.bin"
+
+	.align 2
+DirectSoundWaveData_WCHIM60A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/WCHIM60A.bin"
+
+	.align 2
+DirectSoundWaveData_WIND_60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/WIND_60.bin"
+
+	.align 2
+DirectSoundWaveData_WODBK60::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/WODBK60.bin"
+
+	.align 2
+DirectSoundWaveData_WRMPD72A::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/WRMPD72A.bin"
+
+	.align 2
+DirectSoundWaveData_XYLO_72::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/XYLO_72.bin"
+
+	.align 2
+DirectSoundWaveData_XYLO_93::
+	.incbin "sound/direct_sound_samples/gswavetable/26758/XYLO_93.bin"
+
+#endif
