@@ -100,16 +100,16 @@ voicegroup191::
     voice_keysplit voicegroup283, KeySplitTable101
     voice_keysplit voicegroup284, KeySplitTable102
     voice_keysplit voicegroup285, KeySplitTable103
-    @100
-    @101
-    @102
-    @103
-    @104
-    @105
-    @106
-    @107
-    @108
-    @109
+    voice_keysplit voicegroup286, KeySplitTable104
+    voice_directsound 60, 0, DirectSoundWaveData_GOBLN84A, 255, 0, 255, 127
+    voice_keysplit voicegroup287, KeySplitTable105
+    voice_keysplit voicegroup288, KeySplitTable106
+    voice_keysplit voicegroup289, KeySplitTable107
+    voice_keysplit voicegroup290, KeySplitTable110
+    voice_keysplit voicegroup291, KeySplitTable108
+    voice_keysplit voicegroup292, KeySplitTable109
+    voice_keysplit voicegroup293, KeySplitTable111
+    voice_keysplit voicegroup294, KeySplitTable112
     @110
     @111
     @112
