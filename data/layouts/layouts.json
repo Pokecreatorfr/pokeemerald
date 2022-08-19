@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_4g_tileset_outdoor_town",
       "border_filepath": "data/layouts/Town/border.bin",
       "blockdata_filepath": "data/layouts/Town/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE1",
+      "name": "Route1_Layout",
+      "width": 20,
+      "height": 30,
+      "primary_tileset": "gTileset_4g_tileset_exterior",
+      "secondary_tileset": "gTileset_4g_tileset_outdoor_town",
+      "border_filepath": "data/layouts/Route1/border.bin",
+      "blockdata_filepath": "data/layouts/Route1/map.bin"
     }
   ]
 }
