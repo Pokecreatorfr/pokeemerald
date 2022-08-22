@@ -4410,6 +4410,16 @@
       "secondary_tileset": "gTileset_4g_tileset_indoor3",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_TOWN",
+      "name": "Town_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_4g_tileset_exterior",
+      "secondary_tileset": "gTileset_4g_tileset_outdoor_town",
+      "border_filepath": "data/layouts/Town/border.bin",
+      "blockdata_filepath": "data/layouts/Town/map.bin"
     }
   ]
 }

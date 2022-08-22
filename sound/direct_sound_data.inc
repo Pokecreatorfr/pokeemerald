@@ -1,4 +1,4 @@
-#define SAMPLERATE 2 @ 1 = 13379 2 = 26758 
+#define SAMPLERATE 1 @ 1 = 13379 2 = 26758 
 
 	.align 2
 DirectSoundWaveData_sc88pro_glockenspiel::
