@@ -1,5 +1,6 @@
 #include "gba/gba.h"
 #include "siirtc.h"
+#include "region_map_entries.h"
 
 static struct SiiRtcInfo Time;
 u8 region_map[28][16];
@@ -15,6 +16,16 @@ struct Weather_Map
     u8 map[28][16];
 };
 
+const struct SiiRtcInfo gTime
+{
+    
+};
+
+
 u8 pseudo_random_id(u8 day ,u8 month, u8 year ,u8 hour,u8 var);
 void calc_weather (struct Weather_Map *weather_map);
 void weather_zone (struct Weather_Map *weather_map,u8 type ,u8 zone ,u8 S);
+u8 returnmapposx(u8 mapsec)
+u8 returnmapposy(u8 mapsec)
+
+extern const struct RegionMapLocation gRegionMapEntries[];

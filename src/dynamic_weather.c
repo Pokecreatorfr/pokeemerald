@@ -72,3 +72,14 @@ void weather_zone (struct Weather_Map *weather_map,u8 type ,u8 zone ,u8 S)
         }
     }
 }
+
+u8
+u8 returnmapposx(u8 mapsec)
+{
+    return gRegionMapEntries[mapsec].x
+}
+
+u8 returnmapposy(u8 mapsec)
+{
+    return gRegionMapEntries[mapsec].x
+}
