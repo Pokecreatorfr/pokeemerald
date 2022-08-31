@@ -4430,6 +4430,16 @@
       "secondary_tileset": "gTileset_4g_tileset_outdoor_town",
       "border_filepath": "data/layouts/Route1/border.bin",
       "blockdata_filepath": "data/layouts/Route1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORT",
+      "name": "fort_Layout",
+      "width": 50,
+      "height": 50,
+      "primary_tileset": "gTileset_4g_tileset_exterior",
+      "secondary_tileset": "gTileset_4g_tileset_outdoor_forest_house",
+      "border_filepath": "data/layouts/fort/border.bin",
+      "blockdata_filepath": "data/layouts/fort/map.bin"
     }
   ]
 }
