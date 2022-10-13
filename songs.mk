@@ -610,7 +610,7 @@ $(MID_SUBDIR)/mus_credits.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G101 -V100
 
 $(MID_SUBDIR)/mus_title.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G059 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V100 -P1
 
 $(MID_SUBDIR)/mus_fallarbor.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G083 -V100
@@ -1262,3 +1262,6 @@ $(MID_SUBDIR)/se_m_leer.s: %.s: %.mid
 
 $(MID_SUBDIR)/se_dex_search.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G127 -v100 -P5
+
+$(MID_SUBDIR)/ffxv.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V100 -P1
