@@ -191,8 +191,8 @@ static void DrawCurrentDoorAnimFrame(const struct DoorGraphics *gfx, u32 x, u32 
     }
     else if (gfx->size == 3)
     {
-        door_build_blockdef(&arr[0], 0x3F8, pal);
-        DrawDoorMetatileAt(x, y, &arr[0]);
+        BuildDoorTiles(&tiles[0], 0x3F8, &paletteNums[4]);
+        DrawDoorMetatileAt(x, y, &tiles[0]);
     }
     else
     {
