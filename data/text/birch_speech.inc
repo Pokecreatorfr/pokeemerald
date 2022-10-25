@@ -1,29 +1,29 @@
 gText_Birch_Welcome::
 	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
-	.string "But everyone calls me the POKéMON\n"
+	.string "Welcome to the world of B!TCH!\p"
+	.string "My name is LORENZO.\p"
+	.string "But everyone calls me the B!TCH\n"
 	.string "PROFESSOR.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "This is what we call a “POKéMON.”\p"
+	.string "This is what we call a “B!TCH.”\p"
 	.string "\n"
 	.string "$"
 
 gText_Birch_MainSpeech::
 	.string "This world is widely inhabited by\n"
-	.string "creatures known as POKéMON.\p"
-	.string "We humans live alongside POKéMON,\n"
+	.string "creatures known as B!TCH.\p"
+	.string "We humans live alongside B!TCH,\n"
 	.string "at times as friendly playmates, and\l"
 	.string "at times as cooperative workmates.\p"
 	.string "And sometimes, we band together\n"
 	.string "and battle others like us.\p"
 	.string "But despite our closeness, we don't\n"
-	.string "know everything about POKéMON.\p"
+	.string "know everything about B!TCH.\p"
 	.string "In fact, there are many, many\n"
-	.string "secrets surrounding POKéMON.\p"
-	.string "To unravel POKéMON mysteries,\n"
+	.string "secrets surrounding B!TCH.\p"
+	.string "To unravel B!TCH mysteries,\n"
 	.string "I've been undertaking research.\l"
 	.string "That's what I do.\p"
 	.string "$"
@@ -33,7 +33,7 @@ gText_Birch_AndYouAre::
 
 gText_Birch_BoyOrGirl::
 	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "Or are you a B!TCH?$"
 
 gText_Birch_WhatsYourName::
 	.string "All right.\n"
@@ -54,8 +54,8 @@ gText_Birch_AreYouReady::
 	.string "Your very own adventure is about\n"
 	.string "to unfold.\p"
 	.string "Take courage, and leap into the\n"
-	.string "world of POKéMON where dreams,\l"
+	.string "world of B!TCH where dreams,\l"
 	.string "adventure, and friendships await!\p"
 	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.\p"
+	.string "Come see me in my B!TCH LAB.\p"
 	.string "$"
