@@ -24,7 +24,6 @@
       "map": "MAP_ROUTE123"
     }
   ],
-  "object_events": [],
   "warp_events": [
     {
       "x": 22,
@@ -33,7 +32,5 @@
       "dest_map": "MAP_MT_PYRE_1F",
       "dest_warp_id": 0
     }
-  ],
-  "coord_events": [],
-  "bg_events": []
+  ]
 }

@@ -13,34 +13,6 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [
-    {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 30,
-      "y": 3,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "ShoalCave_LowTideEntranceRoom_EventScript_ItemBigPearl",
-      "flag": "FLAG_ITEM_SHOAL_CAVE_ENTRANCE_BIG_PEARL"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 18,
-      "y": 15,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
-      "movement_range_x": 1,
-      "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert",
-      "flag": "0"
-    }
-  ],
   "warp_events": [
     {
       "x": 20,
@@ -70,7 +42,5 @@
       "dest_map": "MAP_SHOAL_CAVE_LOW_TIDE_INNER_ROOM",
       "dest_warp_id": 7
     }
-  ],
-  "coord_events": [],
-  "bg_events": []
+  ]
 }

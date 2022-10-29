@@ -19,7 +19,6 @@
       "map": "MAP_ROUTE129"
     }
   ],
-  "object_events": [],
   "warp_events": [
     {
       "x": 26,
@@ -35,7 +34,5 @@
       "dest_map": "MAP_UNDERWATER_MARINE_CAVE",
       "dest_warp_id": 0
     }
-  ],
-  "coord_events": [],
-  "bg_events": []
+  ]
 }
