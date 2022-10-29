@@ -4432,14 +4432,14 @@
       "blockdata_filepath": "data/layouts/Route1/map.bin"
     },
     {
-      "id": "LAYOUT_FORT",
-      "name": "fort_Layout",
+      "id": "LAYOUT_FORET",
+      "name": "foret_Layout",
       "width": 50,
       "height": 50,
       "primary_tileset": "gTileset_4g_tileset_exterior",
       "secondary_tileset": "gTileset_4g_tileset_outdoor_forest_house",
-      "border_filepath": "data/layouts/fort/border.bin",
-      "blockdata_filepath": "data/layouts/fort/map.bin"
+      "border_filepath": "data/layouts/foret/border.bin",
+      "blockdata_filepath": "data/layouts/foret/map.bin"
     }
   ]
 }

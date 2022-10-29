@@ -1061,4 +1061,4 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/Route1/scripts.inc"
 
-	.include "data/maps/fort/scripts.inc"
+	.include "data/maps/foret/scripts.inc"
