@@ -13,7 +13,6 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
   "warp_events": [
     {
       "x": 3,
@@ -36,7 +35,5 @@
       "dest_map": "MAP_SKY_PILLAR_4F",
       "dest_warp_id": 1
     }
-  ],
-  "coord_events": [],
-  "bg_events": []
+  ]
 }

@@ -13,7 +13,6 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
   "warp_events": [
     {
       "x": 5,
@@ -43,7 +42,5 @@
       "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
       "dest_warp_id": 2
     }
-  ],
-  "coord_events": [],
-  "bg_events": []
+  ]
 }

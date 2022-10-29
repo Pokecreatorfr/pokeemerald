@@ -13,9 +13,6 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
-  "object_events": [
-
-  ],
   "warp_events": [
     {
       "x": 2,
@@ -45,11 +42,5 @@
       "dest_map": "MAP_FORET",
       "dest_warp_id": 0
     }
-  ],
-  "coord_events": [
-
-  ],
-  "bg_events": [
-
   ]
 }
