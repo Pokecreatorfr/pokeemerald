@@ -526,18 +526,18 @@
       "name": "LittlerootTown_BrendansHouse_1F_Layout",
       "width": 11,
       "height": 9,
-      "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_4g_tileset_indoor3",
+      "primary_tileset": "gTileset_4g_tileset_indoor",
+      "secondary_tileset": "gTileset_4g_tileset_bedroom",
       "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/map.bin"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F",
       "name": "LittlerootTown_BrendansHouse_2F_Layout",
-      "width": 9,
+      "width": 10,
       "height": 8,
-      "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_4g_tileset_indoor3",
+      "primary_tileset": "gTileset_4g_tileset_indoor",
+      "secondary_tileset": "gTileset_4g_tileset_bedroom",
       "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/map.bin"
     },
