@@ -2,16 +2,6 @@
   "layouts_table_label": "gMapLayouts",
   "layouts": [
     {
-      "id": "LAYOUT_PETALBURG_CITY",
-      "name": "PetalburgCity_Layout",
-      "width": 30,
-      "height": 30,
-      "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_4g_tileset_indoor3",
-      "border_filepath": "data/layouts/PetalburgCity/border.bin",
-      "blockdata_filepath": "data/layouts/PetalburgCity/map.bin"
-    },
-    {
       "id": "LAYOUT_SLATEPORT_CITY",
       "name": "SlateportCity_Layout",
       "width": 40,

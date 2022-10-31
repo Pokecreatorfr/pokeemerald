@@ -26,7 +26,7 @@
     {
       "direction": "right",
       "offset": 50,
-      "map": "MAP_PETALBURG_CITY"
+      "map": "MAP_TOWN"
     }
   ],
   "warp_events": [

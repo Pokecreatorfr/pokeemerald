@@ -18,14 +18,14 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_PETALBURG_CITY",
+      "dest_map": "MAP_TOWN",
       "dest_warp_id": 4
     },
     {
       "x": 4,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_PETALBURG_CITY",
+      "dest_map": "MAP_TOWN",
       "dest_warp_id": 4
     }
   ]

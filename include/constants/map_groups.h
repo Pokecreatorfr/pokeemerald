@@ -6,7 +6,7 @@
 //
 
 // gMapGroup_TownsAndRoutes
-#define MAP_PETALBURG_CITY      (0 | (0 << 8))
+#define MAP_TOWN                (0 | (0 << 8))
 #define MAP_SLATEPORT_CITY      (1 | (0 << 8))
 #define MAP_MAUVILLE_CITY       (2 | (0 << 8))
 #define MAP_RUSTBORO_CITY       (3 | (0 << 8))
@@ -63,9 +63,8 @@
 #define MAP_UNDERWATER_ROUTE129 (54 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE105 (55 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE125 (56 | (0 << 8))
-#define MAP_TOWN                (57 | (0 << 8))
-#define MAP_ROUTE1              (58 | (0 << 8))
-#define MAP_FORET               (59 | (0 << 8))
+#define MAP_ROUTE1              (57 | (0 << 8))
+#define MAP_FORET               (58 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))

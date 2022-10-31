@@ -37,7 +37,7 @@
     "gMapGroup_IndoorRoute124"
   ],
   "gMapGroup_TownsAndRoutes": [
-    "PetalburgCity",
+    "Town",
     "SlateportCity",
     "MauvilleCity",
     "RustboroCity",
@@ -94,7 +94,6 @@
     "Underwater_Route129",
     "Underwater_Route105",
     "Underwater_Route125",
-    "Town",
     "Route1",
     "foret"
   ],
