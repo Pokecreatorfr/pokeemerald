@@ -299,7 +299,7 @@
 
 // gTileset_Lilycove
 #define METATILE_Lilycove_Door             0x246
-#define METATILE_Lilycove_Door_DeptStore   0x30C
+#define METATILE_Lilycove_Door_DeptStore   0x31C
 #define METATILE_Lilycove_Door_SafariZone  0x32D
 #define METATILE_Lilycove_Door_Wooden      0x28E
 #define METATILE_Lilycove_Wailmer0         0x290
@@ -459,9 +459,9 @@
 #define METATILE_SecretBase_AttractMat_BottomLeft       0x313
 #define METATILE_SecretBase_AttractMat_BottomMid        0x314
 #define METATILE_SecretBase_AttractMat_BottomRight      0x315
-#define METATILE_SecretBase_AttractMat_Center           0x30C
+#define METATILE_SecretBase_AttractMat_Center           0x31C
 #define METATILE_SecretBase_AttractMat_MidLeft          0x30B
-#define METATILE_SecretBase_AttractMat_MidRight         0x30D
+#define METATILE_SecretBase_AttractMat_MidRight         0x34D
 #define METATILE_SecretBase_AttractMat_TopLeft          0x303
 #define METATILE_SecretBase_AttractMat_TopMid           0x304
 #define METATILE_SecretBase_AttractMat_TopRight         0x305
@@ -542,8 +542,8 @@
 #define METATILE_SecretBase_FissureMat_BottomLeft       0x316
 #define METATILE_SecretBase_FissureMat_BottomMid        0x317
 #define METATILE_SecretBase_FissureMat_BottomRight      0x328
-#define METATILE_SecretBase_FissureMat_Center           0x30F
-#define METATILE_SecretBase_FissureMat_MidLeft          0x30E
+#define METATILE_SecretBase_FissureMat_Center           0x31F
+#define METATILE_SecretBase_FissureMat_MidLeft          0x31E
 #define METATILE_SecretBase_FissureMat_MidRight         0x320
 #define METATILE_SecretBase_FissureMat_TopLeft          0x306
 #define METATILE_SecretBase_FissureMat_TopMid           0x307

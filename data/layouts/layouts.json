@@ -546,8 +546,8 @@
       "name": "LittlerootTown_MaysHouse_1F_Layout",
       "width": 11,
       "height": 9,
-      "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_4g_tileset_indoor3",
+      "primary_tileset": "gTileset_4g_tileset_indoor",
+      "secondary_tileset": "gTileset_4g_tileset_bedroom",
       "border_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/map.bin"
     },
@@ -556,8 +556,8 @@
       "name": "LittlerootTown_MaysHouse_2F_Layout",
       "width": 9,
       "height": 8,
-      "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_4g_tileset_indoor3",
+      "primary_tileset": "gTileset_4g_tileset_indoor",
+      "secondary_tileset": "gTileset_4g_tileset_bedroom",
       "border_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/map.bin"
     },
@@ -566,8 +566,8 @@
       "name": "LittlerootTown_ProfessorBirchsLab_Layout",
       "width": 13,
       "height": 13,
-      "primary_tileset": "gTileset_4g_tileset_exterior",
-      "secondary_tileset": "gTileset_4g_tileset_indoor3",
+      "primary_tileset": "gTileset_4g_tileset_indoor",
+      "secondary_tileset": "gTileset_4g_tileset_lab",
       "border_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLab/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLab/map.bin"
     },
