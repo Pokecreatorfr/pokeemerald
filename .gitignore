@@ -39,3 +39,10 @@ prefabs.json
 *.diff
 *.sym
 *.js
+graphics/object_events/palettes/brendan.pal
+
+graphics/object_events/pics/people/brendan/walking.png
+
+src/data/object_events/object_event_graphics_info.h
+
+src/data/object_events/object_event_pic_tables.h

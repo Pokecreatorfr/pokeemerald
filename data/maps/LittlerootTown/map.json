@@ -19,6 +19,9 @@
       "map": "MAP_ROUTE101"
     }
   ],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 14,
@@ -41,5 +44,11 @@
       "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
       "dest_warp_id": 0
     }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
   ]
 }
