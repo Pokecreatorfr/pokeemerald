@@ -1532,8 +1532,8 @@ void CB2_NewGame(void)
     NewGameInitData();
     ResetInitialPlayerAvatarState();
     PlayTimeCounter_Start();
-    ScriptContext1_Init();
-    ScriptContext2_Disable();
+    ScriptContext_Init();
+    UnlockPlayerFieldControls();
     //gFieldCallback = ExecuteTruckSequence;
     gFieldCallback2 = NULL;
     DoMapLoadLoop(&gMain.state);
