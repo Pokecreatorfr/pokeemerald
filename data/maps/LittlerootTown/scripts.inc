@@ -40,15 +40,8 @@ LittlerootTown_MapScripts::
 
 
 LittlerootTown_OnTransition:
-	setflag FLAG_VISITED_LITTLEROOT_TOWN
-	call Common_EventScript_SetupRivalGfxId
-	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 2, LittlerootTown_EventScript_MoveMomToMaysDoor
-	call_if_unset FLAG_RESCUED_BIRCH, LittlerootTown_EventScript_SetTwinPos
-	call_if_eq VAR_LITTLEROOT_TOWN_STATE, 3, LittlerootTown_EventScript_SetMomStandingInFrontOfDoorPos
-	call_if_eq VAR_LITTLEROOT_HOUSES_STATE_MAY, 4, LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent
-	call_if_eq VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4, LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent
-	call_if_eq VAR_OLDALE_RIVAL_STATE, 1, LittlerootTown_EventScript_MoveRivalFromOldale
-	call_if_eq VAR_LITTLEROOT_RIVAL_STATE, 3, LittlerootTown_EventScript_SetRivalLeftForRoute103
+	setflag FLAG_UNUSED_0x04B
+	removeobject 3
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_EventScript_HideMapNamePopup
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 2, LittlerootTown_EventScript_LeftLabAfterDexUpgrade
 	end
@@ -1019,3 +1012,79 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+LittlerootTown_New::
+	lock
+	special SpawnCameraObject
+	applymovement OBJ_EVENT_ID_CAMERA,Movement_cam1
+	applymovement 1,Movement_mec
+	waitmovement OBJ_EVENT_ID_CAMERA
+	applymovement OBJ_EVENT_ID_CAMERA,Movement_cam2
+	waitmovement 1
+	waitmovement OBJ_EVENT_ID_CAMERA
+	applymovement OBJ_EVENT_ID_CAMERA,Movement_cam3
+	waitmovement OBJ_EVENT_ID_CAMERA
+	applymovement OBJ_EVENT_ID_CAMERA,Movement_cam4
+	waitmovement OBJ_EVENT_ID_CAMERA
+	clearflag FLAG_UNUSED_0x04B
+	addobject  3 ,MAP_LITTLEROOT_TOWN
+	delay 45;
+	fadescreen 3
+	delay 25
+	setflag FLAG_UNUSED_0x04C
+	removeobject 2
+	fadescreen 2
+	msgbox TXT,MSGBOX_DEFAULT
+	delay 30
+	setflag FLAG_UNUSED_0x04B
+	removeobject 3
+	delay 20
+	applymovement 1,Movement_mec2
+	waitmovement 1
+	release
+	special RemoveCameraObject
+	setvar VAR_BIRCH_STATE , 1
+	end
+
+TXT::
+	.string "I caught your bitch, she's mine now.$"
+
+Movement_cam1::
+	walk_down
+	walk_down
+	step_end
+
+Movement_cam2::
+	walk_up
+	walk_up
+	step_end
+
+Movement_cam3::
+	walk_right
+	walk_right
+	step_end
+
+Movement_cam4::
+	walk_left
+	walk_left
+	step_end
+
+Movement_mec::
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	step_end
+
+Movement_mec2::
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	step_end
