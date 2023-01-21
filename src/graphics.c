@@ -1435,25 +1435,22 @@ const u32 gUnionRoomChat_RButtonLabels[] = INCBIN_U32("graphics/union_room_chat/
 
 const u16 gTilesetPalettes_General[][16] =
 {
-    INCBIN_U16("data/tilesets/primary/general/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/01.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/02.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/03.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/04.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/05.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/06.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/07.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/08.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/09.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/10.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/11.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/12.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/13.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/14.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general/palettes/15.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/4g_tileset_exterior/palettes/12.gbapal"),
 };
 
-const u32 gTilesetTiles_General[] = INCBIN_U32("data/tilesets/primary/general/tiles.4bpp.lz");
+const u32 gTilesetTiles_General[] = INCBIN_U32("data/tilesets/primary/4g_tileset_exterior/tiles.4bpp.lz");
 
 // trade/egg hatch
 
